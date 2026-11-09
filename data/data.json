@@ -16,7 +16,8 @@
   },
   "routing": "Temps et distances calculés à vélo, à 16 km/h, avec le routeur cyclable OpenStreetMap. Quand l'annonce ne donne pas d'adresse, le trajet part du centre de la commune. Google Maps utilise l'adresse exacte du Casier Français.",
   "driveUrl": "https://drive.google.com/drive/folders/1d3i9bIL1tJ4wRcLa43Q_XI_SqSchkssg",
-  "sheetUrl": "https://docs.google.com/spreadsheets/d/1HtaXoKAGHN-zef_Q5UiFahoytaLjcaVEP-xh7PTBROs/edit"
+  "sheetUrl": "https://docs.google.com/spreadsheets/d/1HtaXoKAGHN-zef_Q5UiFahoytaLjcaVEP-xh7PTBROs/edit",
+  "transitDate": "2026-11-16"
  },
  "communes": {
   "Templemars": {
@@ -1027,6 +1028,96 @@
      "i": "Votre destination est sur la gauche.",
      "km": 0.0
     }
+   ],
+   "walk": {
+    "km": 1.5,
+    "min": 18
+   },
+   "backWalk": {
+    "km": 1.5,
+    "min": 18
+   },
+   "transit": [
+    {
+     "min": 12,
+     "ch": 0,
+     "dep": "2026-11-16T06:45:00Z",
+     "arr": "2026-11-16T06:57:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mairie",
+       "min": 1
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Mairie",
+       "t": "Mulier",
+       "min": 3
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    }
+   ],
+   "backTransit": [
+    {
+     "min": 13,
+     "ch": 0,
+     "dep": "2026-11-16T16:54:00Z",
+     "arr": "2026-11-16T17:07:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Mairie",
+       "min": 4
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 1
+      }
+     ]
+    },
+    {
+     "min": 17,
+     "ch": 0,
+     "dep": "2026-11-16T17:08:00Z",
+     "arr": "2026-11-16T17:25:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "TEMPLEMARS - Eglise",
+       "min": 14
+      },
+      {
+       "m": "BUS",
+       "l": "858S",
+       "h": "WATTIGNIES - Bargues Marais",
+       "f": "TEMPLEMARS - Eglise",
+       "t": "TEMPLEMARS - Mairie",
+       "min": 2
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 1
+      }
+     ]
+    }
    ]
   },
   "Vendeville": {
@@ -1155,6 +1246,291 @@
      "i": "Vous êtes arrivé à votre destination.",
      "km": 0.0
     }
+   ],
+   "walk": {
+    "km": 2.1,
+    "min": 26
+   },
+   "backWalk": {
+    "km": 2.1,
+    "min": 26
+   },
+   "transit": [
+    {
+     "min": 16,
+     "ch": 0,
+     "dep": "2026-11-16T07:08:00Z",
+     "arr": "2026-11-16T07:24:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mairie",
+       "min": 5
+      },
+      {
+       "m": "BUS",
+       "l": "F14",
+       "h": "Noyelles Lez Seclin Grand Place",
+       "f": "Mairie",
+       "t": "Mulier",
+       "min": 3
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    },
+    {
+     "min": 54,
+     "ch": 2,
+     "dep": "2026-11-16T06:03:00Z",
+     "arr": "2026-11-16T06:57:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mairie",
+       "min": 4
+      },
+      {
+       "m": "BUS",
+       "l": "67",
+       "h": "Lille Porte De Douai",
+       "f": "Mairie",
+       "t": "Ronchin Mairie",
+       "min": 22
+      },
+      {
+       "m": "WALK",
+       "t": "Ronchin",
+       "min": 5
+      },
+      {
+       "m": "REGIONAL_RAIL",
+       "l": "C40",
+       "h": "843104",
+       "f": "Ronchin",
+       "t": "Wattignies - Templemars",
+       "min": 3
+      },
+      {
+       "m": "WALK",
+       "t": "Villa Saint Eloi",
+       "min": 5
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Villa Saint Eloi",
+       "t": "Mulier",
+       "min": 4
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    },
+    {
+     "min": 76,
+     "ch": 2,
+     "dep": "2026-11-16T05:11:00Z",
+     "arr": "2026-11-16T06:27:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mairie",
+       "min": 4
+      },
+      {
+       "m": "BUS",
+       "l": "67",
+       "h": "Lille Porte De Douai",
+       "f": "Mairie",
+       "t": "Porte De Douai",
+       "min": 25
+      },
+      {
+       "m": "WALK",
+       "t": "LILLE - Porte de Douai",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "858",
+       "h": "ANNOEULLIN - Centre pénitentiaire",
+       "f": "LILLE - Porte de Douai",
+       "t": "TEMPLEMARS - Villa Saint Eloi",
+       "min": 14
+      },
+      {
+       "m": "WALK",
+       "t": "Villa Saint Eloi",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Centre Hospitalier",
+       "f": "Villa Saint Eloi",
+       "t": "Mulier",
+       "min": 6
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    }
+   ],
+   "backTransit": [
+    {
+     "min": 17,
+     "ch": 0,
+     "dep": "2026-11-16T17:00:00Z",
+     "arr": "2026-11-16T17:17:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "F14",
+       "h": "Vendeville Eglise",
+       "f": "Mulier",
+       "t": "Mairie",
+       "min": 5
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 4
+      }
+     ]
+    },
+    {
+     "min": 69,
+     "ch": 3,
+     "dep": "2026-11-16T18:33:00Z",
+     "arr": "2026-11-16T19:42:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Chu - Eurasanté",
+       "min": 17
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "SUBWAY",
+       "l": "M1",
+       "h": "Villeneuve D Ascq 4 Cantons Stade P. Mauroy",
+       "f": "Chu - Eurasanté",
+       "t": "Porte Des Postes",
+       "min": 3
+      },
+      {
+       "m": "WALK",
+       "t": "Porte Des Postes",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "L7",
+       "h": "Faches Thumesnil Ctre Commercial",
+       "f": "Porte Des Postes",
+       "t": "Jean Rostand",
+       "min": 19
+      },
+      {
+       "m": "WALK",
+       "t": "Jean Rostand",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "67",
+       "h": "Vendeville Hameau De L'Europe",
+       "f": "Jean Rostand",
+       "t": "Mairie",
+       "min": 7
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 5
+      }
+     ]
+    },
+    {
+     "min": 70,
+     "ch": 2,
+     "dep": "2026-11-16T17:34:00Z",
+     "arr": "2026-11-16T18:44:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Chu - Eurasanté",
+       "min": 18
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "CO1",
+       "h": "Villeneuve D Ascq V. D'Ascq Hotel De Ville",
+       "f": "Chu - Eurasanté",
+       "t": "Rue De Grenoble",
+       "min": 14
+      },
+      {
+       "m": "WALK",
+       "t": "Rue De Jemmapes",
+       "min": 3
+      },
+      {
+       "m": "BUS",
+       "l": "67",
+       "h": "Vendeville Hameau De L'Europe",
+       "f": "Rue De Jemmapes",
+       "t": "Mairie",
+       "min": 12
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 5
+      }
+     ]
+    }
    ]
   },
   "Wattignies": {
@@ -1278,6 +1654,109 @@
     {
      "i": "Votre destination est sur la droite.",
      "km": 0.0
+    }
+   ],
+   "walk": {
+    "km": 2.9,
+    "min": 35
+   },
+   "backWalk": {
+    "km": 2.9,
+    "min": 35
+   },
+   "transit": [
+    {
+     "min": 17,
+     "ch": 0,
+     "dep": "2026-11-16T06:40:00Z",
+     "arr": "2026-11-16T06:57:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Hotel De Ville",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Hotel De Ville",
+       "t": "Mulier",
+       "min": 7
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    }
+   ],
+   "backTransit": [
+    {
+     "min": 19,
+     "ch": 0,
+     "dep": "2026-11-16T16:54:00Z",
+     "arr": "2026-11-16T17:13:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Hotel De Ville",
+       "min": 9
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 2
+      }
+     ]
+    },
+    {
+     "min": 32,
+     "ch": 1,
+     "dep": "2026-11-16T17:08:00Z",
+     "arr": "2026-11-16T17:40:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "TEMPLEMARS - Eglise",
+       "min": 14
+      },
+      {
+       "m": "BUS",
+       "l": "858S",
+       "h": "WATTIGNIES - Bargues Marais",
+       "f": "TEMPLEMARS - Eglise",
+       "t": "WATTIGNIES - République",
+       "min": 6
+      },
+      {
+       "m": "WALK",
+       "t": "Republique",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "14",
+       "h": "Marquette Lez Lille Les Voiles",
+       "f": "Republique",
+       "t": "Hotel De Ville",
+       "min": 4
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 2
+      }
+     ]
     }
    ]
   },
@@ -1486,6 +1965,265 @@
     {
      "i": "Vous êtes arrivé à votre destination.",
      "km": 0.0
+    }
+   ],
+   "walk": {
+    "km": 3.6,
+    "min": 44
+   },
+   "backWalk": {
+    "km": 3.5,
+    "min": 42
+   },
+   "transit": [
+    {
+     "min": 31,
+     "ch": 1,
+     "dep": "2026-11-16T07:24:00Z",
+     "arr": "2026-11-16T07:55:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "SECLIN - Hôtel de Ville",
+       "min": 1
+      },
+      {
+       "m": "BUS",
+       "l": "895S",
+       "h": "GENECH - Institut",
+       "f": "SECLIN - Hôtel de Ville",
+       "t": "SECLIN - Vieux Moulin",
+       "min": 8
+      },
+      {
+       "m": "WALK",
+       "t": "Vieux Moulin",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Vieux Moulin",
+       "t": "Mulier",
+       "min": 11
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    },
+    {
+     "min": 36,
+     "ch": 1,
+     "dep": "2026-11-16T07:00:00Z",
+     "arr": "2026-11-16T07:36:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Hotel De Ville",
+       "min": 1
+      },
+      {
+       "m": "BUS",
+       "l": "L92",
+       "h": "Lille Porte Des Postes",
+       "f": "Hotel De Ville",
+       "t": "Hentges",
+       "min": 8
+      },
+      {
+       "m": "WALK",
+       "t": "Vieux Moulin",
+       "min": 6
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Vieux Moulin",
+       "t": "Rue D'Ennetieres",
+       "min": 8
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 12
+      }
+     ]
+    },
+    {
+     "min": 38,
+     "ch": 1,
+     "dep": "2026-11-16T07:03:00Z",
+     "arr": "2026-11-16T07:41:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Seclin",
+       "min": 15
+      },
+      {
+       "m": "REGIONAL_RAIL",
+       "l": "C40",
+       "h": "843109",
+       "f": "Seclin",
+       "t": "Wattignies - Templemars",
+       "min": 3
+      },
+      {
+       "m": "WALK",
+       "t": "Villa Saint Eloi",
+       "min": 5
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Villa Saint Eloi",
+       "t": "Mulier",
+       "min": 5
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    }
+   ],
+   "backTransit": [
+    {
+     "min": 28,
+     "ch": 2,
+     "dep": "2026-11-16T16:52:00Z",
+     "arr": "2026-11-16T17:20:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Mulier",
+       "t": "Vieux Moulin",
+       "min": 8
+      },
+      {
+       "m": "WALK",
+       "t": "Hentges",
+       "min": 6
+      },
+      {
+       "m": "BUS",
+       "l": "L92",
+       "h": "Seclin Centre Hospitalier",
+       "f": "Hentges",
+       "t": "Eglise",
+       "min": 0
+      },
+      {
+       "m": "WALK",
+       "t": "SECLIN - Eglise",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "858",
+       "h": "ANNOEULLIN - Gare",
+       "f": "SECLIN - Eglise",
+       "t": "SECLIN - Hôtel de Ville",
+       "min": 2
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 2
+      }
+     ]
+    },
+    {
+     "min": 31,
+     "ch": 1,
+     "dep": "2026-11-16T16:52:00Z",
+     "arr": "2026-11-16T17:23:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Mulier",
+       "t": "Vieux Moulin",
+       "min": 8
+      },
+      {
+       "m": "WALK",
+       "t": "Hentges",
+       "min": 6
+      },
+      {
+       "m": "BUS",
+       "l": "L92",
+       "h": "Seclin Centre Hospitalier",
+       "f": "Hentges",
+       "t": "Hotel De Ville",
+       "min": 7
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 2
+      }
+     ]
+    },
+    {
+     "min": 35,
+     "ch": 1,
+     "dep": "2026-11-16T16:45:00Z",
+     "arr": "2026-11-16T17:20:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Villa Saint Eloi",
+       "min": 8
+      },
+      {
+       "m": "WALK",
+       "t": "TEMPLEMARS - Villa Saint Eloi",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "858",
+       "h": "ANNOEULLIN - Gare",
+       "f": "TEMPLEMARS - Villa Saint Eloi",
+       "t": "SECLIN - Hôtel de Ville",
+       "min": 10
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 2
+      }
+     ]
     }
    ]
   },
@@ -1738,6 +2476,265 @@
     {
      "i": "Vous êtes arrivé à votre destination.",
      "km": 0.0
+    }
+   ],
+   "walk": {
+    "km": 4.6,
+    "min": 56
+   },
+   "backWalk": {
+    "km": 4.6,
+    "min": 55
+   },
+   "transit": [
+    {
+     "min": 48,
+     "ch": 2,
+     "dep": "2026-11-16T06:23:00Z",
+     "arr": "2026-11-16T07:11:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "NOYELLES LES SECLIN - Grand Place",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "879",
+       "h": "GONDECOURT - Lycée M. de Flandre",
+       "f": "NOYELLES LES SECLIN - Grand Place",
+       "t": "SECLIN - Gare SNCF",
+       "min": 18
+      },
+      {
+       "m": "WALK",
+       "t": "Seclin",
+       "min": 5
+      },
+      {
+       "m": "REGIONAL_RAIL",
+       "l": "C40",
+       "h": "843107",
+       "f": "Seclin",
+       "t": "Wattignies - Templemars",
+       "min": 3
+      },
+      {
+       "m": "WALK",
+       "t": "Villa Saint Eloi",
+       "min": 5
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Villa Saint Eloi",
+       "t": "Mulier",
+       "min": 5
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    },
+    {
+     "min": 60,
+     "ch": 1,
+     "dep": "2026-11-16T06:11:00Z",
+     "arr": "2026-11-16T07:11:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "NOYELLES LES SECLIN - Grand Place",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "879",
+       "h": "LILLE - CHU - Eurasanté",
+       "f": "NOYELLES LES SECLIN - Grand Place",
+       "t": "LILLE - CHU - Eurasanté",
+       "min": 22
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Chu - Eurasanté",
+       "t": "Mulier",
+       "min": 18
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    },
+    {
+     "min": 74,
+     "ch": 1,
+     "dep": "2026-11-16T06:27:00Z",
+     "arr": "2026-11-16T07:41:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "NOYELLES LES SECLIN - Coperche",
+       "min": 4
+      },
+      {
+       "m": "BUS",
+       "l": "882",
+       "h": "LILLE - CHU - Eurasanté",
+       "f": "NOYELLES LES SECLIN - Coperche",
+       "t": "LILLE - CHU - Eurasanté",
+       "min": 29
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Chu - Eurasanté",
+       "t": "Mulier",
+       "min": 18
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    }
+   ],
+   "backTransit": [
+    {
+     "min": 51,
+     "ch": 1,
+     "dep": "2026-11-16T19:50:00Z",
+     "arr": "2026-11-16T20:41:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Chu - Eurasanté",
+       "min": 17
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "F17",
+       "h": "Noyelles Lez Seclin Grand Place",
+       "f": "Chu - Eurasanté",
+       "t": "Grand Place",
+       "min": 9
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 2
+      }
+     ]
+    },
+    {
+     "min": 55,
+     "ch": 1,
+     "dep": "2026-11-16T17:34:00Z",
+     "arr": "2026-11-16T18:29:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Chu - Eurasanté",
+       "min": 18
+      },
+      {
+       "m": "WALK",
+       "t": "LILLE - CHU - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "879",
+       "h": "GONDECOURT - Lycée M. de Flandre",
+       "f": "LILLE - CHU - Eurasanté",
+       "t": "NOYELLES LES SECLIN - Grand Place",
+       "min": 17
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 2
+      }
+     ]
+    },
+    {
+     "min": 57,
+     "ch": 1,
+     "dep": "2026-11-16T16:54:00Z",
+     "arr": "2026-11-16T17:51:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Chu - Eurasanté",
+       "min": 19
+      },
+      {
+       "m": "WALK",
+       "t": "LILLE - CHU - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "882",
+       "h": "GONDECOURT - Lycée M. de Flandre",
+       "f": "LILLE - CHU - Eurasanté",
+       "t": "NOYELLES LES SECLIN - Coperche",
+       "min": 17
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 4
+      }
+     ]
     }
    ]
   },
@@ -2031,6 +3028,343 @@
      "i": "Votre destination est sur la droite.",
      "km": 0.0
     }
+   ],
+   "walk": {
+    "km": 5.3,
+    "min": 63
+   },
+   "backWalk": {
+    "km": 5.3,
+    "min": 64
+   },
+   "transit": [
+    {
+     "min": 54,
+     "ch": 2,
+     "dep": "2026-11-16T06:03:00Z",
+     "arr": "2026-11-16T06:57:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Lesquin",
+       "min": 11
+      },
+      {
+       "m": "REGIONAL_RAIL",
+       "l": "C60",
+       "h": "841206",
+       "f": "Lesquin",
+       "t": "Lille Flandres",
+       "min": 7
+      },
+      {
+       "m": "WALK",
+       "t": "Lille Flandres",
+       "min": 5
+      },
+      {
+       "m": "REGIONAL_RAIL",
+       "l": "C40",
+       "h": "843104",
+       "f": "Lille Flandres",
+       "t": "Wattignies - Templemars",
+       "min": 10
+      },
+      {
+       "m": "WALK",
+       "t": "Villa Saint Eloi",
+       "min": 5
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Villa Saint Eloi",
+       "t": "Mulier",
+       "min": 4
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    },
+    {
+     "min": 70,
+     "ch": 2,
+     "dep": "2026-11-16T05:43:00Z",
+     "arr": "2026-11-16T06:53:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "11 Novembre",
+       "min": 10
+      },
+      {
+       "m": "BUS",
+       "l": "15",
+       "h": "Lille Porte De Douai",
+       "f": "11 Novembre",
+       "t": "De Gaulle",
+       "min": 10
+      },
+      {
+       "m": "WALK",
+       "t": "Comtesse De Segur",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "CO1",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Comtesse De Segur",
+       "t": "Philippe De Girard",
+       "min": 18
+      },
+      {
+       "m": "WALK",
+       "t": "Philippe De Girard",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "S47",
+       "h": "Villeneuve D Ascq 4 Cantons Stade",
+       "f": "Philippe De Girard",
+       "t": "Mulier",
+       "min": 11
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    },
+    {
+     "min": 78,
+     "ch": 2,
+     "dep": "2026-11-16T06:06:00Z",
+     "arr": "2026-11-16T07:24:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "11 Novembre",
+       "min": 10
+      },
+      {
+       "m": "BUS",
+       "l": "15",
+       "h": "Lille Porte De Douai",
+       "f": "11 Novembre",
+       "t": "Ronchin Mairie",
+       "min": 19
+      },
+      {
+       "m": "WALK",
+       "t": "Ronchin Mairie",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "67",
+       "h": "Vendeville Hameau De L'Europe",
+       "f": "Ronchin Mairie",
+       "t": "Eglise",
+       "min": 17
+      },
+      {
+       "m": "WALK",
+       "t": "Eglise",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "F14",
+       "h": "Noyelles Lez Seclin Grand Place",
+       "f": "Eglise",
+       "t": "Mulier",
+       "min": 4
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    }
+   ],
+   "backTransit": [
+    {
+     "min": 63,
+     "ch": 2,
+     "dep": "2026-11-16T16:54:00Z",
+     "arr": "2026-11-16T17:57:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Villa Saint Eloi",
+       "min": 6
+      },
+      {
+       "m": "WALK",
+       "t": "Wattignies - Templemars",
+       "min": 5
+      },
+      {
+       "m": "REGIONAL_RAIL",
+       "l": "C40",
+       "h": "843133",
+       "f": "Wattignies - Templemars",
+       "t": "Ronchin",
+       "min": 3
+      },
+      {
+       "m": "WALK",
+       "t": "Ronchin Mairie",
+       "min": 5
+      },
+      {
+       "m": "BUS",
+       "l": "15",
+       "h": "Lesquin Verdun",
+       "f": "Ronchin Mairie",
+       "t": "Verdun",
+       "min": 18
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 7
+      }
+     ]
+    },
+    {
+     "min": 67,
+     "ch": 3,
+     "dep": "2026-11-16T17:00:00Z",
+     "arr": "2026-11-16T18:07:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "F14",
+       "h": "Vendeville Eglise",
+       "f": "Mulier",
+       "t": "Eglise",
+       "min": 5
+      },
+      {
+       "m": "WALK",
+       "t": "Eglise",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "67",
+       "h": "Lille Porte De Douai",
+       "f": "Eglise",
+       "t": "Moulin De Lesquin",
+       "min": 8
+      },
+      {
+       "m": "WALK",
+       "t": "Moulin De Lesquin",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "L1",
+       "h": "Wambrechies Agrippin",
+       "f": "Moulin De Lesquin",
+       "t": "Comtesse De Segur",
+       "min": 9
+      },
+      {
+       "m": "WALK",
+       "t": "De Gaulle",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "15",
+       "h": "Lesquin Verdun",
+       "f": "De Gaulle",
+       "t": "Verdun",
+       "min": 11
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 7
+      }
+     ]
+    },
+    {
+     "min": 70,
+     "ch": 2,
+     "dep": "2026-11-16T17:00:00Z",
+     "arr": "2026-11-16T18:10:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "F14",
+       "h": "Vendeville Eglise",
+       "f": "Mulier",
+       "t": "Eglise",
+       "min": 5
+      },
+      {
+       "m": "WALK",
+       "t": "Eglise",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "67",
+       "h": "Lille Porte De Douai",
+       "f": "Eglise",
+       "t": "Moulin De Lesquin",
+       "min": 8
+      },
+      {
+       "m": "WALK",
+       "t": "LESQUIN - Moulin de Lesquin",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "871",
+       "h": "ORCHIES - Gare SNCF",
+       "f": "LESQUIN - Moulin de Lesquin",
+       "t": "LESQUIN - Jaurès",
+       "min": 4
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 11
+      }
+     ]
+    }
    ]
   },
   "Faches-Thumesnil": {
@@ -2298,6 +3632,278 @@
     {
      "i": "Votre destination est sur la gauche.",
      "km": 0.0
+    }
+   ],
+   "walk": {
+    "km": 5.1,
+    "min": 61
+   },
+   "backWalk": {
+    "km": 5.1,
+    "min": 62
+   },
+   "transit": [
+    {
+     "min": 36,
+     "ch": 1,
+     "dep": "2026-11-16T06:50:00Z",
+     "arr": "2026-11-16T07:26:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Ronchin",
+       "min": 13
+      },
+      {
+       "m": "REGIONAL_RAIL",
+       "l": "C40",
+       "h": "843106",
+       "f": "Ronchin",
+       "t": "Wattignies - Templemars",
+       "min": 3
+      },
+      {
+       "m": "WALK",
+       "t": "Villa Saint Eloi",
+       "min": 5
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Villa Saint Eloi",
+       "t": "Mulier",
+       "min": 5
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    },
+    {
+     "min": 43,
+     "ch": 2,
+     "dep": "2026-11-16T06:28:00Z",
+     "arr": "2026-11-16T07:11:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mairie",
+       "min": 3
+      },
+      {
+       "m": "BUS",
+       "l": "L7",
+       "h": "Lille Porte Des Postes",
+       "f": "Mairie",
+       "t": "Guesde",
+       "min": 4
+      },
+      {
+       "m": "WALK",
+       "t": "LILLE - Rue de l'Oise",
+       "min": 3
+      },
+      {
+       "m": "BUS",
+       "l": "852",
+       "h": "LIBERCOURT - Gare",
+       "f": "LILLE - Rue de l'Oise",
+       "t": "TEMPLEMARS - Villa Saint Eloi",
+       "min": 9
+      },
+      {
+       "m": "WALK",
+       "t": "Villa Saint Eloi",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Villa Saint Eloi",
+       "t": "Mulier",
+       "min": 5
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    },
+    {
+     "min": 50,
+     "ch": 1,
+     "dep": "2026-11-16T06:34:00Z",
+     "arr": "2026-11-16T07:24:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "La Jappe",
+       "min": 6
+      },
+      {
+       "m": "BUS",
+       "l": "67",
+       "h": "Vendeville Hameau De L'Europe",
+       "f": "La Jappe",
+       "t": "Eglise",
+       "min": 15
+      },
+      {
+       "m": "WALK",
+       "t": "Eglise",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "F14",
+       "h": "Noyelles Lez Seclin Grand Place",
+       "f": "Eglise",
+       "t": "Mulier",
+       "min": 4
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    }
+   ],
+   "backTransit": [
+    {
+     "min": 35,
+     "ch": 1,
+     "dep": "2026-11-16T17:34:00Z",
+     "arr": "2026-11-16T18:09:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Villa Saint Eloi",
+       "min": 6
+      },
+      {
+       "m": "WALK",
+       "t": "Wattignies - Templemars",
+       "min": 5
+      },
+      {
+       "m": "REGIONAL_RAIL",
+       "l": "C40",
+       "h": "843135",
+       "f": "Wattignies - Templemars",
+       "t": "Ronchin",
+       "min": 3
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 13
+      }
+     ]
+    },
+    {
+     "min": 44,
+     "ch": 1,
+     "dep": "2026-11-16T17:00:00Z",
+     "arr": "2026-11-16T17:44:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "F14",
+       "h": "Vendeville Eglise",
+       "f": "Mulier",
+       "t": "Eglise",
+       "min": 5
+      },
+      {
+       "m": "WALK",
+       "t": "Eglise",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "67",
+       "h": "Lille Porte De Douai",
+       "f": "Eglise",
+       "t": "Rue D'Haubourdin",
+       "min": 19
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 7
+      }
+     ]
+    },
+    {
+     "min": 53,
+     "ch": 2,
+     "dep": "2026-11-16T17:08:00Z",
+     "arr": "2026-11-16T18:01:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "TEMPLEMARS - Eglise",
+       "min": 14
+      },
+      {
+       "m": "BUS",
+       "l": "858S",
+       "h": "WATTIGNIES - Bargues Marais",
+       "f": "TEMPLEMARS - Eglise",
+       "t": "WATTIGNIES - République",
+       "min": 6
+      },
+      {
+       "m": "WALK",
+       "t": "Creps",
+       "min": 3
+      },
+      {
+       "m": "BUS",
+       "l": "14",
+       "h": "Marquette Lez Lille Les Voiles",
+       "f": "Creps",
+       "t": "Rue De L'Oise",
+       "min": 15
+      },
+      {
+       "m": "WALK",
+       "t": "Place Garonne",
+       "min": 4
+      },
+      {
+       "m": "BUS",
+       "l": "L7",
+       "h": "Faches Thumesnil Ctre Commercial",
+       "f": "Place Garonne",
+       "t": "Mairie",
+       "min": 5
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 4
+      }
+     ]
     }
    ]
   },
@@ -2635,6 +4241,226 @@
      "i": "Votre destination est sur la droite.",
      "km": 0.0
     }
+   ],
+   "walk": {
+    "km": 5.7,
+    "min": 68
+   },
+   "backWalk": {
+    "km": 5.7,
+    "min": 69
+   },
+   "transit": [
+    {
+     "min": 26,
+     "ch": 1,
+     "dep": "2026-11-16T06:31:00Z",
+     "arr": "2026-11-16T06:57:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Ronchin",
+       "min": 3
+      },
+      {
+       "m": "REGIONAL_RAIL",
+       "l": "C40",
+       "h": "843104",
+       "f": "Ronchin",
+       "t": "Wattignies - Templemars",
+       "min": 3
+      },
+      {
+       "m": "WALK",
+       "t": "Villa Saint Eloi",
+       "min": 5
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Villa Saint Eloi",
+       "t": "Mulier",
+       "min": 4
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    },
+    {
+     "min": 46,
+     "ch": 2,
+     "dep": "2026-11-16T06:07:00Z",
+     "arr": "2026-11-16T06:53:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "La Jappe",
+       "min": 13
+      },
+      {
+       "m": "BUS",
+       "l": "L7",
+       "h": "Faches Thumesnil Ctre Commercial",
+       "f": "La Jappe",
+       "t": "Rue D'Haubourdin",
+       "min": 1
+      },
+      {
+       "m": "WALK",
+       "t": "Rue D'Haubourdin",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "CO1",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Rue D'Haubourdin",
+       "t": "Philippe De Girard",
+       "min": 5
+      },
+      {
+       "m": "WALK",
+       "t": "Philippe De Girard",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "S47",
+       "h": "Villeneuve D Ascq 4 Cantons Stade",
+       "f": "Philippe De Girard",
+       "t": "Mulier",
+       "min": 11
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    },
+    {
+     "min": 48,
+     "ch": 1,
+     "dep": "2026-11-16T06:36:00Z",
+     "arr": "2026-11-16T07:24:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Ronchin Mairie",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "67",
+       "h": "Vendeville Hameau De L'Europe",
+       "f": "Ronchin Mairie",
+       "t": "Eglise",
+       "min": 17
+      },
+      {
+       "m": "WALK",
+       "t": "Eglise",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "F14",
+       "h": "Noyelles Lez Seclin Grand Place",
+       "f": "Eglise",
+       "t": "Mulier",
+       "min": 4
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    }
+   ],
+   "backTransit": [
+    {
+     "min": 25,
+     "ch": 1,
+     "dep": "2026-11-16T17:34:00Z",
+     "arr": "2026-11-16T17:59:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Villa Saint Eloi",
+       "min": 6
+      },
+      {
+       "m": "WALK",
+       "t": "Wattignies - Templemars",
+       "min": 5
+      },
+      {
+       "m": "REGIONAL_RAIL",
+       "l": "C40",
+       "h": "843135",
+       "f": "Wattignies - Templemars",
+       "t": "Ronchin",
+       "min": 3
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 3
+      }
+     ]
+    },
+    {
+     "min": 43,
+     "ch": 1,
+     "dep": "2026-11-16T17:00:00Z",
+     "arr": "2026-11-16T17:43:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "F14",
+       "h": "Vendeville Eglise",
+       "f": "Mulier",
+       "t": "Eglise",
+       "min": 5
+      },
+      {
+       "m": "WALK",
+       "t": "Eglise",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "67",
+       "h": "Lille Porte De Douai",
+       "f": "Eglise",
+       "t": "Ronchin Mairie",
+       "min": 23
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 2
+      }
+     ]
+    }
    ]
   },
   "Houplin-Ancoisne": {
@@ -2911,6 +4737,265 @@
      "i": "Votre destination est sur la gauche.",
      "km": 0.0
     }
+   ],
+   "walk": {
+    "km": 5.4,
+    "min": 67
+   },
+   "backWalk": {
+    "km": 5.4,
+    "min": 65
+   },
+   "transit": [
+    {
+     "min": 42,
+     "ch": 2,
+     "dep": "2026-11-16T06:29:00Z",
+     "arr": "2026-11-16T07:11:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "HOUPLIN ANCOISNE - Place",
+       "min": 5
+      },
+      {
+       "m": "BUS",
+       "l": "879",
+       "h": "GONDECOURT - Lycée M. de Flandre",
+       "f": "HOUPLIN ANCOISNE - Place",
+       "t": "SECLIN - Gare SNCF",
+       "min": 9
+      },
+      {
+       "m": "WALK",
+       "t": "Seclin",
+       "min": 5
+      },
+      {
+       "m": "REGIONAL_RAIL",
+       "l": "C40",
+       "h": "843107",
+       "f": "Seclin",
+       "t": "Wattignies - Templemars",
+       "min": 3
+      },
+      {
+       "m": "WALK",
+       "t": "Villa Saint Eloi",
+       "min": 5
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Villa Saint Eloi",
+       "t": "Mulier",
+       "min": 5
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    },
+    {
+     "min": 75,
+     "ch": 1,
+     "dep": "2026-11-16T05:56:00Z",
+     "arr": "2026-11-16T07:11:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "HOUPLIN ANCOISNE - Place",
+       "min": 5
+      },
+      {
+       "m": "BUS",
+       "l": "879",
+       "h": "LILLE - CHU - Eurasanté",
+       "f": "HOUPLIN ANCOISNE - Place",
+       "t": "LILLE - CHU - Eurasanté",
+       "min": 34
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Chu - Eurasanté",
+       "t": "Mulier",
+       "min": 18
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    },
+    {
+     "min": 79,
+     "ch": 1,
+     "dep": "2026-11-16T06:22:00Z",
+     "arr": "2026-11-16T07:41:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "HOUPLIN ANCOISNE - Place",
+       "min": 5
+      },
+      {
+       "m": "BUS",
+       "l": "882",
+       "h": "LILLE - CHU - Eurasanté",
+       "f": "HOUPLIN ANCOISNE - Place",
+       "t": "LILLE - CHU - Eurasanté",
+       "min": 33
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Chu - Eurasanté",
+       "t": "Mulier",
+       "min": 18
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    }
+   ],
+   "backTransit": [
+    {
+     "min": 57,
+     "ch": 1,
+     "dep": "2026-11-16T19:50:00Z",
+     "arr": "2026-11-16T20:47:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Chu - Eurasanté",
+       "min": 17
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "F17",
+       "h": "Houplin Ancoisne Place",
+       "f": "Chu - Eurasanté",
+       "t": "Place",
+       "min": 12
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 5
+      }
+     ]
+    },
+    {
+     "min": 62,
+     "ch": 1,
+     "dep": "2026-11-16T16:54:00Z",
+     "arr": "2026-11-16T17:56:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Chu - Eurasanté",
+       "min": 19
+      },
+      {
+       "m": "WALK",
+       "t": "LILLE - CHU - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "882",
+       "h": "GONDECOURT - Lycée M. de Flandre",
+       "f": "LILLE - CHU - Eurasanté",
+       "t": "HOUPLIN ANCOISNE - Place",
+       "min": 21
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 5
+      }
+     ]
+    },
+    {
+     "min": 69,
+     "ch": 1,
+     "dep": "2026-11-16T17:34:00Z",
+     "arr": "2026-11-16T18:43:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Chu - Eurasanté",
+       "min": 18
+      },
+      {
+       "m": "WALK",
+       "t": "LILLE - CHU - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "879",
+       "h": "GONDECOURT - Lycée M. de Flandre",
+       "f": "LILLE - CHU - Eurasanté",
+       "t": "HOUPLIN ANCOISNE - Place",
+       "min": 28
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 5
+      }
+     ]
+    }
    ]
   },
   "Lille-Sud": {
@@ -3166,6 +5251,252 @@
     {
      "i": "Votre destination est sur la droite.",
      "km": 0.0
+    }
+   ],
+   "walk": {
+    "km": 5.9,
+    "min": 71
+   },
+   "backWalk": {
+    "km": 5.9,
+    "min": 70
+   },
+   "transit": [
+    {
+     "min": 30,
+     "ch": 1,
+     "dep": "2026-11-16T06:56:00Z",
+     "arr": "2026-11-16T07:26:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "LILLE - Faubourg d'Arras",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "856",
+       "h": "DOUAI - Place De Gaulle",
+       "f": "LILLE - Faubourg d'Arras",
+       "t": "TEMPLEMARS - Villa Saint Eloi",
+       "min": 13
+      },
+      {
+       "m": "WALK",
+       "t": "Villa Saint Eloi",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Villa Saint Eloi",
+       "t": "Mulier",
+       "min": 5
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    },
+    {
+     "min": 31,
+     "ch": 1,
+     "dep": "2026-11-16T06:26:00Z",
+     "arr": "2026-11-16T06:57:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Faubourg D'Arras",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "14",
+       "h": "Wattignies Marais",
+       "f": "Faubourg D'Arras",
+       "t": "Hotel De Ville",
+       "min": 11
+      },
+      {
+       "m": "WALK",
+       "t": "Hotel De Ville",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Hotel De Ville",
+       "t": "Mulier",
+       "min": 7
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    },
+    {
+     "min": 34,
+     "ch": 1,
+     "dep": "2026-11-16T06:37:00Z",
+     "arr": "2026-11-16T07:11:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "LILLE - Rue de l'Oise",
+       "min": 5
+      },
+      {
+       "m": "BUS",
+       "l": "858",
+       "h": "BILLY BERCLAU - Ecole Maternelle",
+       "f": "LILLE - Rue de l'Oise",
+       "t": "TEMPLEMARS - Villa Saint Eloi",
+       "min": 11
+      },
+      {
+       "m": "WALK",
+       "t": "Villa Saint Eloi",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Villa Saint Eloi",
+       "t": "Mulier",
+       "min": 5
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    }
+   ],
+   "backTransit": [
+    {
+     "min": 33,
+     "ch": 1,
+     "dep": "2026-11-16T17:22:00Z",
+     "arr": "2026-11-16T17:55:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Villa Saint Eloi",
+       "min": 8
+      },
+      {
+       "m": "WALK",
+       "t": "TEMPLEMARS - Villa Saint Eloi",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "856",
+       "h": "LILLE - Porte de Douai",
+       "f": "TEMPLEMARS - Villa Saint Eloi",
+       "t": "LILLE - Rue de l'Oise",
+       "min": 8
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 3
+      }
+     ]
+    },
+    {
+     "min": 41,
+     "ch": 1,
+     "dep": "2026-11-16T16:45:00Z",
+     "arr": "2026-11-16T17:26:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Laennec",
+       "min": 12
+      },
+      {
+       "m": "WALK",
+       "t": "Wattignies Blum",
+       "min": 4
+      },
+      {
+       "m": "BUS",
+       "l": "14",
+       "h": "Marquette Lez Lille Les Voiles",
+       "f": "Wattignies Blum",
+       "t": "Rue De L'Oise",
+       "min": 10
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 3
+      }
+     ]
+    },
+    {
+     "min": 43,
+     "ch": 1,
+     "dep": "2026-11-16T17:08:00Z",
+     "arr": "2026-11-16T17:51:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "TEMPLEMARS - Eglise",
+       "min": 14
+      },
+      {
+       "m": "BUS",
+       "l": "858S",
+       "h": "WATTIGNIES - Bargues Marais",
+       "f": "TEMPLEMARS - Eglise",
+       "t": "WATTIGNIES - République",
+       "min": 6
+      },
+      {
+       "m": "WALK",
+       "t": "Republique",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "14",
+       "h": "Marquette Lez Lille Les Voiles",
+       "f": "Republique",
+       "t": "Rue De L'Oise",
+       "min": 14
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 3
+      }
+     ]
     }
    ]
   },
@@ -3458,6 +5789,278 @@
     {
      "i": "Votre destination est sur la droite.",
      "km": 0.0
+    }
+   ],
+   "walk": {
+    "km": 5.8,
+    "min": 70
+   },
+   "backWalk": {
+    "km": 5.8,
+    "min": 69
+   },
+   "transit": [
+    {
+     "min": 53,
+     "ch": 1,
+     "dep": "2026-11-16T06:04:00Z",
+     "arr": "2026-11-16T06:57:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "EMMERIN - Calvaire",
+       "min": 5
+      },
+      {
+       "m": "BUS",
+       "l": "882",
+       "h": "LILLE - CHU - Eurasanté",
+       "f": "EMMERIN - Calvaire",
+       "t": "LILLE - CHU - Eurasanté",
+       "min": 16
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Chu - Eurasanté",
+       "t": "Mulier",
+       "min": 19
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    },
+    {
+     "min": 56,
+     "ch": 1,
+     "dep": "2026-11-16T06:15:00Z",
+     "arr": "2026-11-16T07:11:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "EMMERIN - Calvaire",
+       "min": 5
+      },
+      {
+       "m": "BUS",
+       "l": "879",
+       "h": "LILLE - CHU - Eurasanté",
+       "f": "EMMERIN - Calvaire",
+       "t": "LILLE - CHU - Eurasanté",
+       "min": 15
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Chu - Eurasanté",
+       "t": "Mulier",
+       "min": 18
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    },
+    {
+     "min": 58,
+     "ch": 2,
+     "dep": "2026-11-16T06:43:00Z",
+     "arr": "2026-11-16T07:41:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "EMMERIN - Daudet",
+       "min": 5
+      },
+      {
+       "m": "BUS",
+       "l": "879",
+       "h": "CHEMY - Mairie",
+       "f": "EMMERIN - Daudet",
+       "t": "SECLIN - Gare SNCF",
+       "min": 23
+      },
+      {
+       "m": "WALK",
+       "t": "Seclin",
+       "min": 5
+      },
+      {
+       "m": "REGIONAL_RAIL",
+       "l": "C40",
+       "h": "843109",
+       "f": "Seclin",
+       "t": "Wattignies - Templemars",
+       "min": 3
+      },
+      {
+       "m": "WALK",
+       "t": "Villa Saint Eloi",
+       "min": 5
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Villa Saint Eloi",
+       "t": "Mulier",
+       "min": 5
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    }
+   ],
+   "backTransit": [
+    {
+     "min": 52,
+     "ch": 1,
+     "dep": "2026-11-16T17:34:00Z",
+     "arr": "2026-11-16T18:26:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Chu - Eurasanté",
+       "min": 18
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "58",
+       "h": "Santes Santes Marais",
+       "f": "Chu - Eurasanté",
+       "t": "Delory",
+       "min": 11
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 10
+      }
+     ]
+    },
+    {
+     "min": 53,
+     "ch": 1,
+     "dep": "2026-11-16T16:54:00Z",
+     "arr": "2026-11-16T17:47:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Chu - Eurasanté",
+       "min": 19
+      },
+      {
+       "m": "WALK",
+       "t": "LILLE - CHU - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "882",
+       "h": "GONDECOURT - Lycée M. de Flandre",
+       "f": "LILLE - CHU - Eurasanté",
+       "t": "EMMERIN - Calvaire",
+       "min": 12
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 5
+      }
+     ]
+    },
+    {
+     "min": 63,
+     "ch": 2,
+     "dep": "2026-11-16T17:08:00Z",
+     "arr": "2026-11-16T18:11:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "TEMPLEMARS - Eglise",
+       "min": 14
+      },
+      {
+       "m": "BUS",
+       "l": "858S",
+       "h": "WATTIGNIES - Bargues Marais",
+       "f": "TEMPLEMARS - Eglise",
+       "t": "WATTIGNIES - Bargues Marais",
+       "min": 8
+      },
+      {
+       "m": "WALK",
+       "t": "Bargues Marais",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "L92",
+       "h": "Lille Porte Des Postes",
+       "f": "Bargues Marais",
+       "t": "Chu - Eurasanté",
+       "min": 11
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "58",
+       "h": "Santes Santes Marais",
+       "f": "Chu - Eurasanté",
+       "t": "Delory",
+       "min": 12
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 10
+      }
+     ]
     }
    ]
   },
@@ -3779,6 +6382,265 @@
      "i": "Votre destination est sur la gauche.",
      "km": 0.0
     }
+   ],
+   "walk": {
+    "km": 7.1,
+    "min": 86
+   },
+   "backWalk": {
+    "km": 7.0,
+    "min": 83
+   },
+   "transit": [
+    {
+     "min": 43,
+     "ch": 1,
+     "dep": "2026-11-16T06:14:00Z",
+     "arr": "2026-11-16T06:57:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "GONDECOURT - Rue Nationale",
+       "min": 9
+      },
+      {
+       "m": "BUS",
+       "l": "858",
+       "h": "LILLE - Porte de Douai",
+       "f": "GONDECOURT - Rue Nationale",
+       "t": "TEMPLEMARS - Petite Barrière",
+       "min": 20
+      },
+      {
+       "m": "WALK",
+       "t": "Mairie",
+       "min": 3
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Mairie",
+       "t": "Mulier",
+       "min": 3
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    },
+    {
+     "min": 48,
+     "ch": 1,
+     "dep": "2026-11-16T05:54:00Z",
+     "arr": "2026-11-16T06:42:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "GONDECOURT - Rue Nationale",
+       "min": 9
+      },
+      {
+       "m": "BUS",
+       "l": "858",
+       "h": "LILLE - Porte de Douai",
+       "f": "GONDECOURT - Rue Nationale",
+       "t": "SECLIN - Eglise",
+       "min": 11
+      },
+      {
+       "m": "WALK",
+       "t": "Vieux Moulin",
+       "min": 9
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Vieux Moulin",
+       "t": "Mulier",
+       "min": 9
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    },
+    {
+     "min": 52,
+     "ch": 1,
+     "dep": "2026-11-16T07:03:00Z",
+     "arr": "2026-11-16T07:55:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "GONDECOURT - Lycée M. de Flandre",
+       "min": 7
+      },
+      {
+       "m": "BUS",
+       "l": "895S",
+       "h": "GENECH - Institut",
+       "f": "GONDECOURT - Lycée M. de Flandre",
+       "t": "SECLIN - Vieux Moulin",
+       "min": 23
+      },
+      {
+       "m": "WALK",
+       "t": "Vieux Moulin",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Vieux Moulin",
+       "t": "Mulier",
+       "min": 11
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    }
+   ],
+   "backTransit": [
+    {
+     "min": 45,
+     "ch": 2,
+     "dep": "2026-11-16T16:52:00Z",
+     "arr": "2026-11-16T17:37:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Mulier",
+       "t": "Vieux Moulin",
+       "min": 8
+      },
+      {
+       "m": "WALK",
+       "t": "Hentges",
+       "min": 6
+      },
+      {
+       "m": "BUS",
+       "l": "L92",
+       "h": "Seclin Centre Hospitalier",
+       "f": "Hentges",
+       "t": "Eglise",
+       "min": 0
+      },
+      {
+       "m": "WALK",
+       "t": "SECLIN - Eglise",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "858",
+       "h": "ANNOEULLIN - Gare",
+       "f": "SECLIN - Eglise",
+       "t": "GONDECOURT - Lycée M. de Flandre",
+       "min": 14
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 7
+      }
+     ]
+    },
+    {
+     "min": 46,
+     "ch": 1,
+     "dep": "2026-11-16T17:13:00Z",
+     "arr": "2026-11-16T17:59:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Mulier",
+       "t": "Vieux Moulin",
+       "min": 8
+      },
+      {
+       "m": "WALK",
+       "t": "SECLIN - Vieux Moulin",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "895S",
+       "h": "ALLENNES LES MARAIS - Place",
+       "f": "SECLIN - Vieux Moulin",
+       "t": "GONDECOURT - Lycée M. de Flandre",
+       "min": 14
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 7
+      }
+     ]
+    },
+    {
+     "min": 52,
+     "ch": 1,
+     "dep": "2026-11-16T16:45:00Z",
+     "arr": "2026-11-16T17:37:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Villa Saint Eloi",
+       "min": 8
+      },
+      {
+       "m": "WALK",
+       "t": "TEMPLEMARS - Villa Saint Eloi",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "858",
+       "h": "ANNOEULLIN - Gare",
+       "f": "TEMPLEMARS - Villa Saint Eloi",
+       "t": "GONDECOURT - Lycée M. de Flandre",
+       "min": 22
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 7
+      }
+     ]
+    }
    ]
   },
   "Loos": {
@@ -4046,6 +6908,226 @@
     {
      "i": "Votre destination est sur la droite.",
      "km": 0.0
+    }
+   ],
+   "walk": {
+    "km": 6.5,
+    "min": 79
+   },
+   "backWalk": {
+    "km": 6.5,
+    "min": 78
+   },
+   "transit": [
+    {
+     "min": 43,
+     "ch": 1,
+     "dep": "2026-11-16T06:14:00Z",
+     "arr": "2026-11-16T06:57:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Republique",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "L2",
+       "h": "Wattignies Centre Commercial",
+       "f": "Republique",
+       "t": "Chu - Eurasanté",
+       "min": 11
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Chu - Eurasanté",
+       "t": "Mulier",
+       "min": 19
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    },
+    {
+     "min": 47,
+     "ch": 1,
+     "dep": "2026-11-16T06:24:00Z",
+     "arr": "2026-11-16T07:11:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Ch De La Barre",
+       "min": 6
+      },
+      {
+       "m": "BUS",
+       "l": "58",
+       "h": "Loos Eurasante Epi De Soil",
+       "f": "Ch De La Barre",
+       "t": "Chu - Eurasanté",
+       "min": 13
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Chu - Eurasanté",
+       "t": "Mulier",
+       "min": 18
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    }
+   ],
+   "backTransit": [
+    {
+     "min": 44,
+     "ch": 1,
+     "dep": "2026-11-16T17:22:00Z",
+     "arr": "2026-11-16T18:06:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Chu - Eurasanté",
+       "min": 20
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "L2",
+       "h": "Loos Les Oliveaux",
+       "f": "Chu - Eurasanté",
+       "t": "Republique",
+       "min": 9
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 4
+      }
+     ]
+    },
+    {
+     "min": 48,
+     "ch": 1,
+     "dep": "2026-11-16T16:54:00Z",
+     "arr": "2026-11-16T17:42:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Chu - Eurasanté",
+       "min": 19
+      },
+      {
+       "m": "WALK",
+       "t": "LILLE - CHU - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "882",
+       "h": "GONDECOURT - Lycée M. de Flandre",
+       "f": "LILLE - CHU - Eurasanté",
+       "t": "LOOS - Chevalier de la Barre",
+       "min": 6
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 6
+      }
+     ]
+    },
+    {
+     "min": 54,
+     "ch": 2,
+     "dep": "2026-11-16T17:08:00Z",
+     "arr": "2026-11-16T18:02:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "TEMPLEMARS - Eglise",
+       "min": 14
+      },
+      {
+       "m": "BUS",
+       "l": "858S",
+       "h": "WATTIGNIES - Bargues Marais",
+       "f": "TEMPLEMARS - Eglise",
+       "t": "WATTIGNIES - Bargues Marais",
+       "min": 8
+      },
+      {
+       "m": "WALK",
+       "t": "Bargues Marais",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "L92",
+       "h": "Lille Porte Des Postes",
+       "f": "Bargues Marais",
+       "t": "Chu - Eurasanté",
+       "min": 11
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "58",
+       "h": "Santes Santes Marais",
+       "f": "Chu - Eurasanté",
+       "t": "Ch De La Barre",
+       "min": 7
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 6
+      }
+     ]
     }
    ]
   },
@@ -4463,6 +7545,356 @@
      "i": "Votre destination est sur la droite.",
      "km": 0.0
     }
+   ],
+   "walk": {
+    "km": 7.9,
+    "min": 95
+   },
+   "backWalk": {
+    "km": 7.9,
+    "min": 96
+   },
+   "transit": [
+    {
+     "min": 57,
+     "ch": 3,
+     "dep": "2026-11-16T06:29:00Z",
+     "arr": "2026-11-16T07:26:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mairie",
+       "min": 1
+      },
+      {
+       "m": "BUS",
+       "l": "18",
+       "h": "Lomme Anatole France",
+       "f": "Mairie",
+       "t": "Avenir",
+       "min": 5
+      },
+      {
+       "m": "WALK",
+       "t": "Mont de Terre",
+       "min": 5
+      },
+      {
+       "m": "REGIONAL_RAIL",
+       "l": "C60",
+       "h": "841208",
+       "f": "Mont de Terre",
+       "t": "Lille Flandres",
+       "min": 5
+      },
+      {
+       "m": "WALK",
+       "t": "Lille Flandres",
+       "min": 5
+      },
+      {
+       "m": "REGIONAL_RAIL",
+       "l": "C40",
+       "h": "843106",
+       "f": "Lille Flandres",
+       "t": "Wattignies - Templemars",
+       "min": 9
+      },
+      {
+       "m": "WALK",
+       "t": "Villa Saint Eloi",
+       "min": 5
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Villa Saint Eloi",
+       "t": "Mulier",
+       "min": 5
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    },
+    {
+     "min": 62,
+     "ch": 2,
+     "dep": "2026-11-16T06:24:00Z",
+     "arr": "2026-11-16T07:26:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mairie",
+       "min": 3
+      },
+      {
+       "m": "BUS",
+       "l": "CO1",
+       "h": "Villeneuve D Ascq V. D'Ascq Hotel De Ville",
+       "f": "Mairie",
+       "t": "Villeneuve D'Ascq Hôtel De Ville",
+       "min": 8
+      },
+      {
+       "m": "WALK",
+       "t": "Villeneuve D'Ascq Hôtel De Ville",
+       "min": 3
+      },
+      {
+       "m": "SUBWAY",
+       "l": "M1",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Villeneuve D'Ascq Hôtel De Ville",
+       "t": "Chu - Eurasanté",
+       "min": 19
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Chu - Eurasanté",
+       "t": "Mulier",
+       "min": 18
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    },
+    {
+     "min": 72,
+     "ch": 2,
+     "dep": "2026-11-16T06:29:00Z",
+     "arr": "2026-11-16T07:41:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mairie",
+       "min": 1
+      },
+      {
+       "m": "BUS",
+       "l": "18",
+       "h": "Lomme Anatole France",
+       "f": "Mairie",
+       "t": "République Beaux-Arts",
+       "min": 23
+      },
+      {
+       "m": "WALK",
+       "t": "République Beaux-Arts",
+       "min": 2
+      },
+      {
+       "m": "SUBWAY",
+       "l": "M1",
+       "h": "Lille Chu - Eurasanté",
+       "f": "République Beaux-Arts",
+       "t": "Chu - Eurasanté",
+       "min": 7
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Chu - Eurasanté",
+       "t": "Mulier",
+       "min": 18
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    }
+   ],
+   "backTransit": [
+    {
+     "min": 63,
+     "ch": 2,
+     "dep": "2026-11-16T16:54:00Z",
+     "arr": "2026-11-16T17:57:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Chu - Eurasanté",
+       "min": 19
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "SUBWAY",
+       "l": "M1",
+       "h": "Villeneuve D Ascq 4 Cantons Stade P. Mauroy",
+       "f": "Chu - Eurasanté",
+       "t": "Villeneuve D'Ascq Hôtel De Ville",
+       "min": 20
+      },
+      {
+       "m": "WALK",
+       "t": "Villeneuve D'Ascq Hôtel De Ville",
+       "min": 3
+      },
+      {
+       "m": "BUS",
+       "l": "18",
+       "h": "Lomme Anatole France",
+       "f": "Villeneuve D'Ascq Hôtel De Ville",
+       "t": "Mairie",
+       "min": 8
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 1
+      }
+     ]
+    },
+    {
+     "min": 69,
+     "ch": 2,
+     "dep": "2026-11-16T16:45:00Z",
+     "arr": "2026-11-16T17:54:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Chu - Eurasanté",
+       "min": 22
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "SUBWAY",
+       "l": "M1",
+       "h": "Villeneuve D Ascq 4 Cantons Stade P. Mauroy",
+       "f": "Chu - Eurasanté",
+       "t": "République Beaux-Arts",
+       "min": 7
+      },
+      {
+       "m": "WALK",
+       "t": "République Beaux-Arts",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "18",
+       "h": "Villeneuve D Ascq V. D'Ascq Hotel De Ville",
+       "f": "République Beaux-Arts",
+       "t": "Mairie",
+       "min": 25
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 3
+      }
+     ]
+    },
+    {
+     "min": 75,
+     "ch": 3,
+     "dep": "2026-11-16T17:00:00Z",
+     "arr": "2026-11-16T18:15:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "F14",
+       "h": "Vendeville Eglise",
+       "f": "Mulier",
+       "t": "Eglise",
+       "min": 5
+      },
+      {
+       "m": "WALK",
+       "t": "Eglise",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "67",
+       "h": "Lille Porte De Douai",
+       "f": "Eglise",
+       "t": "Porte De Douai",
+       "min": 31
+      },
+      {
+       "m": "WALK",
+       "t": "Porte De Douai",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "52",
+       "h": "Lille Porte De Douai",
+       "f": "Porte De Douai",
+       "t": "Pont De Tournai",
+       "min": 5
+      },
+      {
+       "m": "WALK",
+       "t": "Pont De Tournai",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "18",
+       "h": "Villeneuve D Ascq V. D'Ascq Hotel De Ville",
+       "f": "Pont De Tournai",
+       "t": "Mairie",
+       "min": 11
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 3
+      }
+     ]
+    }
    ]
   },
   "Haubourdin": {
@@ -4834,6 +8266,304 @@
     {
      "i": "Votre destination est sur la droite.",
      "km": 0.0
+    }
+   ],
+   "walk": {
+    "km": 8.3,
+    "min": 100
+   },
+   "backWalk": {
+    "km": 8.3,
+    "min": 99
+   },
+   "transit": [
+    {
+     "min": 50,
+     "ch": 2,
+     "dep": "2026-11-16T06:21:00Z",
+     "arr": "2026-11-16T07:11:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Haubourdin",
+       "min": 7
+      },
+      {
+       "m": "REGIONAL_RAIL",
+       "l": "C50",
+       "h": "842472",
+       "f": "Haubourdin",
+       "t": "Lille Centre Hospitalier Régional",
+       "min": 5
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Centre O. Lambret",
+       "min": 5
+      },
+      {
+       "m": "SUBWAY",
+       "l": "M1",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Chu - Centre O. Lambret",
+       "t": "Chu - Eurasanté",
+       "min": 1
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Chu - Eurasanté",
+       "t": "Mulier",
+       "min": 18
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    },
+    {
+     "min": 53,
+     "ch": 2,
+     "dep": "2026-11-16T06:48:00Z",
+     "arr": "2026-11-16T07:41:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Haubourdin",
+       "min": 7
+      },
+      {
+       "m": "REGIONAL_RAIL",
+       "l": "C51",
+       "h": "842102",
+       "f": "Haubourdin",
+       "t": "Lille Centre Hospitalier Régional",
+       "min": 5
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Centre O. Lambret",
+       "min": 5
+      },
+      {
+       "m": "SUBWAY",
+       "l": "M1",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Chu - Centre O. Lambret",
+       "t": "Chu - Eurasanté",
+       "min": 1
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Chu - Eurasanté",
+       "t": "Mulier",
+       "min": 18
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    },
+    {
+     "min": 57,
+     "ch": 1,
+     "dep": "2026-11-16T06:14:00Z",
+     "arr": "2026-11-16T07:11:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Gambetta Leclerc",
+       "min": 5
+      },
+      {
+       "m": "BUS",
+       "l": "58",
+       "h": "Loos Eurasante Epi De Soil",
+       "f": "Gambetta Leclerc",
+       "t": "Chu - Eurasanté",
+       "min": 24
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Chu - Eurasanté",
+       "t": "Mulier",
+       "min": 18
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    }
+   ],
+   "backTransit": [
+    {
+     "min": 49,
+     "ch": 2,
+     "dep": "2026-11-16T17:22:00Z",
+     "arr": "2026-11-16T18:11:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Chu - Eurasanté",
+       "min": 20
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "SUBWAY",
+       "l": "M1",
+       "h": "Villeneuve D Ascq 4 Cantons Stade P. Mauroy",
+       "f": "Chu - Eurasanté",
+       "t": "Chu - Centre O. Lambret",
+       "min": 1
+      },
+      {
+       "m": "WALK",
+       "t": "Lille Centre Hospitalier Régional",
+       "min": 5
+      },
+      {
+       "m": "REGIONAL_RAIL",
+       "l": "C51",
+       "h": "842170",
+       "f": "Lille Centre Hospitalier Régional",
+       "t": "Haubourdin",
+       "min": 5
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 7
+      }
+     ]
+    },
+    {
+     "min": 54,
+     "ch": 2,
+     "dep": "2026-11-16T16:45:00Z",
+     "arr": "2026-11-16T17:39:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Chu - Eurasanté",
+       "min": 22
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "SUBWAY",
+       "l": "M1",
+       "h": "Villeneuve D Ascq 4 Cantons Stade P. Mauroy",
+       "f": "Chu - Eurasanté",
+       "t": "Chu - Centre O. Lambret",
+       "min": 2
+      },
+      {
+       "m": "WALK",
+       "t": "Lille Centre Hospitalier Régional",
+       "min": 5
+      },
+      {
+       "m": "REGIONAL_RAIL",
+       "l": "C50",
+       "h": "842487",
+       "f": "Lille Centre Hospitalier Régional",
+       "t": "Haubourdin",
+       "min": 5
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 7
+      }
+     ]
+    },
+    {
+     "min": 59,
+     "ch": 1,
+     "dep": "2026-11-16T16:54:00Z",
+     "arr": "2026-11-16T17:53:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Chu - Eurasanté",
+       "min": 19
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "58",
+       "h": "Santes Santes Marais",
+       "f": "Chu - Eurasanté",
+       "t": "Gambetta Leclerc",
+       "min": 20
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 4
+      }
+     ]
     }
    ]
   },
@@ -5219,6 +8949,317 @@
      "i": "Votre destination est sur la droite.",
      "km": 0.0
     }
+   ],
+   "walk": {
+    "km": 9.8,
+    "min": 120
+   },
+   "backWalk": {
+    "km": 9.8,
+    "min": 117
+   },
+   "transit": [
+    {
+     "min": 59,
+     "ch": 2,
+     "dep": "2026-11-16T06:12:00Z",
+     "arr": "2026-11-16T07:11:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Santes",
+       "min": 12
+      },
+      {
+       "m": "REGIONAL_RAIL",
+       "l": "C50",
+       "h": "842472",
+       "f": "Santes",
+       "t": "Lille Centre Hospitalier Régional",
+       "min": 9
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Centre O. Lambret",
+       "min": 5
+      },
+      {
+       "m": "SUBWAY",
+       "l": "M1",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Chu - Centre O. Lambret",
+       "t": "Chu - Eurasanté",
+       "min": 1
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Chu - Eurasanté",
+       "t": "Mulier",
+       "min": 18
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    },
+    {
+     "min": 62,
+     "ch": 2,
+     "dep": "2026-11-16T06:39:00Z",
+     "arr": "2026-11-16T07:41:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Santes",
+       "min": 12
+      },
+      {
+       "m": "REGIONAL_RAIL",
+       "l": "C51",
+       "h": "842102",
+       "f": "Santes",
+       "t": "Lille Centre Hospitalier Régional",
+       "min": 9
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Centre O. Lambret",
+       "min": 5
+      },
+      {
+       "m": "SUBWAY",
+       "l": "M1",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Chu - Centre O. Lambret",
+       "t": "Chu - Eurasanté",
+       "min": 1
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Chu - Eurasanté",
+       "t": "Mulier",
+       "min": 18
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    },
+    {
+     "min": 67,
+     "ch": 1,
+     "dep": "2026-11-16T06:04:00Z",
+     "arr": "2026-11-16T07:11:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Santes Eglise",
+       "min": 1
+      },
+      {
+       "m": "BUS",
+       "l": "58",
+       "h": "Loos Eurasante Epi De Soil",
+       "f": "Santes Eglise",
+       "t": "Chu - Eurasanté",
+       "min": 38
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Chu - Eurasanté",
+       "t": "Mulier",
+       "min": 18
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    }
+   ],
+   "backTransit": [
+    {
+     "min": 57,
+     "ch": 2,
+     "dep": "2026-11-16T17:22:00Z",
+     "arr": "2026-11-16T18:19:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Chu - Eurasanté",
+       "min": 20
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "SUBWAY",
+       "l": "M1",
+       "h": "Villeneuve D Ascq 4 Cantons Stade P. Mauroy",
+       "f": "Chu - Eurasanté",
+       "t": "Chu - Centre O. Lambret",
+       "min": 1
+      },
+      {
+       "m": "WALK",
+       "t": "Lille Centre Hospitalier Régional",
+       "min": 5
+      },
+      {
+       "m": "REGIONAL_RAIL",
+       "l": "C51",
+       "h": "842170",
+       "f": "Lille Centre Hospitalier Régional",
+       "t": "Santes",
+       "min": 8
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 12
+      }
+     ]
+    },
+    {
+     "min": 62,
+     "ch": 2,
+     "dep": "2026-11-16T16:45:00Z",
+     "arr": "2026-11-16T17:47:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Chu - Eurasanté",
+       "min": 22
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "SUBWAY",
+       "l": "M1",
+       "h": "Villeneuve D Ascq 4 Cantons Stade P. Mauroy",
+       "f": "Chu - Eurasanté",
+       "t": "Chu - Centre O. Lambret",
+       "min": 2
+      },
+      {
+       "m": "WALK",
+       "t": "Lille Centre Hospitalier Régional",
+       "min": 5
+      },
+      {
+       "m": "REGIONAL_RAIL",
+       "l": "C50",
+       "h": "842487",
+       "f": "Lille Centre Hospitalier Régional",
+       "t": "Santes",
+       "min": 8
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 12
+      }
+     ]
+    },
+    {
+     "min": 74,
+     "ch": 2,
+     "dep": "2026-11-16T16:54:00Z",
+     "arr": "2026-11-16T18:08:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Chu - Eurasanté",
+       "min": 19
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "CO2",
+       "h": "Perenchies Europe",
+       "f": "Chu - Eurasanté",
+       "t": "Caserne Des Pompiers",
+       "min": 22
+      },
+      {
+       "m": "WALK",
+       "t": "La Pepiniere",
+       "min": 9
+      },
+      {
+       "m": "BUS",
+       "l": "61",
+       "h": "La Bassee Gare",
+       "f": "La Pepiniere",
+       "t": "Santes Eglise",
+       "min": 7
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 1
+      }
+     ]
+    }
    ]
   },
   "fjt-thumesnil": {
@@ -5534,6 +9575,278 @@
     {
      "i": "Votre destination est sur la droite.",
      "km": 0.0
+    }
+   ],
+   "walk": {
+    "km": 6.8,
+    "min": 82
+   },
+   "backWalk": {
+    "km": 6.8,
+    "min": 81
+   },
+   "transit": [
+    {
+     "min": 36,
+     "ch": 1,
+     "dep": "2026-11-16T06:35:00Z",
+     "arr": "2026-11-16T07:11:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "LILLE - Diderot",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "858",
+       "h": "BILLY BERCLAU - Ecole Maternelle",
+       "f": "LILLE - Diderot",
+       "t": "TEMPLEMARS - Villa Saint Eloi",
+       "min": 16
+      },
+      {
+       "m": "WALK",
+       "t": "Villa Saint Eloi",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Villa Saint Eloi",
+       "t": "Mulier",
+       "min": 5
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    },
+    {
+     "min": 36,
+     "ch": 1,
+     "dep": "2026-11-16T06:50:00Z",
+     "arr": "2026-11-16T07:26:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "LILLE - Diderot",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "856",
+       "h": "DOUAI - Place De Gaulle",
+       "f": "LILLE - Diderot",
+       "t": "TEMPLEMARS - Villa Saint Eloi",
+       "min": 19
+      },
+      {
+       "m": "WALK",
+       "t": "Villa Saint Eloi",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Villa Saint Eloi",
+       "t": "Mulier",
+       "min": 5
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    },
+    {
+     "min": 42,
+     "ch": 2,
+     "dep": "2026-11-16T06:59:00Z",
+     "arr": "2026-11-16T07:41:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Porte D'Arras",
+       "min": 7
+      },
+      {
+       "m": "SUBWAY",
+       "l": "M2",
+       "h": "Lomme Saint Philibert",
+       "f": "Porte D'Arras",
+       "t": "Porte Des Postes",
+       "min": 1
+      },
+      {
+       "m": "WALK",
+       "t": "Porte Des Postes",
+       "min": 2
+      },
+      {
+       "m": "SUBWAY",
+       "l": "M1",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Porte Des Postes",
+       "t": "Chu - Eurasanté",
+       "min": 3
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Seclin Le Riez",
+       "f": "Chu - Eurasanté",
+       "t": "Mulier",
+       "min": 18
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
+    }
+   ],
+   "backTransit": [
+    {
+     "min": 43,
+     "ch": 2,
+     "dep": "2026-11-16T16:54:00Z",
+     "arr": "2026-11-16T17:37:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Chu - Eurasanté",
+       "min": 19
+      },
+      {
+       "m": "WALK",
+       "t": "Chu - Eurasanté",
+       "min": 2
+      },
+      {
+       "m": "SUBWAY",
+       "l": "M1",
+       "h": "Villeneuve D Ascq 4 Cantons Stade P. Mauroy",
+       "f": "Chu - Eurasanté",
+       "t": "Porte Des Postes",
+       "min": 4
+      },
+      {
+       "m": "WALK",
+       "t": "Porte Des Postes",
+       "min": 2
+      },
+      {
+       "m": "SUBWAY",
+       "l": "M2",
+       "h": "Tourcoing C.H. Dron",
+       "f": "Porte Des Postes",
+       "t": "Porte D'Arras",
+       "min": 1
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 7
+      }
+     ]
+    },
+    {
+     "min": 48,
+     "ch": 1,
+     "dep": "2026-11-16T16:54:00Z",
+     "arr": "2026-11-16T17:42:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Hotel De Ville",
+       "min": 9
+      },
+      {
+       "m": "WALK",
+       "t": "WATTIGNIES - Hôtel de Ville",
+       "min": 2
+      },
+      {
+       "m": "BUS",
+       "l": "858",
+       "h": "LILLE - Porte de Douai",
+       "f": "WATTIGNIES - Hôtel de Ville",
+       "t": "LILLE - Diderot",
+       "min": 11
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 3
+      }
+     ]
+    },
+    {
+     "min": 49,
+     "ch": 1,
+     "dep": "2026-11-16T16:45:00Z",
+     "arr": "2026-11-16T17:34:00Z",
+     "legs": [
+      {
+       "m": "WALK",
+       "t": "Mulier",
+       "min": 8
+      },
+      {
+       "m": "BUS",
+       "l": "55",
+       "h": "Lille Chu - Eurasanté",
+       "f": "Mulier",
+       "t": "Laennec",
+       "min": 12
+      },
+      {
+       "m": "WALK",
+       "t": "Wattignies Blum",
+       "min": 4
+      },
+      {
+       "m": "BUS",
+       "l": "14",
+       "h": "Marquette Lez Lille Les Voiles",
+       "f": "Wattignies Blum",
+       "t": "Porte D'Arras",
+       "min": 13
+      },
+      {
+       "m": "WALK",
+       "t": "",
+       "min": 8
+      }
+     ]
     }
    ]
   }

@@ -29,12 +29,12 @@ Chaque push sur `main` publie automatiquement le site via `.github/workflows/dep
 
 1. Ajouter l'objet dans `pistes` avec `id`, `name`, `kind`, `commune`, `score`, `rent`, `contact`, `email`, `phone`, `url`, `msg`, `note`, et une question propre à la piste dans `ask`.
 2. Mettre `"route": {"label": "Ronchin (centre)", "precise": false}`. Pour une adresse exacte, ajouter `"dest": {"label": "...", "lat": 0, "lon": 0}` et `"precise": true`.
-3. Lancer `python scripts/routes.py`, qui calcule la distance et le trajet écrit dans les deux sens.
+3. Lancer `python scripts/routes.py`, qui calcule le vélo, la marche et les transports dans les deux sens.
 
 ## Règles
 
 - Le dépôt est public : ne jamais y mettre de pièce d'identité, de RIB, de relevé, de numéro de visa, de numéro de téléphone personnel ni de montant de budget. Les documents restent dans le Drive privé « Cap Templemars – Dossier logement ».
-- Chaque piste doit garder sa distance, son trajet écrit et son lien Google Maps, du logement vers le stage par défaut.
+- Chaque piste doit garder sa distance, son trajet écrit, son temps à pied, ses options en transports et son lien Google Maps, du logement vers le stage par défaut.
 - Messages aux contacts : toujours polis (bonjour, s'il vous plaît, merci), avec un ton adapté au destinataire. Aucun modèle ne parle de bail court ni de dépôt de garantie.
 - Rien ne s'envoie automatiquement : l'utilisateur relit et envoie lui-même depuis Gmail.
 - Interface en français, au vouvoiement. Conserver les tokens de couleur, les polices et le dock flottant.

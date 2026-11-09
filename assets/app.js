@@ -17,6 +17,10 @@ function parse(s) { var a = s.split('-'); return new Date(+a[0], +a[1] - 1, +a[2
 function days(a, b) { return Math.round((parse(b) - parse(a)) / 86400000); }
 function fr(s) { var d = parse(s); return pad(d.getDate()) + '/' + pad(d.getMonth() + 1); }
 function km(n) { return String(n).replace('.', ','); }
+function dur(m) { return m < 60 ? m + ' min' : Math.floor(m / 60) + ' h' + (m % 60 ? ' ' + pad(m % 60) : ''); }
+function clock(iso) { return new Date(iso).toLocaleTimeString('fr-FR', { timeZone: 'Europe/Paris', hour: '2-digit', minute: '2-digit' }); }
+function span(list) { var a = list.map(function (o) { return o.min; }), lo = Math.min.apply(null, a), hi = Math.max.apply(null, a); return lo === hi ? dur(lo) : hi < 60 ? lo + ' à ' + hi + ' min' : dur(lo) + ' à ' + dur(hi); }
+var MODE = { BUS: 'Bus', COACH: 'Car', TRAM: 'Tram', SUBWAY: 'Métro', METRO: 'Métro', RAIL: 'Train', REGIONAL_RAIL: 'Train', REGIONAL_FAST_RAIL: 'Train', SUBURBAN: 'Train', HIGHSPEED_RAIL: 'Train', LONG_DISTANCE: 'Train', NIGHT_RAIL: 'Train' };
 var TODAY = ymd(new Date());
 
 /* ---------- état ---------- */
@@ -179,7 +183,7 @@ function tags(p) {
 function row(p) {
   var m = mins(p), r = route(p), sel = desk.matches && S.sel === p.id;
   var time = p.onsite ? '<span class="time"><b style="font-size:24px;padding-top:6px">Sur place</b></span>' : '<span class="time"><b>' + m + '</b><span>min vélo</span></span>';
-  return '<article class="row ' + zone(m) + (sel ? ' sel' : '') + '"><button class="row-main" data-piste="' + esc(p.id) + '"' + (sel ? ' aria-current="true"' : '') + '>' + time + '<span style="min-width:0;display:block"><h3>' + esc(p.name) + '</h3><span class="sub" style="display:block">' + esc(p.commune.replace('-Sud', '')) + (r ? ', ' + km(r.km) + ' km' : '') + '</span>' + tags(p) + '</span></button>' + (r ? thumb(r) : '') + '<a class="mini row-map" href="' + esc(p.onsite ? placeUrl() : mapsUrl(p, 'bicycling')) + '" target="_blank" rel="noopener" aria-label="Ouvrir le trajet de ' + esc(p.name) + ' dans Google Maps">' + IC.map + '<span>Maps</span></a></article>';
+  return '<article class="row ' + zone(m) + (sel ? ' sel' : '') + '"><button class="row-main" data-piste="' + esc(p.id) + '"' + (sel ? ' aria-current="true"' : '') + '>' + time + '<span style="min-width:0;display:block"><h3>' + esc(p.name) + '</h3><span class="sub" style="display:block">' + esc(p.commune.replace('-Sud', '')) + (r ? ', ' + km(r.km) + ' km' : '') + '</span>' + (r ? '<span class="sub modes-line" style="display:block">À pied ' + dur(r.walk.min) + (r.transit.length ? ', transports ' + span(r.transit) : ', pas de liaison trouvée') + '</span>' : '') + tags(p) + '</span></button>' + (r ? thumb(r) : '') + '<a class="mini row-map" href="' + esc(p.onsite ? placeUrl() : mapsUrl(p, 'bicycling')) + '" target="_blank" rel="noopener" aria-label="Ouvrir le trajet de ' + esc(p.name) + ' dans Google Maps">' + IC.map + '<span>Maps</span></a></article>';
 }
 function viewPistes() {
   var base = sorted(active()), vis = base.filter(function (p) { return mins(p) <= S.maxMin; }), c = { todo: 0, cours: 0, rel: 0 };
@@ -199,7 +203,7 @@ function viewPistes() {
   return h;
 }
 function viewMap() {
-  var h = '<div class="two"><div class="map-wrap">' + constellation(true) + '</div><div><h2 class="sec" style="margin-top:20px">Temps par commune</h2><div class="list">' + Object.keys(D.communes).sort(function (a, b) { return D.communes[a].min - D.communes[b].min; }).map(function (n) { var c = D.communes[n], p = { commune: n }; return '<a class="item ' + zone(c.min) + '" style="text-decoration:none;align-items:center" href="' + esc(mapsUrl(p, 'bicycling')) + '" target="_blank" rel="noopener"><span class="time" style="width:54px"><b style="font-size:28px">' + c.min + '</b></span><span class="grow"><span class="t">' + esc(n) + '</span><span class="d">' + km(c.km) + ' km' + (c.bus ? '. ' + esc(c.bus) : '') + '</span></span>' + IC.map + '</a>'; }).join('') + '</div></div></div>';
+  var h = '<div class="two"><div class="map-wrap">' + constellation(true) + '</div><div><h2 class="sec" style="margin-top:20px">Temps par commune</h2><div class="list">' + Object.keys(D.communes).sort(function (a, b) { return D.communes[a].min - D.communes[b].min; }).map(function (n) { var c = D.communes[n], p = { commune: n }; return '<a class="item ' + zone(c.min) + '" style="text-decoration:none;align-items:center" href="' + esc(mapsUrl(p, 'bicycling')) + '" target="_blank" rel="noopener"><span class="time" style="width:54px"><b style="font-size:28px">' + c.min + '</b></span><span class="grow"><span class="t">' + esc(n) + '</span><span class="d">' + km(c.km) + ' km à vélo, à pied ' + dur(D.routes[n].walk.min) + (D.routes[n].transit.length ? ', transports ' + span(D.routes[n].transit) : ', pas de liaison trouvée') + '</span></span>' + IC.map + '</a>'; }).join('') + '</div></div></div>';
   return h + '<p class="small" style="margin-top:14px;max-width:70ch">' + esc(D.meta.routing) + '</p>';
 }
 
@@ -216,6 +220,8 @@ function detail(p) {
     h += '<div class="btns fill way-btns"><a class="btn" href="' + esc(mapsUrl(p, 'bicycling', back)) + '" target="_blank" rel="noopener">' + IC.map + 'Google Maps</a><a class="btn ghost" href="' + esc(mapsUrl(p, 'transit', back)) + '" target="_blank" rel="noopener">' + IC.bus + 'En bus</a><a class="btn ghost" href="' + esc(mapsUrl(p, 'walking', back)) + '" target="_blank" rel="noopener">' + IC.walk + 'À pied</a></div>';
     if (p.routeNote || !p.route.precise) h += '<p class="small" style="margin-top:12px">' + esc(p.routeNote || 'L\'annonce ne donne pas d\'adresse exacte : le trajet part du centre de la commune.') + '</p>';
     if (m > 30) h += '<p class="note" style="margin-top:12px">Plus de 30 min à vélo : vérifiez aussi le trajet en bus.</p>';
+    var wk = back ? r.backWalk : r.walk, tr = back ? r.backTransit : r.transit;
+    h += '<div class="modes"><div><span>À pied</span><b>' + dur(wk.min) + '</b><small>' + km(wk.km) + ' km</small></div><div><span>En transports</span>' + (tr.length ? '<b>' + span(tr) + '</b><small>' + (Math.min.apply(null, tr.map(function (o) { return o.ch; })) ? 'Avec correspondance' : 'Liaison directe possible') + '</small>' : '<b class="none">Aucune liaison trouvée</b><small>À vérifier sur ilevia.fr</small>') + '</div></div>';
     h += '</div>';
   } else h += '</div>';
   h += '<h3 class="d-sec">Où en êtes-vous ?</h3><div class="chips" role="group" aria-label="Statut">' + STATUS.map(function (o) { return '<button class="chip" data-st="' + esc(o) + '" data-sid="' + esc(p.id) + '" aria-pressed="' + (o === s) + '">' + o + '</button>'; }).join('') + '</div>';
@@ -224,6 +230,7 @@ function detail(p) {
   if (r) {
     var steps = back ? r.backSteps : r.steps;
     h += '<details class="way" open><summary><h3 class="d-sec">Trajet écrit, ' + steps.length + ' étapes</h3></summary><ol class="turns">' + steps.map(function (t) { return '<li><span>' + esc(t.i) + '</span><span class="k">' + (t.km ? (t.km < 1 ? Math.round(t.km * 1000) + ' m' : km(t.km.toFixed(1)) + ' km') : '') + '</span></li>'; }).join('') + '</ol></details>';
+    h += transitBlock(back ? r.backTransit : r.transit, back);
   }
   h += '<h3 class="d-sec">À savoir</h3><p>' + esc(p.note || 'Aucune information complémentaire.') + '</p>';
   var kv = [['Contact', p.contact], ['Téléphone', p.phone], ['E-mail', p.email]].filter(function (a) { return a[1]; });
@@ -231,6 +238,20 @@ function detail(p) {
   h += '<label class="field" style="margin-top:20px"><span>Mes notes</span><input type="text" id="snote" data-sid="' + esc(p.id) + '" value="' + esc(x.n || '') + '" placeholder="Interlocuteur, réponse, date limite"></label>';
   if (/^c\d/.test(p.id)) h += '<div style="margin-top:16px"><button class="mini" data-del="' + esc(p.id) + '">Retirer cette piste</button></div>';
   return h;
+}
+function legText(l, i, n, back) {
+  if (l.m === 'WALK') {
+    var dest = l.t ? 'à ' + esc(l.t) : (back ? 'au logement' : 'au stage');
+    return (i > 0 && i < n - 1 ? 'Correspondance : marchez ' : 'Marchez ') + l.min + ' min jusqu\'' + dest + '.';
+  }
+  return '<strong>' + (MODE[l.m] || 'Transport') + (l.l ? ' ' + esc(l.l) : '') + '</strong>' + (l.h ? ', direction ' + esc(l.h) : '') + ' : de ' + esc(l.f) + ' à ' + esc(l.t) + ', ' + l.min + ' min.';
+}
+function transitBlock(list, back) {
+  var d = D.meta.transitDate ? fr(D.meta.transitDate) : '';
+  if (!list.length) return '<h3 class="d-sec">En transports</h3><p class="small">Aucune liaison trouvée pour ce trajet. Vérifiez sur <a href="https://www.ilevia.fr/" target="_blank" rel="noopener">ilevia.fr</a> ou avec le bouton « En bus ».</p>';
+  return '<details class="way" open><summary><h3 class="d-sec">En transports, ' + list.length + ' option' + (list.length > 1 ? 's' : '') + '</h3></summary>' + list.map(function (o) {
+    return '<div class="opt"><p><strong>' + dur(o.min) + '</strong>, ' + (o.ch ? o.ch + ' correspondance' + (o.ch > 1 ? 's' : '') : 'direct') + '<span class="small">Départ ' + clock(o.dep) + ', arrivée ' + clock(o.arr) + '</span></p><ol class="legs">' + o.legs.map(function (l, i) { return '<li>' + legText(l, i, o.legs.length, back) + '</li>'; }).join('') + '</ol></div>';
+  }).join('') + '<p class="small" style="margin-top:12px">Exemples calculés pour le lundi ' + d + (back ? ', départ vers 17 h 30' : ', arrivée avant 9 h') + '. Confirmez les horaires sur <a href="https://www.ilevia.fr/" target="_blank" rel="noopener">ilevia.fr</a> et vérifiez que votre titre de transport est valable sur chaque ligne.</p></details>';
 }
 var lastFocus = null;
 function fillSheet(html, label) {
