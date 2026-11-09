@@ -97,7 +97,7 @@ a{color:var(--accent-ink)}
 .chip[aria-pressed=true]{background:var(--gold);color:var(--on-gold);border-color:var(--gold)}
 .chip .n{opacity:.65;margin-left:6px;font-variant-numeric:tabular-nums}
 .seg{display:inline-flex;border:1px solid var(--hair-2);border-radius:999px;padding:3px;gap:2px}
-.seg button{border:0;background:none;color:var(--ink-muted);font:500 14px/1 var(--body);padding:0 18px;min-height:38px;border-radius:999px;cursor:pointer}
+.seg button{border:0;background:none;color:var(--ink-muted);font:500 14px/1 var(--body);padding:0 18px;min-height:42px;border-radius:999px;cursor:pointer}
 .seg button[aria-pressed=true]{background:var(--raise);color:var(--ink)}
 
 /* Barre de filtres */
