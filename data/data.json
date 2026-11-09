@@ -1,0 +1,5541 @@
+{
+ "meta": {
+  "updated": "2026-11-09",
+  "deadline": "2026-12-24",
+  "lastDay": "2026-12-31",
+  "maxRent": 450,
+  "idealRent": 400,
+  "maxBikeMin": 30,
+  "workplace": {
+   "label": "Zone Acti+, Bâtiment 6, Route de Vendeville, Templemars",
+   "lat": 50.5647007,
+   "lon": 3.0552075,
+   "approx": true,
+   "address": "Le Casier Français, Zone Acti+, Bâtiment 6, Route de Vendeville, 59175 Templemars",
+   "name": "Le Casier Français"
+  },
+  "routing": "Temps et distances calculés à vélo, à 16 km/h, avec le routeur cyclable OpenStreetMap. Quand l'annonce ne donne pas d'adresse, le trajet part du centre de la commune. Google Maps utilise l'adresse exacte du Casier Français.",
+  "driveUrl": "https://drive.google.com/drive/folders/1d3i9bIL1tJ4wRcLa43Q_XI_SqSchkssg",
+  "sheetUrl": "https://docs.google.com/spreadsheets/d/1HtaXoKAGHN-zef_Q5UiFahoytaLjcaVEP-xh7PTBROs/edit"
+ },
+ "communes": {
+  "Templemars": {
+   "km": 1.7,
+   "min": 7,
+   "lat": 50.5762,
+   "lon": 3.0529,
+   "bus": "Ligne 55 dessert la zone d'activités (source 2019, à vérifier)"
+  },
+  "Vendeville": {
+   "km": 2.2,
+   "min": 9,
+   "lat": 50.5756,
+   "lon": 3.0775,
+   "bus": ""
+  },
+  "Wattignies": {
+   "km": 3.2,
+   "min": 12,
+   "lat": 50.5879,
+   "lon": 3.0512,
+   "bus": ""
+  },
+  "Seclin": {
+   "km": 3.5,
+   "min": 14,
+   "lat": 50.5452,
+   "lon": 3.0253,
+   "bus": ""
+  },
+  "Noyelles-lès-Seclin": {
+   "km": 4.8,
+   "min": 19,
+   "lat": 50.5764,
+   "lon": 3.0169,
+   "bus": ""
+  },
+  "Lesquin": {
+   "km": 6.0,
+   "min": 23,
+   "lat": 50.5888,
+   "lon": 3.11,
+   "bus": "Bus Ilévia vers Templemars, fréquence incertaine"
+  },
+  "Faches-Thumesnil": {
+   "km": 5.5,
+   "min": 21,
+   "lat": 50.6026,
+   "lon": 3.0698,
+   "bus": ""
+  },
+  "Ronchin": {
+   "km": 5.8,
+   "min": 23,
+   "lat": 50.6057,
+   "lon": 3.0779,
+   "bus": ""
+  },
+  "Houplin-Ancoisne": {
+   "km": 5.6,
+   "min": 22,
+   "lat": 50.5621,
+   "lon": 3.0012,
+   "bus": ""
+  },
+  "Lille-Sud": {
+   "km": 6.4,
+   "min": 25,
+   "lat": 50.6129,
+   "lon": 3.062,
+   "bus": ""
+  },
+  "Emmerin": {
+   "km": 6.3,
+   "min": 25,
+   "lat": 50.5909,
+   "lon": 3.0058,
+   "bus": ""
+  },
+  "Gondecourt": {
+   "km": 7.1,
+   "min": 28,
+   "lat": 50.5432,
+   "lon": 2.9831,
+   "bus": ""
+  },
+  "Loos": {
+   "km": 7.8,
+   "min": 30,
+   "lat": 50.6092,
+   "lon": 3.0163,
+   "bus": ""
+  },
+  "Lezennes": {
+   "km": 8.2,
+   "min": 32,
+   "lat": 50.6146,
+   "lon": 3.1165,
+   "bus": "Au-delà de 30 min à vélo : bus à vérifier"
+  },
+  "Haubourdin": {
+   "km": 8.7,
+   "min": 35,
+   "lat": 50.6094,
+   "lon": 2.9864,
+   "bus": "Au-delà de 30 min à vélo : bus à vérifier"
+  },
+  "Santes": {
+   "km": 10.6,
+   "min": 41,
+   "lat": 50.5977,
+   "lon": 2.9555,
+   "bus": "Au-delà de 30 min à vélo : bus à vérifier"
+  }
+ },
+ "pistes": [
+  {
+   "id": "tuteur",
+   "name": "Tuteur ou RH du Casier Français",
+   "kind": "reseau",
+   "commune": "Templemars",
+   "score": "A?",
+   "rent": null,
+   "contact": "Votre tuteur de stage ou le service RH",
+   "email": "",
+   "phone": "",
+   "url": "",
+   "msg": "tuteur",
+   "note": "Piste n° 1 pour la proximité : collègues qui louent une chambre, sous-locations, conseils locaux.",
+   "onsite": true,
+   "route": {
+    "label": "Sur ton lieu de stage",
+    "precise": true
+   }
+  },
+  {
+   "id": "coloc-watt",
+   "name": "Colocation à Wattignies, chambre 9 m²",
+   "kind": "coloc",
+   "commune": "Wattignies",
+   "score": "B",
+   "rent": 390,
+   "contact": "Via le site",
+   "email": "",
+   "phone": "",
+   "url": "https://www.location-etudiant.fr/colocation/chambre-dans-une-colocation-de-9m2-Wattignies-59139/31963.php",
+   "msg": "coloc",
+   "note": "390 € charges comprises. La page ne donne aucun détail : à ouvrir en premier.",
+   "route": {
+    "label": "Wattignies (centre)",
+    "precise": false,
+    "key": "Wattignies"
+   },
+   "ask": "L'annonce donne peu de détails : pourriez-vous, s'il vous plaît, me décrire un peu la chambre et le logement ?"
+  },
+  {
+   "id": "crous-lille",
+   "name": "Crous de Lille : service logement",
+   "kind": "structure",
+   "commune": "Lille-Sud",
+   "score": "B",
+   "rent": null,
+   "contact": "Standard 03 20 88 66 00 (annuaire)",
+   "email": "antenne.lille1@crous-lille.fr",
+   "phone": "03 20 88 66 00",
+   "url": "https://trouverunlogement.lescrous.fr/",
+   "msg": "structure",
+   "note": "Le numéro de la résidence Mermoz (Wattignies) n'est pas attribué : passez par le standard. Autres adresses : dve@crous-lille.fr (source peu fiable), service.international@crous-lille.fr.",
+   "routeNote": "Le trajet réel dépend de la résidence proposée.",
+   "route": {
+    "label": "Lille-Sud (centre)",
+    "precise": false,
+    "key": "Lille-Sud"
+   },
+   "ask": "Un étudiant en stage de 6 mois peut-il déposer une demande en cours d'année, s'il vous plaît ?"
+  },
+  {
+   "id": "fjt-thumesnil",
+   "name": "FJT Thumesnil (Lille)",
+   "kind": "structure",
+   "commune": "Lille-Sud",
+   "score": "B",
+   "rent": null,
+   "contact": "17 rue de Thumesnil, Lille",
+   "email": "contact@majt-lille.org",
+   "phone": "03 20 52 69 75",
+   "url": "",
+   "msg": "structure",
+   "note": "Source : guide de Lille Métropole, non vérifié. Public de 18 à 30 ans, accueil sur rendez-vous.",
+   "dest": {
+    "label": "17 rue de Thumesnil, Lille",
+    "lat": 50.6187151,
+    "lon": 3.0670901
+   },
+   "route": {
+    "label": "17 rue de Thumesnil, Lille",
+    "precise": true,
+    "key": "fjt-thumesnil"
+   },
+   "ask": "Accueillez-vous les stagiaires pour une durée de 6 mois, s'il vous plaît ?"
+  },
+  {
+   "id": "habitat-jeunes",
+   "name": "Habitat Jeunes : résidences et services logement",
+   "kind": "structure",
+   "commune": "Lille-Sud",
+   "score": "B",
+   "rent": null,
+   "contact": "habitatjeunes.org",
+   "email": "",
+   "phone": "",
+   "url": "https://www.habitatjeunes.org/",
+   "msg": "structure",
+   "note": "Cherchez les résidences de la métropole lilloise et leur service logement. Aucun CLLAJ trouvé à Lille.",
+   "routeNote": "Le trajet réel dépend de la résidence proposée.",
+   "route": {
+    "label": "Lille-Sud (centre)",
+    "precise": false,
+    "key": "Lille-Sud"
+   },
+   "ask": "Pourriez-vous, s'il vous plaît, m'indiquer la résidence la plus proche de Templemars ?"
+  },
+  {
+   "id": "ronchin-chambre",
+   "name": "Chambre chez l'habitant à Ronchin, 13 m²",
+   "kind": "particulier",
+   "commune": "Ronchin",
+   "score": "B",
+   "rent": 425,
+   "contact": "Via la plateforme LocService",
+   "email": "",
+   "phone": "",
+   "url": "https://www.locservice.fr/nord-59/location-chambre-ronchin/2549275",
+   "msg": "particulier",
+   "note": "SdB et WC privatifs. Charges contradictoires (425 € CC ou 35 € à part). Dépôt de garantie 780 € affiché.",
+   "route": {
+    "label": "Ronchin (centre)",
+    "precise": false,
+    "key": "Ronchin"
+   },
+   "ask": "Pourriez-vous aussi, s'il vous plaît, me confirmer le montant exact des charges et l'accès à la cuisine ?"
+  },
+  {
+   "id": "ronchin-studio",
+   "name": "Studio à Ronchin, 16 m²",
+   "kind": "particulier",
+   "commune": "Ronchin",
+   "score": "C",
+   "rent": 432,
+   "contact": "Via la plateforme LocService",
+   "email": "",
+   "phone": "",
+   "url": "https://www.locservice.fr/nord-59/location-studio-ronchin/327759",
+   "msg": "particulier",
+   "note": "Meublé, charges et disponibilité inconnus : annonce non ouverte. Un studio seul vaut mieux qu'une chambre.",
+   "route": {
+    "label": "Ronchin (centre)",
+    "precise": false,
+    "key": "Ronchin"
+   },
+   "ask": "Pourriez-vous aussi, s'il vous plaît, me dire si le studio est meublé ?"
+  },
+  {
+   "id": "faches-chambre",
+   "name": "Chambre à Faches-Thumesnil, 20 m²",
+   "kind": "particulier",
+   "commune": "Faches-Thumesnil",
+   "score": "C",
+   "rent": 450,
+   "contact": "Via la plateforme LocService",
+   "email": "",
+   "phone": "",
+   "url": "https://www.locservice.fr/nord-59/location-chambre-faches-thumesnil/392635",
+   "msg": "particulier",
+   "note": "Cuisine et SdB partagées, charges contradictoires. La candidature est payante sur la plateforme (29 €/mois) : ne payez pas.",
+   "route": {
+    "label": "Faches-Thumesnil (centre)",
+    "precise": false,
+    "key": "Faches-Thumesnil"
+   },
+   "ask": "Pourriez-vous aussi, s'il vous plaît, me confirmer le montant exact des charges ?"
+  },
+  {
+   "id": "loos346",
+   "name": "Chambre chez l'habitant à Loos, 14 m²",
+   "kind": "particulier",
+   "commune": "Loos",
+   "score": "B",
+   "rent": 346,
+   "contact": "Via la plateforme LocService",
+   "email": "",
+   "phone": "",
+   "url": "https://www.locservice.fr/nord-59/location-chambre-loos/257811",
+   "msg": "particulier",
+   "note": "346 € charges comprises. SdB et cuisine non précisées.",
+   "route": {
+    "label": "Loos (centre)",
+    "precise": false,
+    "key": "Loos"
+   },
+   "ask": "Pourriez-vous aussi, s'il vous plaît, me dire si la salle de bain et la cuisine sont partagées ?"
+  },
+  {
+   "id": "loos-autres",
+   "name": "Autres chambres à Loos : 335, 340, 380, 400 €",
+   "kind": "particulier",
+   "commune": "Loos",
+   "score": "C",
+   "rent": 335,
+   "contact": "Via la plateforme LocService",
+   "email": "",
+   "phone": "",
+   "url": "https://www.locservice.fr/nord-59/location-chambre-loos/328003",
+   "msg": "particulier",
+   "note": "Annonces 328003, 657683, 597969, 393457. Seule celle à 346 € a été ouverte.",
+   "route": {
+    "label": "Loos (centre)",
+    "precise": false,
+    "key": "Loos"
+   },
+   "ask": "Pourriez-vous aussi, s'il vous plaît, me dire si la salle de bain et la cuisine sont partagées ?"
+  },
+  {
+   "id": "faches-habitat-loos",
+   "name": "Fac-Habitat L'Orée du Campus (Loos)",
+   "kind": "residence",
+   "commune": "Loos",
+   "score": "C",
+   "rent": 456,
+   "contact": "Résidence",
+   "email": "",
+   "phone": "",
+   "url": "https://logement.smerra.fr/en/ville/lille/",
+   "msg": "residence",
+   "note": "Dès 456 € selon une annonce tierce, légèrement au-dessus du plafond.",
+   "route": {
+    "label": "Loos (centre)",
+    "precise": false,
+    "key": "Loos"
+   },
+   "ask": "Le tarif à partir de 456 € est-il toujours d'actualité, s'il vous plaît ?"
+  },
+  {
+   "id": "lesquin-460",
+   "name": "Chambre chez l'habitant à Lesquin, 12 m²",
+   "kind": "particulier",
+   "commune": "Lesquin",
+   "score": "ecarte",
+   "rent": 460,
+   "contact": "Via la plateforme LocService",
+   "email": "",
+   "phone": "",
+   "url": "https://www.locservice.fr/nord-59/location-chambre-lesquin/2515149",
+   "msg": "particulier",
+   "note": "460 € : au-dessus du plafond de 450 €. SdB privative. À garder en réserve si tout le reste échoue.",
+   "route": {
+    "label": "Lesquin (centre)",
+    "precise": false,
+    "key": "Lesquin"
+   },
+   "ask": "Pourriez-vous aussi, s'il vous plaît, me dire si la cuisine est accessible ?"
+  },
+  {
+   "id": "lesquin-250",
+   "name": "Chambre à Lesquin à 250 €",
+   "kind": "particulier",
+   "commune": "Lesquin",
+   "score": "arnaque",
+   "rent": 250,
+   "contact": "",
+   "email": "",
+   "phone": "",
+   "url": "https://www.locservice.fr/nord-59/location-chambre-lesquin/2438035",
+   "msg": "",
+   "note": "Prix anormalement bas et charges contradictoires. Ne rien payer avant d'avoir visité.",
+   "route": {
+    "label": "Lesquin (centre)",
+    "precise": false,
+    "key": "Lesquin"
+   }
+  }
+ ],
+ "chercher": [
+  {
+   "commune": "Templemars, Vendeville, Wattignies",
+   "min": "7 à 14 min",
+   "ou": "Leboncoin, Facebook, tuteur, voisins de l'entreprise, Roomlala, Appartager"
+  },
+  {
+   "commune": "Seclin, Noyelles-lès-Seclin",
+   "min": "15 à 17 min",
+   "ou": "Leboncoin, agences de Seclin, Roomlala, Laforêt, Orpi"
+  },
+  {
+   "commune": "Lesquin, Faches-Thumesnil, Ronchin, Houplin-Ancoisne",
+   "min": "21 à 22 min",
+   "ou": "Leboncoin, PAP, Bien'ici, Facebook"
+  },
+  {
+   "commune": "Emmerin, Lille-Sud, Gondecourt, Loos",
+   "min": "25 à 29 min",
+   "ou": "Roomlala (Emmerin), Lokaviz, Studapart"
+  }
+ ],
+ "plateformes": [
+  {
+   "id": "lbc",
+   "n": "Leboncoin",
+   "u": "https://www.leboncoin.fr/",
+   "h": "Locations meublées. Une alerte par groupe de communes, loyer max 450 €. La gratuité des alertes n'est pas confirmée officiellement : à tester."
+  },
+  {
+   "id": "pap",
+   "n": "PAP",
+   "u": "https://www.pap.fr/locataire",
+   "h": "Alerte e-mail gratuite pour les locataires. Annonces sans frais d'agence."
+  },
+  {
+   "id": "bienici",
+   "n": "Bien'ici",
+   "u": "https://www.bienici.com/",
+   "h": "Dessinez une zone autour de Templemars. Meublé, 450 € maximum."
+  },
+  {
+   "id": "seloger",
+   "n": "SeLoger",
+   "u": "https://www.seloger.com/",
+   "h": "Même recherche. Beaucoup d'agences : demandez si le bail est meublé et la garantie Visale acceptée."
+  },
+  {
+   "id": "logic",
+   "n": "Logic-Immo",
+   "u": "https://www.logic-immo.com/",
+   "h": "Même recherche, alerte e-mail."
+  },
+  {
+   "id": "studapart",
+   "n": "Studapart",
+   "u": "https://www.studapart.com/fr/location-courte-duree-lille",
+   "h": "Les demandes dépassent les offres de 2 à 4 fois à Lille : écrivez vite."
+  },
+  {
+   "id": "immojeune",
+   "n": "ImmoJeune",
+   "u": "https://www.immojeune.com/logement-etudiant-stage.html",
+   "h": "Page dédiée aux stagiaires. Filtrez Lille et alentours."
+  },
+  {
+   "id": "studylease",
+   "n": "Studylease",
+   "u": "https://www.studylease.com/",
+   "h": "Réservation en ligne gratuite auprès des résidences étudiantes."
+  },
+  {
+   "id": "locetud",
+   "n": "location-etudiant.fr, Cap Logement Étudiant",
+   "u": "https://www.location-etudiant.fr/",
+   "h": "Annuaires de résidences et colocations."
+  },
+  {
+   "id": "lokaviz",
+   "n": "Lokaviz",
+   "u": "https://www.lokaviz.fr/",
+   "h": "Offres de particuliers contrôlées par les Crous. Consultation gratuite."
+  },
+  {
+   "id": "housing",
+   "n": "HousingAnywhere",
+   "u": "https://housinganywhere.com/",
+   "h": "Sous-locations d'étudiants en mobilité."
+  },
+  {
+   "id": "appartager",
+   "n": "Appartager",
+   "u": "https://www.appartager.com/",
+   "h": "Chambres chez l'habitant et colocations."
+  },
+  {
+   "id": "cdc",
+   "n": "La Carte des Colocs",
+   "u": "https://www.lacartedescolocs.fr/",
+   "h": "Colocations : à regarder chaque jeudi."
+  },
+  {
+   "id": "roomlala",
+   "n": "Roomlala",
+   "u": "https://www.roomlala.com/",
+   "h": "Chambres chez l'habitant, par exemple à Emmerin."
+  },
+  {
+   "id": "zimo",
+   "n": "Zimo",
+   "u": "https://www.zimo.fr/",
+   "h": "Agrégateur : studios et chambres près de Templemars, Wattignies, Seclin."
+  },
+  {
+   "id": "fb",
+   "n": "Groupes Facebook",
+   "u": "https://www.facebook.com/",
+   "h": "« Lille : location d'appart, échange, colocation », « Logement Lille », « logement étudiant lille ». Notifications sur toutes les publications."
+  },
+  {
+   "id": "galert",
+   "n": "Google Alertes",
+   "u": "https://www.google.com/alerts",
+   "h": "« chambre meublée Seclin », « studio meublé Wattignies », « chambre Templemars »…"
+  },
+  {
+   "id": "agences",
+   "n": "Agences locales",
+   "u": "https://www.google.com/maps/search/agence+immobili%C3%A8re+Seclin",
+   "h": "Seclin, Wattignies, Ronchin, Faches-Thumesnil, Lesquin : demandez un e-mail de contact."
+  }
+ ],
+ "rotation": {
+  "1": {
+   "n": "Lundi",
+   "p": "Leboncoin et PAP",
+   "x": "Chambres et studios de particuliers. Commencez par les communes à moins de 20 min."
+  },
+  "2": {
+   "n": "Mardi",
+   "p": "Bien'ici, SeLoger, Logic-Immo",
+   "x": "Annonces d'agences : demandez si le bail est meublé et Visale accepté."
+  },
+  "3": {
+   "n": "Mercredi",
+   "p": "Studapart, ImmoJeune, Studylease, Lokaviz",
+   "x": "Plateformes étudiantes et séjours de quelques mois."
+  },
+  "4": {
+   "n": "Jeudi",
+   "p": "Appartager, Roomlala, La Carte des Colocs, Facebook",
+   "x": "Chambres chez l'habitant, sous-locations, colocations."
+  },
+  "5": {
+   "n": "Vendredi",
+   "p": "Résidences privées, Crous, FJT, Habitat Jeunes",
+   "x": "Appels aux structures avant le week-end."
+  },
+  "6": {
+   "n": "Samedi",
+   "p": "Agences locales et relances",
+   "x": "Écrivez aux agences de Seclin, Wattignies et Ronchin."
+  },
+  "0": {
+   "n": "Dimanche",
+   "p": "Bilan de la semaine",
+   "x": "Triez les pistes, retirez celles qui n'aboutiront pas et préparez les 3 premiers messages de lundi."
+  }
+ },
+ "tasks": [
+  {
+   "id": "t1",
+   "min": 10,
+   "t": "Ouvrir les alertes",
+   "d": "Lisez les e-mails et notifications reçus. Gardez seulement les communes à moins de 30 min à vélo et au plus 450 €."
+  },
+  {
+   "id": "t2",
+   "min": 35,
+   "t": "Parcourir les plateformes du jour",
+   "d": "Voir le bloc « Plateformes du jour ». Ajoutez chaque bonne annonce dans Pistes."
+  },
+  {
+   "id": "t3",
+   "min": 30,
+   "t": "Envoyer 3 nouveaux e-mails",
+   "d": "Onglet Mails : choisissez la piste, relisez le brouillon, ouvrez Gmail et envoyez-le vous-même."
+  },
+  {
+   "id": "t4",
+   "min": 20,
+   "t": "Appels et relances",
+   "d": "Appelez une structure. Envoyez les relances marquées « À relancer »."
+  },
+  {
+   "id": "t5",
+   "min": 10,
+   "t": "Mettre le suivi à jour",
+   "d": "Statut et note de chaque piste touchée, avec le nom de l'interlocuteur."
+  },
+  {
+   "id": "t6",
+   "min": 15,
+   "t": "Dossier",
+   "d": "Avancez sur une pièce de l'onglet Documents ou une démarche du Pense-bête."
+  }
+ ],
+ "docs": [
+  {
+   "id": "d-id",
+   "g": "Identité et séjour",
+   "t": "Passeport ou pièce d'identité",
+   "types": [
+    "part",
+    "agence",
+    "residence",
+    "structure",
+    "coloc"
+   ],
+   "h": "Scan lisible, en PDF. Envoyez-le seulement après avoir visité ou après vérification de l'annonce.",
+   "st": "ready"
+  },
+  {
+   "id": "d-ts",
+   "g": "Identité et séjour",
+   "t": "Titre de séjour ou visa long séjour",
+   "types": [
+    "part",
+    "agence",
+    "residence",
+    "structure",
+    "coloc"
+   ],
+   "h": "Vérifiez qu'il couvre toute la période jusqu'à fin juin 2027.",
+   "st": "update"
+  },
+  {
+   "id": "d-conv",
+   "g": "Stage",
+   "t": "Convention de stage signée",
+   "types": [
+    "part",
+    "agence",
+    "residence",
+    "structure",
+    "coloc"
+   ],
+   "h": "Elle prouve les dates (janvier à fin juin 2027) et le lieu : Templemars."
+  },
+  {
+   "id": "d-att",
+   "g": "Stage",
+   "t": "Attestation de l'entreprise ou lettre du tuteur",
+   "types": [
+    "agence",
+    "residence",
+    "structure"
+   ],
+   "h": "À demander au Casier Français : dates, lieu et montant de la gratification."
+  },
+  {
+   "id": "d-grat",
+   "g": "Ressources",
+   "t": "Justificatif de gratification ou de ressources",
+   "types": [
+    "part",
+    "agence",
+    "residence",
+    "structure",
+    "coloc"
+   ],
+   "h": "Montant mensuel prévu, ou relevé montrant vos ressources."
+  },
+  {
+   "id": "d-rel",
+   "g": "Ressources",
+   "t": "Relevés bancaires des 3 derniers mois",
+   "types": [
+    "agence",
+    "residence",
+    "structure"
+   ],
+   "h": "Certaines résidences et agences les demandent.",
+   "st": "update"
+  },
+  {
+   "id": "d-visale",
+   "g": "Garantie",
+   "t": "Attestation Visale (visa)",
+   "types": [
+    "part",
+    "agence",
+    "residence",
+    "structure",
+    "coloc"
+   ],
+   "h": "Sur visale.fr. Vérifiez la date limite de signature du bail indiquée sur le visa, et renouvelez-le si besoin.",
+   "st": "ready"
+  },
+  {
+   "id": "d-scol",
+   "g": "Scolarité",
+   "t": "Certificat de scolarité de l'année en cours",
+   "types": [
+    "part",
+    "agence",
+    "residence",
+    "structure",
+    "coloc"
+   ],
+   "h": "À demander à votre école de Rennes.",
+   "st": "ready"
+  },
+  {
+   "id": "d-etu",
+   "g": "Scolarité",
+   "t": "Carte d'étudiant",
+   "types": [
+    "residence",
+    "structure"
+   ],
+   "h": "Les résidences étudiantes et le Crous la demandent souvent."
+  },
+  {
+   "id": "d-dom",
+   "g": "Domicile actuel",
+   "t": "Justificatif de domicile à Rennes",
+   "types": [
+    "agence",
+    "residence",
+    "structure"
+   ],
+   "h": "Quittance de loyer, facture ou attestation d'hébergement.",
+   "st": "update"
+  },
+  {
+   "id": "d-rib",
+   "g": "Banque",
+   "t": "RIB français",
+   "types": [
+    "part",
+    "agence",
+    "residence",
+    "structure",
+    "coloc"
+   ],
+   "h": "Pour payer le loyer par virement ou prélèvement.",
+   "st": "ready"
+  },
+  {
+   "id": "d-photo",
+   "g": "Divers",
+   "t": "Photos d'identité",
+   "types": [
+    "structure",
+    "residence"
+   ],
+   "h": "Le Crous et les FJT en demandent pour la fiche d'entrée."
+  },
+  {
+   "id": "d-pres",
+   "g": "Divers",
+   "t": "Lettre de présentation courte",
+   "types": [
+    "part",
+    "coloc"
+   ],
+   "h": "Qui vous êtes, votre stage, vos horaires, ce qui vous rend fiable. Dix lignes suffisent."
+  },
+  {
+   "id": "d-ff",
+   "g": "Divers",
+   "t": "Dossier numérique DossierFacile",
+   "types": [
+    "part",
+    "agence",
+    "coloc"
+   ],
+   "h": "Service de l'État gratuit : il rassemble et fait certifier vos pièces. À créer vous-même."
+  },
+  {
+   "id": "d-assur",
+   "g": "Avant l'entrée",
+   "t": "Assurance habitation",
+   "types": [
+    "part",
+    "agence",
+    "residence",
+    "structure",
+    "coloc"
+   ],
+   "h": "Obligatoire pour louer. À souscrire avant la remise des clés. Gardez l'attestation."
+  },
+  {
+   "id": "d-coloc",
+   "g": "Colocation",
+   "t": "Accord des colocataires et règles de vie",
+   "types": [
+    "coloc"
+   ],
+   "h": "Demandez le règlement, le partage des charges et l'accès à la cuisine."
+  }
+ ],
+ "typesDoc": [
+  {
+   "k": "part",
+   "l": "Particulier ou chez l'habitant"
+  },
+  {
+   "k": "coloc",
+   "l": "Colocation"
+  },
+  {
+   "k": "agence",
+   "l": "Agence"
+  },
+  {
+   "k": "residence",
+   "l": "Résidence privée"
+  },
+  {
+   "k": "structure",
+   "l": "Crous, FJT, Habitat Jeunes"
+  }
+ ],
+ "messages": {
+  "structure": {
+   "t": "Crous, FJT, Habitat Jeunes",
+   "ton": "Formel et chaleureux",
+   "subject": "Demande de logement : stage à Templemars, entrée fin décembre 2026",
+   "body": "Bonjour, j'espère que vous allez bien.\n\nJe suis étudiant étranger et je réalise un stage de 6 mois chez Le Casier Français, à Templemars, à partir de janvier 2027. Je cherche un logement pour une entrée entre le 24 et le 31 décembre 2026.\n\nAvez-vous une chambre ou un studio disponible à cette date ? Pouvez-vous m'indiquer les conditions d'accès, les pièces à fournir et la procédure pour candidater s'il vous plaît ?\n\n[précisions]\n\nMerci beaucoup pour votre aide.\n\nCordialement,\nHabib Moutalabi"
+  },
+  "particulier": {
+   "t": "Particulier ou chambre chez l'habitant",
+   "ton": "Chaleureux et personnel",
+   "subject": "Votre annonce pour [un logement] à [commune]",
+   "body": "Bonjour, j'espère que vous allez bien.\n\nJe m'appelle Habib, je suis étudiant et je commence en janvier 2027 un stage de 6 mois chez Le Casier Français, à Templemars. Votre annonce pour [un logement] à [commune] m'a beaucoup plu, notamment parce qu'elle est proche de mon lieu de stage.\n\nJe cherche à emménager entre le 24 et le 31 décembre 2026. Le logement est-il toujours disponible à cette date, s'il vous plaît ? Pourriez-vous me préciser le loyer charges comprises et les conditions de location ?\n\n[précisions]\n\nJe serais ravi de vous rencontrer pour une visite, sur place ou en visio, selon ce qui vous arrange.\n\nMerci beaucoup pour votre temps et belle journée à vous,\nHabib Moutalabi"
+  },
+  "coloc": {
+   "t": "Colocation",
+   "ton": "Amical et respectueux",
+   "subject": "Chambre en colocation à [commune]",
+   "body": "Bonjour à toutes et à tous, j'espère que vous allez bien.\n\nJe m'appelle Habib, je suis étudiant et je fais un stage de 6 mois chez Le Casier Français, à Templemars, de janvier à fin juin 2027. J'ai vu votre annonce pour la chambre à [commune] et elle m'intéresse beaucoup.\n\nEst-ce qu'elle est toujours libre pour une arrivée entre le 24 et le 31 décembre, s'il vous plaît ? Je serais content d'en savoir plus sur le loyer, les charges et la vie dans la colocation.\n\n[précisions]\n\nJe peux passer vous rencontrer ou faire un appel vidéo, comme vous préférez.\n\nMerci beaucoup d'avance et à bientôt, je l'espère,\nHabib"
+  },
+  "agence": {
+   "t": "Agence immobilière",
+   "ton": "Formel et concis",
+   "subject": "Demande de visite : [un logement] à [commune]",
+   "body": "Bonjour Madame, Monsieur,\n\nVotre annonce pour [un logement] à [commune] m'intéresse. Je suis étudiant en stage de 6 mois chez Le Casier Français, à Templemars, de janvier à fin juin 2027, et je souhaite emménager entre le 24 et le 31 décembre 2026.\n\nLe logement est-il disponible à cette date ? Pourriez-vous, s'il vous plaît, m'indiquer le loyer charges comprises, les pièces demandées et vos disponibilités pour une visite ?\n\n[précisions]\n\nJe vous remercie par avance pour votre retour.\n\nCordialement,\nHabib Moutalabi"
+  },
+  "residence": {
+   "t": "Résidence étudiante privée",
+   "ton": "Professionnel et courtois",
+   "subject": "Disponibilité d'un studio pour fin décembre 2026",
+   "body": "Bonjour, j'espère que vous allez bien.\n\nJe recherche un studio meublé pour un stage de 6 mois chez Le Casier Français, à Templemars, avec une entrée entre le 24 et le 31 décembre 2026 et un départ fin juin 2027.\n\nAuriez-vous un logement disponible à ces dates ? Pourriez-vous m'indiquer le loyer mensuel charges comprises, les pièces à fournir et la procédure de réservation s'il vous plaît ?\n\n[précisions]\n\nMerci par avance pour votre retour.\n\nCordialement,\nHabib Moutalabi"
+  },
+  "tuteur": {
+   "t": "Tuteur ou RH du Casier Français",
+   "ton": "Professionnel et cordial",
+   "subject": "Recherche de logement près de Templemars",
+   "body": "Bonjour [prénom], j'espère que vous allez bien.\n\nJe commence mon stage chez vous en janvier et je cherche un logement près de Templemars pour la fin décembre. Auriez-vous connaissance, s'il vous plaît, de collègues qui louent une chambre ou un studio, d'une résidence proche, ou d'un dispositif d'aide pour les stagiaires ?\n\nTout conseil me serait précieux. Merci beaucoup par avance pour votre aide.\n\nBien cordialement,\nHabib Moutalabi"
+  },
+  "relance": {
+   "t": "Relance",
+   "ton": "Court et poli",
+   "subject": "Relance : [le logement] à [commune]",
+   "body": "Bonjour, j'espère que vous allez bien.\n\nJe me permets de revenir vers vous au sujet de mon message du [date d'envoi] concernant [le logement] à [commune]. Est-il toujours possible d'envisager une entrée fin décembre, s'il vous plaît ? Je reste disponible pour une visite quand cela vous arrange.\n\nMerci beaucoup pour votre retour et belle journée à vous.\n\nCordialement,\nHabib Moutalabi"
+  }
+ },
+ "aides": [
+  {
+   "t": "Visale",
+   "s": [
+    "Demande gratuite sur visale.fr, à faire vous-même.",
+    "Les guides disent que les étudiants étrangers y ont droit avec un visa long séjour ou un titre de séjour valide.",
+    "Les sources divergent sur l'ordre : visa avant ou après avoir trouvé le logement. Lisez la FAQ officielle."
+   ],
+   "u": "https://www.visale.fr/"
+  },
+  {
+   "t": "Avance Loca-Pass",
+   "s": [
+    "Prêt à 0 % d'Action Logement pour un dépôt de garantie, plafonné à 1 200 € selon les guides.",
+    "L'accès des stagiaires n'est pas confirmé : appelez le 0970 800 800 ou essayez le simulateur."
+   ],
+   "u": "https://www.actionlogement.fr/"
+  },
+  {
+   "t": "Mobili-Jeune",
+   "s": [
+    "Réservé aux alternants. Pas pour un stagiaire."
+   ]
+  },
+  {
+   "t": "Transport : Ilévia",
+   "s": [
+    "Une ligne 55 dessert la zone d'activités de Templemars (source 2019, à vérifier).",
+    "Itinéraire à jour sur ilevia.fr ou au 03 20 40 40 40.",
+    "Tarifs jeunes : la limite d'âge (25 ou 26 ans) et les justificatifs pour un stagiaire sont à confirmer en agence."
+   ],
+   "u": "https://www.ilevia.fr/"
+  }
+ ],
+ "pensebete": [
+  {
+   "t": "Visale : date limite de signature",
+   "d": "Le visa indique la date limite pour signer le bail. Si la signature tombe après, demandez un nouveau visa sur visale.fr."
+  },
+  {
+   "t": "Plan B du 24 au 31 décembre",
+   "d": "Prévoyez une solution temporaire (ami, auberge, chambre à la nuit) au cas où le logement n'est pas prêt. Fixez-vous une date limite, par exemple le 5 décembre."
+  },
+  {
+   "t": "Visites depuis Rennes",
+   "d": "Regroupez les visites sur un ou deux déplacements. Demandez aussi une visite en visio, mais ne versez jamais rien avant d'avoir vu le logement ou rencontré le propriétaire."
+  },
+  {
+   "t": "Budget mensuel",
+   "d": "Loyer, transport, nourriture : un loyer plus bas ou un vélo (transport gratuit) pèse lourd."
+  },
+  {
+   "t": "Compte bancaire français",
+   "d": "Vérifiez que votre RIB français est actif pour payer le loyer."
+  },
+  {
+   "t": "Après la signature",
+   "d": "État des lieux d'entrée avec photos, attestation d'assurance, ouverture d'électricité et internet si nécessaire."
+  },
+  {
+   "t": "Vélo",
+   "d": "Un bon antivol, des lumières et un casque : vous roulerez en hiver, souvent avant le lever du jour."
+  }
+ ],
+ "driveFolders": {
+  "Identité et séjour": "https://drive.google.com/drive/folders/1qziluJcQeFDWDc70ivi000HIM-jlyVR7",
+  "Stage": "https://drive.google.com/drive/folders/1YSY6nZybuAPK1CgFS6HdNzKNvMIr6rDS",
+  "Ressources": "https://drive.google.com/drive/folders/1aK26ug3BMPoefuywH5HyyylmxQV2WIF3",
+  "Garantie": "https://drive.google.com/drive/folders/13J5lDvjeP2j5ywr5Jjx-wDruSaLrjtNy",
+  "Scolarité": "https://drive.google.com/drive/folders/1yH3GTlY7io3lvsLM8pqszJteCTc4ylRy",
+  "Domicile actuel": "https://drive.google.com/drive/folders/1P4Exrwg65GTsHqNH90-RMJ5NxqjLIMhP",
+  "Banque": "https://drive.google.com/drive/folders/1FpBkOAY08o8yrRGkyrsxmRfdx0yOXmPN",
+  "Divers": "https://drive.google.com/drive/folders/1Ggg8S2ccsCQVYcIU7fGzoBPEL--M8umP",
+  "Avant l'entrée": "https://drive.google.com/drive/folders/1her_9OtKaOaHWWroRtgj5HVTa6QRCca9",
+  "Colocation": "https://drive.google.com/drive/folders/1ozPzRh8Im-Piu3VBqeda00ldQ1IT0V4M"
+ },
+ "routes": {
+  "Templemars": {
+   "km": 1.7,
+   "min": 7,
+   "steps": [
+    {
+     "i": "Pédalez vers le sud sur Rue Jules Guesde/M 145E. Continuez sur M 145E.",
+     "km": 0.94
+    },
+    {
+     "i": "Tournez à droite dans Rue Maria Mullier.",
+     "km": 0.55
+    },
+    {
+     "i": "Tournez à gauche dans Route de Vendeville/M 952.",
+     "km": 0.24
+    },
+    {
+     "i": "Vous êtes arrivé à votre destination.",
+     "km": 0.0
+    }
+   ],
+   "shape": [
+    [
+     50.57621,
+     3.05299
+    ],
+    [
+     50.57338,
+     3.05363
+    ],
+    [
+     50.56926,
+     3.05493
+    ],
+    [
+     50.5682,
+     3.05633
+    ],
+    [
+     50.5653,
+     3.05325
+    ],
+    [
+     50.56449,
+     3.05206
+    ],
+    [
+     50.56413,
+     3.05198
+    ],
+    [
+     50.56437,
+     3.05413
+    ],
+    [
+     50.5647,
+     3.05521
+    ]
+   ],
+   "backKm": 1.7,
+   "backMin": 7,
+   "backSteps": [
+    {
+     "i": "Pédalez vers le sud-ouest sur Route de Vendeville/M 952.",
+     "km": 0.23
+    },
+    {
+     "i": "Tournez à droite dans la piste cyclable.",
+     "km": 0.05
+    },
+    {
+     "i": "Serrez à droite dans Rue Maria Mullier.",
+     "km": 0.5
+    },
+    {
+     "i": "Tournez à gauche dans Rue Jean Jaurès/M 145E. Continuez sur M 145E.",
+     "km": 0.94
+    },
+    {
+     "i": "Votre destination est sur la gauche.",
+     "km": 0.0
+    }
+   ]
+  },
+  "Vendeville": {
+   "km": 2.2,
+   "min": 9,
+   "steps": [
+    {
+     "i": "Pédalez vers l'ouest.",
+     "km": 0.07
+    },
+    {
+     "i": "Tournez à gauche dans Rue Paul Ricard.",
+     "km": 0.07
+    },
+    {
+     "i": "Tournez à droite dans Rue de Seclin/M 952.",
+     "km": 0.26
+    },
+    {
+     "i": "Tournez à droite dans Rue des Ormeaux.",
+     "km": 0.01
+    },
+    {
+     "i": "Tournez à gauche dans la piste cyclable.",
+     "km": 1.21
+    },
+    {
+     "i": "Tournez à gauche dans la piste cyclable.",
+     "km": 0.01
+    },
+    {
+     "i": "Tournez à droite dans Route de Vendeville/M 952.",
+     "km": 0.02
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans M 952.",
+     "km": 0.04
+    },
+    {
+     "i": "Quittez le rond-point dans M 952.",
+     "km": 0.47
+    },
+    {
+     "i": "Vous êtes arrivé à votre destination.",
+     "km": 0.0
+    }
+   ],
+   "shape": [
+    [
+     50.57559,
+     3.07748
+    ],
+    [
+     50.57563,
+     3.07666
+    ],
+    [
+     50.57536,
+     3.0765
+    ],
+    [
+     50.57503,
+     3.07661
+    ],
+    [
+     50.57412,
+     3.07319
+    ],
+    [
+     50.57361,
+     3.07088
+    ],
+    [
+     50.57367,
+     3.07015
+    ],
+    [
+     50.57279,
+     3.06697
+    ],
+    [
+     50.56993,
+     3.06308
+    ],
+    [
+     50.56705,
+     3.06033
+    ],
+    [
+     50.5647,
+     3.05521
+    ]
+   ],
+   "backKm": 2.2,
+   "backMin": 9,
+   "backSteps": [
+    {
+     "i": "Pédalez vers le nord-est sur Route de Vendeville/M 952. Continuez sur M 952.",
+     "km": 0.45
+    },
+    {
+     "i": "Tournez à gauche dans la piste cyclable.",
+     "km": 0.01
+    },
+    {
+     "i": "Tournez à droite dans la piste cyclable.",
+     "km": 1.29
+    },
+    {
+     "i": "Tournez à droite dans Rue des Ormeaux.",
+     "km": 0.01
+    },
+    {
+     "i": "Tournez à gauche dans Rue de Seclin/M 952.",
+     "km": 0.26
+    },
+    {
+     "i": "Tournez à gauche dans Rue Paul Ricard.",
+     "km": 0.07
+    },
+    {
+     "i": "Tournez à droite.",
+     "km": 0.07
+    },
+    {
+     "i": "Vous êtes arrivé à votre destination.",
+     "km": 0.0
+    }
+   ]
+  },
+  "Wattignies": {
+   "km": 3.2,
+   "min": 12,
+   "steps": [
+    {
+     "i": "Pédalez vers le sud sur Rue Clemenceau/M 549. Continuez sur M 549.",
+     "km": 0.95
+    },
+    {
+     "i": "Tournez à gauche dans Rue Louis Sury/M 145E.",
+     "km": 0.18
+    },
+    {
+     "i": "Tournez à droite dans Rue Jules Guesde/M 145E. Continuez sur M 145E.",
+     "km": 1.26
+    },
+    {
+     "i": "Tournez à droite dans Rue Maria Mullier.",
+     "km": 0.55
+    },
+    {
+     "i": "Tournez à gauche dans Route de Vendeville/M 952.",
+     "km": 0.24
+    },
+    {
+     "i": "Vous êtes arrivé à votre destination.",
+     "km": 0.0
+    }
+   ],
+   "shape": [
+    [
+     50.58792,
+     3.05136
+    ],
+    [
+     50.58667,
+     3.05175
+    ],
+    [
+     50.58592,
+     3.05172
+    ],
+    [
+     50.57952,
+     3.04984
+    ],
+    [
+     50.57896,
+     3.0523
+    ],
+    [
+     50.57338,
+     3.05363
+    ],
+    [
+     50.56978,
+     3.05489
+    ],
+    [
+     50.56931,
+     3.05491
+    ],
+    [
+     50.5682,
+     3.05633
+    ],
+    [
+     50.5653,
+     3.05325
+    ],
+    [
+     50.56449,
+     3.05206
+    ],
+    [
+     50.56413,
+     3.05198
+    ],
+    [
+     50.56437,
+     3.05413
+    ],
+    [
+     50.5647,
+     3.05521
+    ]
+   ],
+   "backKm": 3.5,
+   "backMin": 14,
+   "backSteps": [
+    {
+     "i": "Pédalez vers le sud-ouest sur Route de Vendeville/M 952.",
+     "km": 0.23
+    },
+    {
+     "i": "Tournez à droite dans la piste cyclable.",
+     "km": 0.05
+    },
+    {
+     "i": "Serrez à droite dans Rue Maria Mullier.",
+     "km": 0.5
+    },
+    {
+     "i": "Tournez à gauche dans Rue Jean Jaurès/M 145E. Continuez sur M 145E.",
+     "km": 1.26
+    },
+    {
+     "i": "Tournez à gauche dans Rue Louis Sury/M 145E.",
+     "km": 0.18
+    },
+    {
+     "i": "Tournez à droite dans Rue du Général de Gaulle/M 549. Continuez sur M 549.",
+     "km": 1.13
+    },
+    {
+     "i": "Faites demi-tour à gauche dans Rue Clemenceau/M 549.",
+     "km": 0.2
+    },
+    {
+     "i": "Votre destination est sur la droite.",
+     "km": 0.0
+    }
+   ]
+  },
+  "Seclin": {
+   "km": 3.5,
+   "min": 14,
+   "steps": [
+    {
+     "i": "Pédalez vers le nord-ouest.",
+     "km": 0.01
+    },
+    {
+     "i": "Tournez à droite dans la piste cyclable.",
+     "km": 0.19
+    },
+    {
+     "i": "Continuez sur Rue Roger Bouvry/M 2925.",
+     "km": 0.49
+    },
+    {
+     "i": "Tournez à droite dans Contour de l'Église.",
+     "km": 0.13
+    },
+    {
+     "i": "Tournez à droite dans Rue de l'Abbé Bonpain.",
+     "km": 0.04
+    },
+    {
+     "i": "Tournez à gauche dans Rue Guy Môquet.",
+     "km": 0.42
+    },
+    {
+     "i": "Tournez à gauche dans Rue Jean-Baptiste Lebas.",
+     "km": 0.12
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 1er sortie dans Avenue de la République.",
+     "km": 0.01
+    },
+    {
+     "i": "Quittez le rond-point dans Avenue de la République.",
+     "km": 0.23
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans M 2952.",
+     "km": 0.03
+    },
+    {
+     "i": "Quittez le rond-point dans M 2952.",
+     "km": 0.31
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans M 952.",
+     "km": 0.07
+    },
+    {
+     "i": "Quittez le rond-point dans M 952.",
+     "km": 1.47
+    },
+    {
+     "i": "Vous êtes arrivé à votre destination.",
+     "km": 0.0
+    }
+   ],
+   "shape": [
+    [
+     50.54521,
+     3.02531
+    ],
+    [
+     50.54528,
+     3.02518
+    ],
+    [
+     50.54656,
+     3.02672
+    ],
+    [
+     50.55045,
+     3.03012
+    ],
+    [
+     50.55029,
+     3.03136
+    ],
+    [
+     50.5506,
+     3.03174
+    ],
+    [
+     50.55038,
+     3.03224
+    ],
+    [
+     50.55149,
+     3.03283
+    ],
+    [
+     50.55275,
+     3.03433
+    ],
+    [
+     50.55305,
+     3.03585
+    ],
+    [
+     50.55384,
+     3.03573
+    ],
+    [
+     50.55411,
+     3.03606
+    ],
+    [
+     50.55269,
+     3.03869
+    ],
+    [
+     50.55471,
+     3.04149
+    ],
+    [
+     50.55491,
+     3.04222
+    ],
+    [
+     50.55545,
+     3.0424
+    ],
+    [
+     50.55752,
+     3.04435
+    ],
+    [
+     50.55925,
+     3.04649
+    ],
+    [
+     50.56316,
+     3.05004
+    ],
+    [
+     50.56409,
+     3.05184
+    ],
+    [
+     50.56437,
+     3.05413
+    ],
+    [
+     50.5647,
+     3.05521
+    ]
+   ],
+   "backKm": 3.8,
+   "backMin": 15,
+   "backSteps": [
+    {
+     "i": "Pédalez vers le sud-ouest sur Route de Vendeville/M 952. Continuez sur M 952.",
+     "km": 1.47
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans M 2952.",
+     "km": 0.07
+    },
+    {
+     "i": "Quittez le rond-point dans M 2952.",
+     "km": 0.32
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 1er sortie dans Avenue de la République.",
+     "km": 0.0
+    },
+    {
+     "i": "Quittez le rond-point dans Avenue de la République.",
+     "km": 0.24
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans Rue Jean-Baptiste Lebas.",
+     "km": 0.02
+    },
+    {
+     "i": "Quittez le rond-point dans Rue Jean-Baptiste Lebas.",
+     "km": 0.67
+    },
+    {
+     "i": "Tournez à gauche dans Rue du 14 Juillet.",
+     "km": 0.79
+    },
+    {
+     "i": "Tournez à droite dans Avenue Jude Blanckaert.",
+     "km": 0.11
+    },
+    {
+     "i": "Serrez à droite.",
+     "km": 0.03
+    },
+    {
+     "i": "Serrez à droite.",
+     "km": 0.08
+    },
+    {
+     "i": "Continuez.",
+     "km": 0.03
+    },
+    {
+     "i": "Vous êtes arrivé à votre destination.",
+     "km": 0.0
+    }
+   ]
+  },
+  "Noyelles-lès-Seclin": {
+   "km": 4.8,
+   "min": 19,
+   "steps": [
+    {
+     "i": "Pédalez vers le sud.",
+     "km": 0.04
+    },
+    {
+     "i": "Tournez à gauche dans Rue d'Ancoisne/M 145.",
+     "km": 0.1
+    },
+    {
+     "i": "Tournez à droite dans Rue de Seclin/M 952.",
+     "km": 0.16
+    },
+    {
+     "i": "Entrez dans Rond-Point de Coperche et prenez la 2e sortie dans Rue de Seclin/M 952.",
+     "km": 0.02
+    },
+    {
+     "i": "Quittez le rond-point dans Rue de Seclin/M 952.",
+     "km": 0.7
+    },
+    {
+     "i": "Entrez dans Carrefour du Tilleul et prenez la 3ème sortie dans M 952.",
+     "km": 0.1
+    },
+    {
+     "i": "Quittez le rond-point dans M 952.",
+     "km": 0.92
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 3ème sortie dans Route de Noyelles/M 952.",
+     "km": 0.06
+    },
+    {
+     "i": "Quittez le rond-point dans Route de Noyelles/M 952. Continuez sur M 952.",
+     "km": 0.48
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 3ème sortie dans M 549.",
+     "km": 0.07
+    },
+    {
+     "i": "Quittez le rond-point dans M 549.",
+     "km": 0.59
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 3ème sortie dans M 952.",
+     "km": 0.13
+    },
+    {
+     "i": "Quittez le rond-point dans M 952.",
+     "km": 1.47
+    },
+    {
+     "i": "Vous êtes arrivé à votre destination.",
+     "km": 0.0
+    }
+   ],
+   "shape": [
+    [
+     50.57637,
+     3.01678
+    ],
+    [
+     50.5761,
+     3.01656
+    ],
+    [
+     50.57597,
+     3.01792
+    ],
+    [
+     50.57534,
+     3.01771
+    ],
+    [
+     50.57453,
+     3.01771
+    ],
+    [
+     50.57438,
+     3.0181
+    ],
+    [
+     50.57124,
+     3.01997
+    ],
+    [
+     50.5693,
+     3.02146
+    ],
+    [
+     50.56881,
+     3.02171
+    ],
+    [
+     50.56838,
+     3.02164
+    ],
+    [
+     50.56815,
+     3.02262
+    ],
+    [
+     50.566,
+     3.02508
+    ],
+    [
+     50.56158,
+     3.02856
+    ],
+    [
+     50.56085,
+     3.02852
+    ],
+    [
+     50.56043,
+     3.02936
+    ],
+    [
+     50.55916,
+     3.03026
+    ],
+    [
+     50.55864,
+     3.03112
+    ],
+    [
+     50.55808,
+     3.03307
+    ],
+    [
+     50.55757,
+     3.03364
+    ],
+    [
+     50.55763,
+     3.03447
+    ],
+    [
+     50.55736,
+     3.03586
+    ],
+    [
+     50.55592,
+     3.04015
+    ],
+    [
+     50.55535,
+     3.04125
+    ],
+    [
+     50.55481,
+     3.04159
+    ],
+    [
+     50.55491,
+     3.04222
+    ],
+    [
+     50.55545,
+     3.0424
+    ],
+    [
+     50.55752,
+     3.04435
+    ],
+    [
+     50.55925,
+     3.04649
+    ],
+    [
+     50.56316,
+     3.05004
+    ],
+    [
+     50.56409,
+     3.05184
+    ],
+    [
+     50.56437,
+     3.05413
+    ],
+    [
+     50.5647,
+     3.05521
+    ]
+   ],
+   "backKm": 4.7,
+   "backMin": 17,
+   "backSteps": [
+    {
+     "i": "Pédalez vers le sud-ouest sur Route de Vendeville/M 952. Continuez sur M 952.",
+     "km": 1.47
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 1er sortie dans Route de Noyelles/M 549.",
+     "km": 0.0
+    },
+    {
+     "i": "Quittez le rond-point dans Route de Noyelles/M 549. Continuez sur M 549.",
+     "km": 0.6
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans M 952.",
+     "km": 0.06
+    },
+    {
+     "i": "Quittez le rond-point dans M 952.",
+     "km": 0.48
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans Rue de Seclin/M 952.",
+     "km": 0.04
+    },
+    {
+     "i": "Quittez le rond-point dans Rue de Seclin/M 952. Continuez sur M 952.",
+     "km": 0.93
+    },
+    {
+     "i": "Entrez dans Carrefour du Tilleul et prenez la 2e sortie dans Rue de Seclin/M 952.",
+     "km": 0.06
+    },
+    {
+     "i": "Quittez le rond-point dans Rue de Seclin/M 952.",
+     "km": 0.7
+    },
+    {
+     "i": "Entrez dans Rond-Point de Coperche et prenez la 2e sortie dans Rue de Seclin/M 952.",
+     "km": 0.02
+    },
+    {
+     "i": "Quittez le rond-point dans Rue de Seclin/M 952.",
+     "km": 0.16
+    },
+    {
+     "i": "Tournez à gauche dans Rue d'Ancoisne/M 145.",
+     "km": 0.1
+    },
+    {
+     "i": "Tournez à droite.",
+     "km": 0.04
+    },
+    {
+     "i": "Vous êtes arrivé à votre destination.",
+     "km": 0.0
+    }
+   ]
+  },
+  "Lesquin": {
+   "km": 6.0,
+   "min": 23,
+   "steps": [
+    {
+     "i": "Pédalez vers le nord-est.",
+     "km": 0.04
+    },
+    {
+     "i": "Tournez à gauche dans Rue Sadi Carnot.",
+     "km": 0.25
+    },
+    {
+     "i": "Tournez à gauche dans Rue Victor Hugo.",
+     "km": 0.43
+    },
+    {
+     "i": "Serrez à gauche dans Place Jules Guesde.",
+     "km": 0.05
+    },
+    {
+     "i": "Tournez à droite dans Rue Pasteur.",
+     "km": 0.2
+    },
+    {
+     "i": "Tournez à droite dans Rue Gustave Delory/M 145.",
+     "km": 1.16
+    },
+    {
+     "i": "Tournez à gauche dans Avenue du Général Leclerc/M 917.",
+     "km": 0.1
+    },
+    {
+     "i": "Serrez à droite dans Rue de l'Égalité.",
+     "km": 0.37
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 3ème sortie.",
+     "km": 0.13
+    },
+    {
+     "i": "Quittez le rond-point.",
+     "km": 0.69
+    },
+    {
+     "i": "Tournez à gauche dans Chemin de Ferrière.",
+     "km": 0.49
+    },
+    {
+     "i": "Tournez à droite.",
+     "km": 0.67
+    },
+    {
+     "i": "Tournez à droite.",
+     "km": 0.05
+    },
+    {
+     "i": "Tournez à droite dans la piste cyclable.",
+     "km": 0.78
+    },
+    {
+     "i": "Tournez à gauche dans la piste cyclable.",
+     "km": 0.01
+    },
+    {
+     "i": "Tournez à droite dans Route de Vendeville/M 952.",
+     "km": 0.02
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans M 952.",
+     "km": 0.04
+    },
+    {
+     "i": "Quittez le rond-point dans M 952.",
+     "km": 0.47
+    },
+    {
+     "i": "Vous êtes arrivé à votre destination.",
+     "km": 0.0
+    }
+   ],
+   "shape": [
+    [
+     50.58865,
+     3.11011
+    ],
+    [
+     50.58882,
+     3.1107
+    ],
+    [
+     50.59091,
+     3.10939
+    ],
+    [
+     50.59065,
+     3.10841
+    ],
+    [
+     50.58847,
+     3.10503
+    ],
+    [
+     50.58789,
+     3.10501
+    ],
+    [
+     50.58788,
+     3.1034
+    ],
+    [
+     50.58727,
+     3.1026
+    ],
+    [
+     50.58799,
+     3.10147
+    ],
+    [
+     50.58872,
+     3.09811
+    ],
+    [
+     50.58754,
+     3.08709
+    ],
+    [
+     50.58663,
+     3.08742
+    ],
+    [
+     50.58642,
+     3.08734
+    ],
+    [
+     50.5844,
+     3.083
+    ],
+    [
+     50.58334,
+     3.08373
+    ],
+    [
+     50.58139,
+     3.08293
+    ],
+    [
+     50.581,
+     3.08299
+    ],
+    [
+     50.58073,
+     3.08274
+    ],
+    [
+     50.58015,
+     3.08177
+    ],
+    [
+     50.58003,
+     3.08097
+    ],
+    [
+     50.58038,
+     3.07948
+    ],
+    [
+     50.58094,
+     3.07871
+    ],
+    [
+     50.57813,
+     3.07334
+    ],
+    [
+     50.57555,
+     3.06981
+    ],
+    [
+     50.57367,
+     3.06781
+    ],
+    [
+     50.57301,
+     3.06752
+    ],
+    [
+     50.57249,
+     3.06644
+    ],
+    [
+     50.56993,
+     3.06308
+    ],
+    [
+     50.56708,
+     3.06038
+    ],
+    [
+     50.5647,
+     3.05521
+    ]
+   ],
+   "backKm": 5.4,
+   "backMin": 21,
+   "backSteps": [
+    {
+     "i": "Pédalez vers le nord-est sur Route de Vendeville/M 952. Continuez sur M 952.",
+     "km": 0.45
+    },
+    {
+     "i": "Tournez à gauche dans la piste cyclable.",
+     "km": 0.01
+    },
+    {
+     "i": "Tournez à droite dans la piste cyclable.",
+     "km": 1.29
+    },
+    {
+     "i": "Tournez à droite dans Rue des Ormeaux.",
+     "km": 0.01
+    },
+    {
+     "i": "Tournez à gauche dans Rue de Seclin/M 952.",
+     "km": 1.13
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans Route de Vendeville/M 952.",
+     "km": 0.05
+    },
+    {
+     "i": "Quittez le rond-point dans Route de Vendeville/M 952.",
+     "km": 0.3
+    },
+    {
+     "i": "Tournez à droite dans M 655.",
+     "km": 0.46
+    },
+    {
+     "i": "Serrez à droite dans la piste cyclable.",
+     "km": 0.03
+    },
+    {
+     "i": "Tournez à gauche dans la piste cyclable.",
+     "km": 0.11
+    },
+    {
+     "i": "Tournez à gauche dans Rue Jean Jaurès.",
+     "km": 0.18
+    },
+    {
+     "i": "Continuez sur la piste cyclable.",
+     "km": 0.04
+    },
+    {
+     "i": "Serrez à gauche dans Avenue de la Motte.",
+     "km": 0.01
+    },
+    {
+     "i": "Tournez à droite dans la piste cyclable.",
+     "km": 0.06
+    },
+    {
+     "i": "Tournez à droite dans Rue Jean Jaurès.",
+     "km": 0.02
+    },
+    {
+     "i": "Tournez à gauche pour rester sur Rue Jean Jaurès.",
+     "km": 0.43
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans Rue Jean Jaurès/M 952.",
+     "km": 0.01
+    },
+    {
+     "i": "Quittez le rond-point dans Rue Jean Jaurès/M 952. Continuez sur M 952.",
+     "km": 0.66
+    },
+    {
+     "i": "Tournez à gauche dans Rue Sadi Carnot.",
+     "km": 0.06
+    },
+    {
+     "i": "Tournez à gauche.",
+     "km": 0.04
+    },
+    {
+     "i": "Votre destination est sur la droite.",
+     "km": 0.0
+    }
+   ]
+  },
+  "Faches-Thumesnil": {
+   "km": 5.5,
+   "min": 21,
+   "steps": [
+    {
+     "i": "Pédalez vers l'est.",
+     "km": 0.03
+    },
+    {
+     "i": "Tournez à gauche.",
+     "km": 0.04
+    },
+    {
+     "i": "Tournez à droite.",
+     "km": 0.02
+    },
+    {
+     "i": "Tournez à gauche dans Rue Roger Salengro.",
+     "km": 0.06
+    },
+    {
+     "i": "Serrez à gauche dans Rue de la Jappe.",
+     "km": 0.23
+    },
+    {
+     "i": "Tournez à droite dans Rue d'Haubourdin/M 48.",
+     "km": 0.31
+    },
+    {
+     "i": "Tournez à gauche dans Rue Sadi Carnot/M 145J.",
+     "km": 1.49
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 1er sortie dans Rue Édouard Vaillant/M 145.",
+     "km": 0.02
+    },
+    {
+     "i": "Quittez le rond-point dans Rue Édouard Vaillant/M 145.",
+     "km": 0.1
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans Rue Édouard Vaillant/M 145h.",
+     "km": 0.03
+    },
+    {
+     "i": "Quittez le rond-point dans Rue Édouard Vaillant/M 145h. Continuez sur M 145h.",
+     "km": 0.84
+    },
+    {
+     "i": "Serrez à droite dans Chemin de Ferrière.",
+     "km": 0.32
+    },
+    {
+     "i": "Tournez à droite.",
+     "km": 0.67
+    },
+    {
+     "i": "Tournez à droite.",
+     "km": 0.05
+    },
+    {
+     "i": "Tournez à droite dans la piste cyclable.",
+     "km": 0.78
+    },
+    {
+     "i": "Tournez à gauche dans la piste cyclable.",
+     "km": 0.01
+    },
+    {
+     "i": "Tournez à droite dans Route de Vendeville/M 952.",
+     "km": 0.02
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans M 952.",
+     "km": 0.04
+    },
+    {
+     "i": "Quittez le rond-point dans M 952.",
+     "km": 0.47
+    },
+    {
+     "i": "Vous êtes arrivé à votre destination.",
+     "km": 0.0
+    }
+   ],
+   "shape": [
+    [
+     50.60255,
+     3.06983
+    ],
+    [
+     50.60259,
+     3.07002
+    ],
+    [
+     50.60271,
+     3.06995
+    ],
+    [
+     50.60244,
+     3.06938
+    ],
+    [
+     50.60195,
+     3.06965
+    ],
+    [
+     50.60153,
+     3.07116
+    ],
+    [
+     50.60073,
+     3.07226
+    ],
+    [
+     50.60006,
+     3.07116
+    ],
+    [
+     50.59989,
+     3.06836
+    ],
+    [
+     50.59848,
+     3.06835
+    ],
+    [
+     50.59562,
+     3.06912
+    ],
+    [
+     50.59377,
+     3.06991
+    ],
+    [
+     50.59031,
+     3.07404
+    ],
+    [
+     50.5894,
+     3.07567
+    ],
+    [
+     50.58822,
+     3.07664
+    ],
+    [
+     50.58737,
+     3.07541
+    ],
+    [
+     50.58715,
+     3.07579
+    ],
+    [
+     50.58635,
+     3.07626
+    ],
+    [
+     50.5836,
+     3.07704
+    ],
+    [
+     50.58151,
+     3.07719
+    ],
+    [
+     50.57993,
+     3.07697
+    ],
+    [
+     50.57813,
+     3.07334
+    ],
+    [
+     50.57646,
+     3.07085
+    ],
+    [
+     50.57367,
+     3.06781
+    ],
+    [
+     50.57301,
+     3.06752
+    ],
+    [
+     50.57249,
+     3.06644
+    ],
+    [
+     50.56993,
+     3.06308
+    ],
+    [
+     50.56705,
+     3.06033
+    ],
+    [
+     50.5647,
+     3.05521
+    ]
+   ],
+   "backKm": 5.3,
+   "backMin": 21,
+   "backSteps": [
+    {
+     "i": "Pédalez vers le nord-est sur Route de Vendeville/M 952. Continuez sur M 952.",
+     "km": 0.45
+    },
+    {
+     "i": "Tournez à gauche dans la piste cyclable.",
+     "km": 0.01
+    },
+    {
+     "i": "Tournez à droite dans la piste cyclable.",
+     "km": 0.85
+    },
+    {
+     "i": "Tournez à gauche.",
+     "km": 0.05
+    },
+    {
+     "i": "Tournez à gauche.",
+     "km": 0.67
+    },
+    {
+     "i": "Tournez à gauche dans Chemin de Ferrière.",
+     "km": 0.32
+    },
+    {
+     "i": "Serrez à gauche dans Rue de Fâches/M 145h. Continuez sur M 145h.",
+     "km": 0.84
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 1er sortie dans Rue Édouard Vaillant/M 145.",
+     "km": 0.0
+    },
+    {
+     "i": "Quittez le rond-point dans Rue Édouard Vaillant/M 145.",
+     "km": 0.1
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 3ème sortie dans Rue Kléber/M 145F.",
+     "km": 0.05
+    },
+    {
+     "i": "Quittez le rond-point dans Rue Kléber/M 145F.",
+     "km": 1.79
+    },
+    {
+     "i": "Tournez à droite dans Rue Jean Jaurès.",
+     "km": 0.12
+    },
+    {
+     "i": "Tournez à droite dans Rue Roger Salengro.",
+     "km": 0.05
+    },
+    {
+     "i": "Tournez à gauche.",
+     "km": 0.03
+    },
+    {
+     "i": "Votre destination est sur la gauche.",
+     "km": 0.0
+    }
+   ]
+  },
+  "Ronchin": {
+   "km": 5.8,
+   "min": 23,
+   "steps": [
+    {
+     "i": "Pédalez vers le nord-est.",
+     "km": 0.09
+    },
+    {
+     "i": "Tournez à droite.",
+     "km": 0.03
+    },
+    {
+     "i": "Tournez à droite.",
+     "km": 0.14
+    },
+    {
+     "i": "Tournez à droite dans Avenue Jean Jaurès.",
+     "km": 0.02
+    },
+    {
+     "i": "Faites demi-tour à gauche pour rester sur Avenue Jean Jaurès.",
+     "km": 0.02
+    },
+    {
+     "i": "Serrez à gauche dans la piste cyclable.",
+     "km": 0.01
+    },
+    {
+     "i": "Serrez à droite dans Passerelle Jean Jaurès.",
+     "km": 0.2
+    },
+    {
+     "i": "Tournez à droite dans la piste cyclable.",
+     "km": 0.01
+    },
+    {
+     "i": "Tournez à gauche dans Avenue Jean Jaurès.",
+     "km": 0.34
+    },
+    {
+     "i": "Tournez à gauche dans Rue Lavoisier/M 917. Continuez sur M 917.",
+     "km": 0.44
+    },
+    {
+     "i": "Tournez à droite dans Rue Henri Dillies.",
+     "km": 0.81
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 1er sortie dans Rue Henri Dillies.",
+     "km": 0.02
+    },
+    {
+     "i": "Quittez le rond-point dans Rue Henri Dillies.",
+     "km": 0.12
+    },
+    {
+     "i": "Tournez à gauche dans Rue Kléber/M 145F.",
+     "km": 0.27
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 1er sortie dans Rue Édouard Vaillant/M 145.",
+     "km": 0.02
+    },
+    {
+     "i": "Quittez le rond-point dans Rue Édouard Vaillant/M 145.",
+     "km": 0.1
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans Rue Édouard Vaillant/M 145h.",
+     "km": 0.03
+    },
+    {
+     "i": "Quittez le rond-point dans Rue Édouard Vaillant/M 145h. Continuez sur M 145h.",
+     "km": 0.84
+    },
+    {
+     "i": "Serrez à droite dans Chemin de Ferrière.",
+     "km": 0.32
+    },
+    {
+     "i": "Tournez à droite.",
+     "km": 0.67
+    },
+    {
+     "i": "Tournez à droite.",
+     "km": 0.05
+    },
+    {
+     "i": "Tournez à droite dans la piste cyclable.",
+     "km": 0.78
+    },
+    {
+     "i": "Tournez à gauche dans la piste cyclable.",
+     "km": 0.01
+    },
+    {
+     "i": "Tournez à droite dans Route de Vendeville/M 952.",
+     "km": 0.02
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans M 952.",
+     "km": 0.04
+    },
+    {
+     "i": "Quittez le rond-point dans M 952.",
+     "km": 0.47
+    },
+    {
+     "i": "Vous êtes arrivé à votre destination.",
+     "km": 0.0
+    }
+   ],
+   "shape": [
+    [
+     50.60586,
+     3.07776
+    ],
+    [
+     50.60623,
+     3.07883
+    ],
+    [
+     50.60606,
+     3.07919
+    ],
+    [
+     50.60557,
+     3.07853
+    ],
+    [
+     50.6053,
+     3.07772
+    ],
+    [
+     50.60542,
+     3.07754
+    ],
+    [
+     50.60081,
+     3.07982
+    ],
+    [
+     50.6005,
+     3.07971
+    ],
+    [
+     50.59988,
+     3.08039
+    ],
+    [
+     50.59687,
+     3.08195
+    ],
+    [
+     50.59654,
+     3.0814
+    ],
+    [
+     50.59536,
+     3.08066
+    ],
+    [
+     50.59213,
+     3.07618
+    ],
+    [
+     50.59101,
+     3.07566
+    ],
+    [
+     50.59013,
+     3.07449
+    ],
+    [
+     50.58926,
+     3.07583
+    ],
+    [
+     50.58822,
+     3.07664
+    ],
+    [
+     50.58737,
+     3.07541
+    ],
+    [
+     50.58715,
+     3.07579
+    ],
+    [
+     50.58635,
+     3.07626
+    ],
+    [
+     50.5836,
+     3.07704
+    ],
+    [
+     50.58151,
+     3.07719
+    ],
+    [
+     50.57993,
+     3.07697
+    ],
+    [
+     50.57813,
+     3.07334
+    ],
+    [
+     50.57646,
+     3.07085
+    ],
+    [
+     50.57367,
+     3.06781
+    ],
+    [
+     50.57301,
+     3.06752
+    ],
+    [
+     50.57249,
+     3.06644
+    ],
+    [
+     50.56993,
+     3.06308
+    ],
+    [
+     50.56705,
+     3.06033
+    ],
+    [
+     50.5647,
+     3.05521
+    ]
+   ],
+   "backKm": 5.6,
+   "backMin": 22,
+   "backSteps": [
+    {
+     "i": "Pédalez vers le nord-est sur Route de Vendeville/M 952. Continuez sur M 952.",
+     "km": 0.45
+    },
+    {
+     "i": "Tournez à gauche dans la piste cyclable.",
+     "km": 0.01
+    },
+    {
+     "i": "Tournez à droite dans la piste cyclable.",
+     "km": 0.85
+    },
+    {
+     "i": "Tournez à gauche.",
+     "km": 0.05
+    },
+    {
+     "i": "Tournez à gauche.",
+     "km": 0.67
+    },
+    {
+     "i": "Tournez à gauche dans Chemin de Ferrière.",
+     "km": 0.32
+    },
+    {
+     "i": "Serrez à gauche dans Rue de Fâches/M 145h. Continuez sur M 145h.",
+     "km": 0.84
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 1er sortie dans Rue Édouard Vaillant/M 145.",
+     "km": 0.0
+    },
+    {
+     "i": "Quittez le rond-point dans Rue Édouard Vaillant/M 145.",
+     "km": 0.1
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 3ème sortie dans Rue Kléber/M 145F.",
+     "km": 0.05
+    },
+    {
+     "i": "Quittez le rond-point dans Rue Kléber/M 145F.",
+     "km": 0.27
+    },
+    {
+     "i": "Tournez à droite dans Rue Henri Dillies.",
+     "km": 0.12
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans Rue Henri Dillies.",
+     "km": 0.03
+    },
+    {
+     "i": "Quittez le rond-point dans Rue Henri Dillies.",
+     "km": 0.81
+    },
+    {
+     "i": "Tournez à gauche dans Avenue Jean Jaurès/M 917. Continuez sur M 917.",
+     "km": 0.43
+    },
+    {
+     "i": "Tournez à droite dans Avenue Jean Jaurès.",
+     "km": 0.34
+    },
+    {
+     "i": "Tournez à gauche dans la piste cyclable.",
+     "km": 0.01
+    },
+    {
+     "i": "Tournez à droite dans Passerelle Jean Jaurès.",
+     "km": 0.2
+    },
+    {
+     "i": "Serrez à droite dans la piste cyclable.",
+     "km": 0.01
+    },
+    {
+     "i": "Tournez à gauche dans Avenue Jean Jaurès.",
+     "km": 0.03
+    },
+    {
+     "i": "Tournez à droite dans Avenue Jean Jaurès/M 917.",
+     "km": 0.03
+    },
+    {
+     "i": "Tournez à droite.",
+     "km": 0.02
+    },
+    {
+     "i": "Votre destination est sur la droite.",
+     "km": 0.0
+    }
+   ]
+  },
+  "Houplin-Ancoisne": {
+   "km": 5.6,
+   "min": 22,
+   "steps": [
+    {
+     "i": "Pédalez vers le sud-est sur Résidence Verdi.",
+     "km": 0.06
+    },
+    {
+     "i": "Tournez à gauche dans Rue Pasteur.",
+     "km": 0.09
+    },
+    {
+     "i": "Tournez à gauche dans Rue Jean-Baptiste Lebas/M 147.",
+     "km": 0.13
+    },
+    {
+     "i": "Tournez à droite dans Rue Roger Salengro/M 63.",
+     "km": 0.74
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 1er sortie dans Rue des Martyrs/M 63.",
+     "km": 0.0
+    },
+    {
+     "i": "Quittez le rond-point dans Rue des Martyrs/M 63.",
+     "km": 1.31
+    },
+    {
+     "i": "Tournez à gauche dans Rue Marx Dormoy.",
+     "km": 0.12
+    },
+    {
+     "i": "Tournez à droite dans Rue Sadi Carnot.",
+     "km": 0.14
+    },
+    {
+     "i": "Tournez à gauche dans Rue Maurice Bouchery.",
+     "km": 0.08
+    },
+    {
+     "i": "Tournez à droite dans Rue Saint-Louis.",
+     "km": 0.24
+    },
+    {
+     "i": "Tournez à gauche dans Rue Guy Môquet.",
+     "km": 0.42
+    },
+    {
+     "i": "Tournez à gauche dans Rue Jean-Baptiste Lebas.",
+     "km": 0.12
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 1er sortie dans Avenue de la République.",
+     "km": 0.01
+    },
+    {
+     "i": "Quittez le rond-point dans Avenue de la République.",
+     "km": 0.23
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans M 2952.",
+     "km": 0.03
+    },
+    {
+     "i": "Quittez le rond-point dans M 2952.",
+     "km": 0.31
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans M 952.",
+     "km": 0.07
+    },
+    {
+     "i": "Quittez le rond-point dans M 952.",
+     "km": 1.47
+    },
+    {
+     "i": "Vous êtes arrivé à votre destination.",
+     "km": 0.0
+    }
+   ],
+   "shape": [
+    [
+     50.56213,
+     3.00126
+    ],
+    [
+     50.56195,
+     3.00149
+    ],
+    [
+     50.5617,
+     3.00119
+    ],
+    [
+     50.56112,
+     3.00201
+    ],
+    [
+     50.56194,
+     3.00339
+    ],
+    [
+     50.56039,
+     3.0073
+    ],
+    [
+     50.55951,
+     3.00901
+    ],
+    [
+     50.55865,
+     3.01256
+    ],
+    [
+     50.5571,
+     3.01482
+    ],
+    [
+     50.55584,
+     3.01622
+    ],
+    [
+     50.55307,
+     3.02214
+    ],
+    [
+     50.5519,
+     3.02431
+    ],
+    [
+     50.55068,
+     3.02592
+    ],
+    [
+     50.55153,
+     3.02707
+    ],
+    [
+     50.55076,
+     3.02861
+    ],
+    [
+     50.5514,
+     3.0293
+    ],
+    [
+     50.55038,
+     3.03224
+    ],
+    [
+     50.55149,
+     3.03283
+    ],
+    [
+     50.55275,
+     3.03433
+    ],
+    [
+     50.55305,
+     3.03585
+    ],
+    [
+     50.55384,
+     3.03573
+    ],
+    [
+     50.55408,
+     3.03598
+    ],
+    [
+     50.55408,
+     3.03626
+    ],
+    [
+     50.5527,
+     3.0387
+    ],
+    [
+     50.55471,
+     3.04149
+    ],
+    [
+     50.55491,
+     3.04222
+    ],
+    [
+     50.55545,
+     3.0424
+    ],
+    [
+     50.55752,
+     3.04435
+    ],
+    [
+     50.55925,
+     3.04649
+    ],
+    [
+     50.56316,
+     3.05004
+    ],
+    [
+     50.56409,
+     3.05184
+    ],
+    [
+     50.56437,
+     3.05413
+    ],
+    [
+     50.5647,
+     3.05521
+    ]
+   ],
+   "backKm": 5.6,
+   "backMin": 22,
+   "backSteps": [
+    {
+     "i": "Pédalez vers le sud-ouest sur Route de Vendeville/M 952. Continuez sur M 952.",
+     "km": 1.47
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 1er sortie dans Route de Noyelles/M 549.",
+     "km": 0.0
+    },
+    {
+     "i": "Quittez le rond-point dans Route de Noyelles/M 549. Continuez sur M 549.",
+     "km": 0.6
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 3ème sortie dans Route de Lille/M 2925.",
+     "km": 0.11
+    },
+    {
+     "i": "Quittez le rond-point dans Route de Lille/M 2925.",
+     "km": 0.17
+    },
+    {
+     "i": "Tournez à droite dans Rue Maurice Bouchery.",
+     "km": 0.41
+    },
+    {
+     "i": "Tournez à droite dans Voie Verte de Seclin.",
+     "km": 0.69
+    },
+    {
+     "i": "Tournez à droite dans Rue des Martyrs/M 63.",
+     "km": 1.05
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans Rue Roger Salengro/M 63.",
+     "km": 0.03
+    },
+    {
+     "i": "Quittez le rond-point dans Rue Roger Salengro/M 63.",
+     "km": 0.73
+    },
+    {
+     "i": "Tournez à gauche dans Rue Jean-Baptiste Lebas/M 147.",
+     "km": 0.13
+    },
+    {
+     "i": "Tournez à droite dans Rue Pasteur.",
+     "km": 0.09
+    },
+    {
+     "i": "Tournez à droite dans Résidence Verdi.",
+     "km": 0.06
+    },
+    {
+     "i": "Votre destination est sur la gauche.",
+     "km": 0.0
+    }
+   ]
+  },
+  "Lille-Sud": {
+   "km": 6.4,
+   "min": 25,
+   "steps": [
+    {
+     "i": "Pédalez vers le sud sur Rue du Faubourg d'Arras/M 549.",
+     "km": 0.03
+    },
+    {
+     "i": "Tournez à gauche dans Rue Garibaldi.",
+     "km": 1.02
+    },
+    {
+     "i": "Tournez à droite dans Rue Sadi Carnot.",
+     "km": 2.04
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 1er sortie dans Rue Édouard Vaillant/M 145.",
+     "km": 0.02
+    },
+    {
+     "i": "Quittez le rond-point dans Rue Édouard Vaillant/M 145.",
+     "km": 0.1
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans Rue Édouard Vaillant/M 145h.",
+     "km": 0.03
+    },
+    {
+     "i": "Quittez le rond-point dans Rue Édouard Vaillant/M 145h. Continuez sur M 145h.",
+     "km": 0.84
+    },
+    {
+     "i": "Serrez à droite dans Chemin de Ferrière.",
+     "km": 0.32
+    },
+    {
+     "i": "Tournez à droite.",
+     "km": 0.67
+    },
+    {
+     "i": "Tournez à droite.",
+     "km": 0.05
+    },
+    {
+     "i": "Tournez à droite dans la piste cyclable.",
+     "km": 0.78
+    },
+    {
+     "i": "Tournez à gauche dans la piste cyclable.",
+     "km": 0.01
+    },
+    {
+     "i": "Tournez à droite dans Route de Vendeville/M 952.",
+     "km": 0.02
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans M 952.",
+     "km": 0.04
+    },
+    {
+     "i": "Quittez le rond-point dans M 952.",
+     "km": 0.47
+    },
+    {
+     "i": "Vous êtes arrivé à votre destination.",
+     "km": 0.0
+    }
+   ],
+   "shape": [
+    [
+     50.61287,
+     3.06212
+    ],
+    [
+     50.6126,
+     3.06195
+    ],
+    [
+     50.61064,
+     3.06481
+    ],
+    [
+     50.60876,
+     3.0656
+    ],
+    [
+     50.60682,
+     3.06586
+    ],
+    [
+     50.60444,
+     3.06742
+    ],
+    [
+     50.60393,
+     3.06677
+    ],
+    [
+     50.60223,
+     3.06763
+    ],
+    [
+     50.60141,
+     3.06763
+    ],
+    [
+     50.60056,
+     3.0683
+    ],
+    [
+     50.59813,
+     3.06842
+    ],
+    [
+     50.59392,
+     3.06978
+    ],
+    [
+     50.59031,
+     3.07404
+    ],
+    [
+     50.5894,
+     3.07567
+    ],
+    [
+     50.58822,
+     3.07664
+    ],
+    [
+     50.58737,
+     3.07541
+    ],
+    [
+     50.58715,
+     3.07579
+    ],
+    [
+     50.58635,
+     3.07626
+    ],
+    [
+     50.58367,
+     3.07702
+    ],
+    [
+     50.58075,
+     3.0771
+    ],
+    [
+     50.57989,
+     3.07691
+    ],
+    [
+     50.57813,
+     3.07334
+    ],
+    [
+     50.57646,
+     3.07085
+    ],
+    [
+     50.57367,
+     3.06781
+    ],
+    [
+     50.57301,
+     3.06752
+    ],
+    [
+     50.57249,
+     3.06644
+    ],
+    [
+     50.56993,
+     3.06308
+    ],
+    [
+     50.56708,
+     3.06038
+    ],
+    [
+     50.5647,
+     3.05521
+    ]
+   ],
+   "backKm": 6.6,
+   "backMin": 25,
+   "backSteps": [
+    {
+     "i": "Pédalez vers le nord-est sur Route de Vendeville/M 952. Continuez sur M 952.",
+     "km": 0.45
+    },
+    {
+     "i": "Tournez à gauche dans la piste cyclable.",
+     "km": 0.01
+    },
+    {
+     "i": "Tournez à droite dans la piste cyclable.",
+     "km": 0.85
+    },
+    {
+     "i": "Tournez à gauche.",
+     "km": 0.05
+    },
+    {
+     "i": "Tournez à gauche.",
+     "km": 0.67
+    },
+    {
+     "i": "Tournez à gauche dans Chemin de Ferrière.",
+     "km": 0.32
+    },
+    {
+     "i": "Serrez à gauche dans Rue de Fâches/M 145h. Continuez sur M 145h.",
+     "km": 0.84
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 1er sortie dans Rue Édouard Vaillant/M 145.",
+     "km": 0.0
+    },
+    {
+     "i": "Quittez le rond-point dans Rue Édouard Vaillant/M 145.",
+     "km": 0.1
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 3ème sortie dans Rue Kléber/M 145F.",
+     "km": 0.05
+    },
+    {
+     "i": "Quittez le rond-point dans Rue Kléber/M 145F.",
+     "km": 2.04
+    },
+    {
+     "i": "Tournez à gauche dans Rue Sadi Carnot.",
+     "km": 0.74
+    },
+    {
+     "i": "Tournez à droite dans Rue Victor Renard.",
+     "km": 0.13
+    },
+    {
+     "i": "Tournez à gauche dans Rue Jordaens.",
+     "km": 0.28
+    },
+    {
+     "i": "Tournez à gauche dans Rue du Faubourg d'Arras/M 549.",
+     "km": 0.04
+    },
+    {
+     "i": "Votre destination est sur la droite.",
+     "km": 0.0
+    }
+   ]
+  },
+  "Emmerin": {
+   "km": 6.3,
+   "min": 25,
+   "steps": [
+    {
+     "i": "Pédalez vers le sud-est sur Rue Jean Mermoz.",
+     "km": 0.14
+    },
+    {
+     "i": "Tournez à droite dans Rue Alphonse Daudet.",
+     "km": 0.12
+    },
+    {
+     "i": "Tournez à gauche dans Rue Jules Guesde.",
+     "km": 0.11
+    },
+    {
+     "i": "Serrez à droite pour rester sur Rue Jules Guesde.",
+     "km": 0.08
+    },
+    {
+     "i": "Serrez à droite dans la piste cyclable.",
+     "km": 0.68
+    },
+    {
+     "i": "Tournez à gauche dans Rue de la Source.",
+     "km": 1.12
+    },
+    {
+     "i": "Tournez à droite dans Rue Sadi Carnot/M 145D.",
+     "km": 0.34
+    },
+    {
+     "i": "Tournez à gauche dans Rue Thiers.",
+     "km": 0.16
+    },
+    {
+     "i": "Tournez à droite dans Rue Kléber.",
+     "km": 0.07
+    },
+    {
+     "i": "Serrez à gauche dans Rue de l'Yser/M 2145. Continuez sur Rue de l'Yser.",
+     "km": 0.74
+    },
+    {
+     "i": "Tournez à droite dans Rue Voltaire.",
+     "km": 0.65
+    },
+    {
+     "i": "Tournez à droite dans Rue du Général de Gaulle/M 549.",
+     "km": 0.19
+    },
+    {
+     "i": "Tournez à gauche dans Rue Edouard Wattrelos.",
+     "km": 0.61
+    },
+    {
+     "i": "Tournez à droite dans Place Gustave Delecroix/M 145E. Continuez sur M 145E.",
+     "km": 0.47
+    },
+    {
+     "i": "Tournez à droite dans Rue Maria Mullier.",
+     "km": 0.55
+    },
+    {
+     "i": "Tournez à gauche dans Route de Vendeville/M 952.",
+     "km": 0.24
+    },
+    {
+     "i": "Vous êtes arrivé à votre destination.",
+     "km": 0.0
+    }
+   ],
+   "shape": [
+    [
+     50.59074,
+     3.00552
+    ],
+    [
+     50.59037,
+     3.00611
+    ],
+    [
+     50.5905,
+     3.00726
+    ],
+    [
+     50.58965,
+     3.00638
+    ],
+    [
+     50.58828,
+     3.00796
+    ],
+    [
+     50.58677,
+     3.00927
+    ],
+    [
+     50.58519,
+     3.0118
+    ],
+    [
+     50.58401,
+     3.01259
+    ],
+    [
+     50.58312,
+     3.01257
+    ],
+    [
+     50.58311,
+     3.01484
+    ],
+    [
+     50.58254,
+     3.02066
+    ],
+    [
+     50.58165,
+     3.02536
+    ],
+    [
+     50.58185,
+     3.02796
+    ],
+    [
+     50.58013,
+     3.02956
+    ],
+    [
+     50.57947,
+     3.03086
+    ],
+    [
+     50.5804,
+     3.03254
+    ],
+    [
+     50.58002,
+     3.03335
+    ],
+    [
+     50.58079,
+     3.03636
+    ],
+    [
+     50.58154,
+     3.04333
+    ],
+    [
+     50.58049,
+     3.0455
+    ],
+    [
+     50.57723,
+     3.04919
+    ],
+    [
+     50.57556,
+     3.04841
+    ],
+    [
+     50.57504,
+     3.05071
+    ],
+    [
+     50.57278,
+     3.05199
+    ],
+    [
+     50.57222,
+     3.0532
+    ],
+    [
+     50.57206,
+     3.05412
+    ],
+    [
+     50.56921,
+     3.05495
+    ],
+    [
+     50.5682,
+     3.05633
+    ],
+    [
+     50.5653,
+     3.05325
+    ],
+    [
+     50.56449,
+     3.05206
+    ],
+    [
+     50.56413,
+     3.05198
+    ],
+    [
+     50.56437,
+     3.05413
+    ],
+    [
+     50.5647,
+     3.05521
+    ]
+   ],
+   "backKm": 6.3,
+   "backMin": 25,
+   "backSteps": [
+    {
+     "i": "Pédalez vers le sud-ouest sur Route de Vendeville/M 952.",
+     "km": 0.23
+    },
+    {
+     "i": "Tournez à droite dans la piste cyclable.",
+     "km": 0.05
+    },
+    {
+     "i": "Serrez à droite dans Rue Maria Mullier.",
+     "km": 0.5
+    },
+    {
+     "i": "Tournez à gauche dans Rue Jean Jaurès/M 145E. Continuez sur M 145E.",
+     "km": 0.71
+    },
+    {
+     "i": "Tournez à gauche dans Rue Pierre Brizon.",
+     "km": 0.15
+    },
+    {
+     "i": "Tournez à droite dans Rue Edouard Watrelot.",
+     "km": 0.33
+    },
+    {
+     "i": "Tournez à droite dans Rue du Général de Gaulle/M 549.",
+     "km": 0.19
+    },
+    {
+     "i": "Tournez à gauche dans Rue Voltaire.",
+     "km": 0.64
+    },
+    {
+     "i": "Tournez à gauche dans Rue de l'Yser/M 145.",
+     "km": 0.14
+    },
+    {
+     "i": "Tournez à droite dans Rue Roger Salengro.",
+     "km": 0.6
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 3ème sortie dans Rue Roger Salengro.",
+     "km": 0.05
+    },
+    {
+     "i": "Quittez le rond-point dans Rue Roger Salengro.",
+     "km": 0.42
+    },
+    {
+     "i": "Tournez à gauche dans Rue Sadi Carnot/M 145D.",
+     "km": 0.02
+    },
+    {
+     "i": "Tournez à droite dans Rue Danton.",
+     "km": 1.1
+    },
+    {
+     "i": "Tournez à droite dans la piste cyclable.",
+     "km": 0.76
+    },
+    {
+     "i": "Tournez à gauche dans la piste cyclable.",
+     "km": 0.01
+    },
+    {
+     "i": "Continuez sur Rue Jules Guesde.",
+     "km": 0.14
+    },
+    {
+     "i": "Tournez à droite dans Rue Alphonse Daudet.",
+     "km": 0.12
+    },
+    {
+     "i": "Tournez à gauche dans Rue Jean Mermoz.",
+     "km": 0.14
+    },
+    {
+     "i": "Votre destination est sur la droite.",
+     "km": 0.0
+    }
+   ]
+  },
+  "Gondecourt": {
+   "km": 7.1,
+   "min": 28,
+   "steps": [
+    {
+     "i": "Pédalez vers le nord-ouest.",
+     "km": 0.01
+    },
+    {
+     "i": "Tournez à droite dans Place du Général de Gaulle.",
+     "km": 0.04
+    },
+    {
+     "i": "Tournez à droite pour rester sur Place du Général de Gaulle.",
+     "km": 0.05
+    },
+    {
+     "i": "Tournez à droite pour rester sur Place du Général de Gaulle.",
+     "km": 0.08
+    },
+    {
+     "i": "Tournez à droite dans Rue Carnot/D 147. Continuez sur D 147.",
+     "km": 0.14
+    },
+    {
+     "i": "Tournez à gauche dans Rue Nationale/D 39.",
+     "km": 0.45
+    },
+    {
+     "i": "Serrez à droite dans la piste cyclable.",
+     "km": 1.5
+    },
+    {
+     "i": "Serrez à droite dans Rue d'Apolda/M 39.",
+     "km": 0.32
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie vers A 1/Seclin - centre/Wattignes/Lille.",
+     "km": 0.03
+    },
+    {
+     "i": "Quittez le rond-point vers A 1/Seclin - centre/Wattignes/Lille.",
+     "km": 0.46
+    },
+    {
+     "i": "Tournez à gauche dans M 2925.",
+     "km": 1.19
+    },
+    {
+     "i": "Tournez à droite dans Contour de l'Église.",
+     "km": 0.13
+    },
+    {
+     "i": "Tournez à droite dans Rue de l'Abbé Bonpain.",
+     "km": 0.04
+    },
+    {
+     "i": "Tournez à gauche dans Rue Guy Môquet.",
+     "km": 0.42
+    },
+    {
+     "i": "Tournez à gauche dans Rue Jean-Baptiste Lebas.",
+     "km": 0.12
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 1er sortie dans Avenue de la République.",
+     "km": 0.01
+    },
+    {
+     "i": "Quittez le rond-point dans Avenue de la République.",
+     "km": 0.23
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans M 2952.",
+     "km": 0.03
+    },
+    {
+     "i": "Quittez le rond-point dans M 2952.",
+     "km": 0.31
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans M 952.",
+     "km": 0.07
+    },
+    {
+     "i": "Quittez le rond-point dans M 952.",
+     "km": 1.47
+    },
+    {
+     "i": "Vous êtes arrivé à votre destination.",
+     "km": 0.0
+    }
+   ],
+   "shape": [
+    [
+     50.54315,
+     2.98304
+    ],
+    [
+     50.54353,
+     2.98289
+    ],
+    [
+     50.54378,
+     2.98349
+    ],
+    [
+     50.54307,
+     2.98382
+    ],
+    [
+     50.54204,
+     2.98467
+    ],
+    [
+     50.54234,
+     2.98584
+    ],
+    [
+     50.54238,
+     2.98943
+    ],
+    [
+     50.54287,
+     2.99191
+    ],
+    [
+     50.54306,
+     2.99465
+    ],
+    [
+     50.54284,
+     2.99581
+    ],
+    [
+     50.54199,
+     2.99758
+    ],
+    [
+     50.54087,
+     3.00157
+    ],
+    [
+     50.54176,
+     3.00938
+    ],
+    [
+     50.54246,
+     3.01174
+    ],
+    [
+     50.54349,
+     3.01747
+    ],
+    [
+     50.54306,
+     3.019
+    ],
+    [
+     50.54172,
+     3.02063
+    ],
+    [
+     50.54665,
+     3.02673
+    ],
+    [
+     50.55045,
+     3.03012
+    ],
+    [
+     50.55029,
+     3.03136
+    ],
+    [
+     50.5506,
+     3.03174
+    ],
+    [
+     50.55038,
+     3.03224
+    ],
+    [
+     50.55149,
+     3.03283
+    ],
+    [
+     50.55275,
+     3.03433
+    ],
+    [
+     50.55305,
+     3.03585
+    ],
+    [
+     50.55384,
+     3.03573
+    ],
+    [
+     50.55411,
+     3.03606
+    ],
+    [
+     50.55269,
+     3.03869
+    ],
+    [
+     50.55471,
+     3.04149
+    ],
+    [
+     50.55491,
+     3.04222
+    ],
+    [
+     50.55545,
+     3.0424
+    ],
+    [
+     50.55752,
+     3.04435
+    ],
+    [
+     50.55925,
+     3.04649
+    ],
+    [
+     50.56316,
+     3.05004
+    ],
+    [
+     50.56409,
+     3.05184
+    ],
+    [
+     50.56437,
+     3.05413
+    ],
+    [
+     50.5647,
+     3.05521
+    ]
+   ],
+   "backKm": 7.3,
+   "backMin": 28,
+   "backSteps": [
+    {
+     "i": "Pédalez vers le sud-ouest sur Route de Vendeville/M 952. Continuez sur M 952.",
+     "km": 1.47
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans M 2952.",
+     "km": 0.07
+    },
+    {
+     "i": "Quittez le rond-point dans M 2952.",
+     "km": 0.32
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 1er sortie dans Avenue de la République.",
+     "km": 0.0
+    },
+    {
+     "i": "Quittez le rond-point dans Avenue de la République.",
+     "km": 0.24
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans Rue Jean-Baptiste Lebas.",
+     "km": 0.02
+    },
+    {
+     "i": "Quittez le rond-point dans Rue Jean-Baptiste Lebas.",
+     "km": 0.67
+    },
+    {
+     "i": "Tournez à gauche dans Rue du 14 Juillet.",
+     "km": 0.79
+    },
+    {
+     "i": "Tournez à droite dans Avenue Jude Blanckaert.",
+     "km": 0.23
+    },
+    {
+     "i": "Tournez à gauche dans Rue Roger Bouvry/M 2925.",
+     "km": 0.22
+    },
+    {
+     "i": "Tournez à droite dans Route de Gondecourt/M 39. Continuez sur M 39.",
+     "km": 0.56
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans Rue d'Apolda/M 39.",
+     "km": 0.03
+    },
+    {
+     "i": "Quittez le rond-point dans Rue d'Apolda/M 39.",
+     "km": 0.04
+    },
+    {
+     "i": "Serrez à droite dans la piste cyclable.",
+     "km": 1.63
+    },
+    {
+     "i": "Serrez à droite dans Rue Nationale/D 39.",
+     "km": 0.82
+    },
+    {
+     "i": "Tournez à droite dans Rue Jeanne d'Arc.",
+     "km": 0.16
+    },
+    {
+     "i": "Tournez à droite.",
+     "km": 0.01
+    },
+    {
+     "i": "Votre destination est sur la gauche.",
+     "km": 0.0
+    }
+   ]
+  },
+  "Loos": {
+   "km": 7.8,
+   "min": 30,
+   "steps": [
+    {
+     "i": "Pédalez vers le nord-est sur Place Jean Jaurès.",
+     "km": 0.3
+    },
+    {
+     "i": "Tournez à droite dans Rue du Général Leclerc.",
+     "km": 0.28
+    },
+    {
+     "i": "Serrez à droite dans Rue Guy Môcquet.",
+     "km": 0.18
+    },
+    {
+     "i": "Serrez à gauche dans Rue Ambroise Paré/M 48.",
+     "km": 0.1
+    },
+    {
+     "i": "Serrez à droite dans la piste cyclable.",
+     "km": 0.48
+    },
+    {
+     "i": "Serrez à droite.",
+     "km": 0.08
+    },
+    {
+     "i": "Tournez à droite dans Rue Ambroise Paré.",
+     "km": 0.55
+    },
+    {
+     "i": "Serrez à droite dans Rue Ambroise Paré/M 48. Continuez sur M 48.",
+     "km": 1.31
+    },
+    {
+     "i": "Tournez à droite dans Rue Clemenceau/M 549. Continuez sur M 549.",
+     "km": 2.29
+    },
+    {
+     "i": "Tournez à gauche dans Rue Louis Sury/M 145E.",
+     "km": 0.18
+    },
+    {
+     "i": "Tournez à droite dans Rue Jules Guesde/M 145E. Continuez sur M 145E.",
+     "km": 1.26
+    },
+    {
+     "i": "Tournez à droite dans Rue Maria Mullier.",
+     "km": 0.55
+    },
+    {
+     "i": "Tournez à gauche dans Route de Vendeville/M 952.",
+     "km": 0.24
+    },
+    {
+     "i": "Vous êtes arrivé à votre destination.",
+     "km": 0.0
+    }
+   ],
+   "shape": [
+    [
+     50.60942,
+     3.01608
+    ],
+    [
+     50.61087,
+     3.01971
+    ],
+    [
+     50.6089,
+     3.02201
+    ],
+    [
+     50.6074,
+     3.02138
+    ],
+    [
+     50.60634,
+     3.02216
+    ],
+    [
+     50.60573,
+     3.02431
+    ],
+    [
+     50.60471,
+     3.0267
+    ],
+    [
+     50.60425,
+     3.02754
+    ],
+    [
+     50.60378,
+     3.02787
+    ],
+    [
+     50.60381,
+     3.02855
+    ],
+    [
+     50.60266,
+     3.0318
+    ],
+    [
+     50.60166,
+     3.03995
+    ],
+    [
+     50.60162,
+     3.04204
+    ],
+    [
+     50.60051,
+     3.04652
+    ],
+    [
+     50.60025,
+     3.05066
+    ],
+    [
+     50.59958,
+     3.0533
+    ],
+    [
+     50.59743,
+     3.05133
+    ],
+    [
+     50.59693,
+     3.05111
+    ],
+    [
+     50.5894,
+     3.05105
+    ],
+    [
+     50.58613,
+     3.05175
+    ],
+    [
+     50.57952,
+     3.04984
+    ],
+    [
+     50.57896,
+     3.0523
+    ],
+    [
+     50.57338,
+     3.05363
+    ],
+    [
+     50.56978,
+     3.05489
+    ],
+    [
+     50.56931,
+     3.05491
+    ],
+    [
+     50.5682,
+     3.05633
+    ],
+    [
+     50.5653,
+     3.05325
+    ],
+    [
+     50.56449,
+     3.05206
+    ],
+    [
+     50.56413,
+     3.05198
+    ],
+    [
+     50.56437,
+     3.05413
+    ],
+    [
+     50.5647,
+     3.05521
+    ]
+   ],
+   "backKm": 6.9,
+   "backMin": 29,
+   "backSteps": [
+    {
+     "i": "Pédalez vers le sud-ouest sur Route de Vendeville/M 952.",
+     "km": 0.23
+    },
+    {
+     "i": "Tournez à droite dans la piste cyclable.",
+     "km": 0.05
+    },
+    {
+     "i": "Serrez à droite dans Rue Maria Mullier.",
+     "km": 0.5
+    },
+    {
+     "i": "Tournez à gauche dans Rue Jean Jaurès/M 145E. Continuez sur M 145E.",
+     "km": 0.71
+    },
+    {
+     "i": "Tournez à gauche dans Rue Pierre Brizon.",
+     "km": 0.15
+    },
+    {
+     "i": "Tournez à droite dans Rue Edouard Watrelot.",
+     "km": 0.33
+    },
+    {
+     "i": "Tournez à droite dans Rue du Général de Gaulle/M 549.",
+     "km": 0.19
+    },
+    {
+     "i": "Tournez à gauche dans Rue Voltaire.",
+     "km": 0.64
+    },
+    {
+     "i": "Tournez à gauche dans Rue de l'Yser/M 145.",
+     "km": 0.14
+    },
+    {
+     "i": "Tournez à droite dans Rue Roger Salengro.",
+     "km": 0.6
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans Rue Jacquet.",
+     "km": 0.04
+    },
+    {
+     "i": "Quittez le rond-point dans Rue Jacquet.",
+     "km": 1.99
+    },
+    {
+     "i": "Gardez la droite pour prendre Chemin de Flesquières.",
+     "km": 0.03
+    },
+    {
+     "i": "Serrez à droite pour rester sur Chemin de Flesquières.",
+     "km": 0.03
+    },
+    {
+     "i": "Tournez à droite.",
+     "km": 0.01
+    },
+    {
+     "i": "Tournez à gauche dans Chemin de Flesquières.",
+     "km": 0.38
+    },
+    {
+     "i": "Tournez à gauche dans Boulevard de la République.",
+     "km": 0.79
+    },
+    {
+     "i": "Tournez à droite dans Place Jean Jaurès.",
+     "km": 0.1
+    },
+    {
+     "i": "Votre destination est sur la droite.",
+     "km": 0.0
+    }
+   ]
+  },
+  "Lezennes": {
+   "km": 8.2,
+   "min": 32,
+   "steps": [
+    {
+     "i": "Pédalez vers le sud.",
+     "km": 0.01
+    },
+    {
+     "i": "Tournez à droite dans Place de la République.",
+     "km": 0.19
+    },
+    {
+     "i": "Tournez à gauche dans Rue Sadi Carnot.",
+     "km": 0.68
+    },
+    {
+     "i": "Tournez à droite dans la piste cyclable.",
+     "km": 0.06
+    },
+    {
+     "i": "Tournez à gauche dans la piste cyclable.",
+     "km": 0.68
+    },
+    {
+     "i": "Tournez à gauche dans la piste cyclable.",
+     "km": 0.32
+    },
+    {
+     "i": "Serrez à droite dans Rue Sadi Carnot.",
+     "km": 0.3
+    },
+    {
+     "i": "Tournez à gauche dans Rue Roger Salengro.",
+     "km": 0.02
+    },
+    {
+     "i": "Tournez à droite dans Rue Gustave Delory.",
+     "km": 0.58
+    },
+    {
+     "i": "Tournez à gauche dans Avenue du Président Salvador Allende.",
+     "km": 0.38
+    },
+    {
+     "i": "Tournez à droite dans Rue Charles Gounod.",
+     "km": 0.12
+    },
+    {
+     "i": "Tournez à droite dans Avenue du 8 Mai 1945.",
+     "km": 0.05
+    },
+    {
+     "i": "Tournez à gauche dans Rue Rubens.",
+     "km": 0.25
+    },
+    {
+     "i": "Tournez à gauche dans Avenue du Général Leclerc/M 917.",
+     "km": 0.5
+    },
+    {
+     "i": "Tournez à droite dans Avenue de Verdun.",
+     "km": 0.58
+    },
+    {
+     "i": "Tournez à gauche dans Rue des Flandres.",
+     "km": 0.17
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans Rue Édouard Vaillant/M 145.",
+     "km": 0.04
+    },
+    {
+     "i": "Quittez le rond-point dans Rue Édouard Vaillant/M 145.",
+     "km": 0.1
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans Rue Édouard Vaillant/M 145h.",
+     "km": 0.03
+    },
+    {
+     "i": "Quittez le rond-point dans Rue Édouard Vaillant/M 145h. Continuez sur M 145h.",
+     "km": 0.84
+    },
+    {
+     "i": "Serrez à droite dans Chemin de Ferrière.",
+     "km": 0.32
+    },
+    {
+     "i": "Tournez à droite.",
+     "km": 0.67
+    },
+    {
+     "i": "Tournez à droite.",
+     "km": 0.05
+    },
+    {
+     "i": "Tournez à droite dans la piste cyclable.",
+     "km": 0.78
+    },
+    {
+     "i": "Tournez à gauche dans la piste cyclable.",
+     "km": 0.01
+    },
+    {
+     "i": "Tournez à droite dans Route de Vendeville/M 952.",
+     "km": 0.02
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans M 952.",
+     "km": 0.04
+    },
+    {
+     "i": "Quittez le rond-point dans M 952.",
+     "km": 0.47
+    },
+    {
+     "i": "Vous êtes arrivé à votre destination.",
+     "km": 0.0
+    }
+   ],
+   "shape": [
+    [
+     50.61458,
+     3.11643
+    ],
+    [
+     50.61446,
+     3.1165
+    ],
+    [
+     50.61437,
+     3.11582
+    ],
+    [
+     50.61496,
+     3.11402
+    ],
+    [
+     50.61346,
+     3.11211
+    ],
+    [
+     50.61087,
+     3.10949
+    ],
+    [
+     50.60993,
+     3.1088
+    ],
+    [
+     50.60977,
+     3.10818
+    ],
+    [
+     50.60853,
+     3.10827
+    ],
+    [
+     50.60751,
+     3.10762
+    ],
+    [
+     50.60494,
+     3.10375
+    ],
+    [
+     50.60492,
+     3.10347
+    ],
+    [
+     50.60363,
+     3.10186
+    ],
+    [
+     50.60179,
+     3.09843
+    ],
+    [
+     50.60099,
+     3.09745
+    ],
+    [
+     50.60086,
+     3.09758
+    ],
+    [
+     50.60009,
+     3.09585
+    ],
+    [
+     50.59906,
+     3.09439
+    ],
+    [
+     50.59913,
+     3.09055
+    ],
+    [
+     50.59818,
+     3.08913
+    ],
+    [
+     50.59765,
+     3.08772
+    ],
+    [
+     50.59716,
+     3.08756
+    ],
+    [
+     50.59668,
+     3.08785
+    ],
+    [
+     50.59623,
+     3.08633
+    ],
+    [
+     50.59659,
+     3.08581
+    ],
+    [
+     50.59576,
+     3.08252
+    ],
+    [
+     50.59149,
+     3.08485
+    ],
+    [
+     50.591,
+     3.08351
+    ],
+    [
+     50.58909,
+     3.08099
+    ],
+    [
+     50.58887,
+     3.07957
+    ],
+    [
+     50.58923,
+     3.07857
+    ],
+    [
+     50.58738,
+     3.07542
+    ],
+    [
+     50.58715,
+     3.07579
+    ],
+    [
+     50.58635,
+     3.07626
+    ],
+    [
+     50.5836,
+     3.07704
+    ],
+    [
+     50.58151,
+     3.07719
+    ],
+    [
+     50.57993,
+     3.07697
+    ],
+    [
+     50.57813,
+     3.07334
+    ],
+    [
+     50.57646,
+     3.07085
+    ],
+    [
+     50.57367,
+     3.06781
+    ],
+    [
+     50.57301,
+     3.06752
+    ],
+    [
+     50.57249,
+     3.06644
+    ],
+    [
+     50.56993,
+     3.06308
+    ],
+    [
+     50.56705,
+     3.06033
+    ],
+    [
+     50.5647,
+     3.05521
+    ]
+   ],
+   "backKm": 8.2,
+   "backMin": 33,
+   "backSteps": [
+    {
+     "i": "Pédalez vers le nord-est sur Route de Vendeville/M 952. Continuez sur M 952.",
+     "km": 0.45
+    },
+    {
+     "i": "Tournez à gauche dans la piste cyclable.",
+     "km": 0.01
+    },
+    {
+     "i": "Tournez à droite dans la piste cyclable.",
+     "km": 0.85
+    },
+    {
+     "i": "Tournez à gauche.",
+     "km": 0.05
+    },
+    {
+     "i": "Tournez à gauche.",
+     "km": 0.67
+    },
+    {
+     "i": "Tournez à gauche dans Chemin de Ferrière.",
+     "km": 0.32
+    },
+    {
+     "i": "Serrez à gauche dans Rue de Fâches/M 145h. Continuez sur M 145h.",
+     "km": 0.84
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 1er sortie dans Rue Édouard Vaillant/M 145.",
+     "km": 0.0
+    },
+    {
+     "i": "Quittez le rond-point dans Rue Édouard Vaillant/M 145.",
+     "km": 0.1
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans Rue des Flandres.",
+     "km": 0.03
+    },
+    {
+     "i": "Quittez le rond-point dans Rue des Flandres.",
+     "km": 0.17
+    },
+    {
+     "i": "Tournez à droite dans Avenue de Verdun.",
+     "km": 0.58
+    },
+    {
+     "i": "Tournez à gauche dans Avenue Jean Jaurès/M 917.",
+     "km": 0.5
+    },
+    {
+     "i": "Tournez à droite dans Rue Rubens.",
+     "km": 0.25
+    },
+    {
+     "i": "Tournez à droite dans Avenue du 8 Mai 1945.",
+     "km": 0.05
+    },
+    {
+     "i": "Tournez à gauche dans Rue Charles Gounod.",
+     "km": 0.12
+    },
+    {
+     "i": "Tournez à gauche dans Avenue Hector Berlioz.",
+     "km": 0.38
+    },
+    {
+     "i": "Tournez à droite dans Rue Charles Saint-Venant/M 48.",
+     "km": 0.58
+    },
+    {
+     "i": "Tournez à gauche dans Rue Roger Salengro.",
+     "km": 0.02
+    },
+    {
+     "i": "Tournez à droite dans Rue Sadi Carnot.",
+     "km": 0.28
+    },
+    {
+     "i": "Continuez sur la piste cyclable.",
+     "km": 0.34
+    },
+    {
+     "i": "Tournez à droite dans la piste cyclable.",
+     "km": 0.69
+    },
+    {
+     "i": "Tournez à droite dans la piste cyclable.",
+     "km": 0.06
+    },
+    {
+     "i": "Tournez à gauche dans Rue Sadi Carnot.",
+     "km": 0.68
+    },
+    {
+     "i": "Tournez à droite dans Rue Gambetta.",
+     "km": 0.19
+    },
+    {
+     "i": "Tournez à gauche.",
+     "km": 0.01
+    },
+    {
+     "i": "Votre destination est sur la droite.",
+     "km": 0.0
+    }
+   ]
+  },
+  "Haubourdin": {
+   "km": 8.7,
+   "min": 35,
+   "steps": [
+    {
+     "i": "Pédalez vers l'ouest sur Rue du Maréchal Foch.",
+     "km": 0.06
+    },
+    {
+     "i": "Tournez à gauche dans Rue Georges Charlet.",
+     "km": 0.17
+    },
+    {
+     "i": "Serrez à droite dans Rue Auguste Potié.",
+     "km": 0.05
+    },
+    {
+     "i": "Tournez à gauche dans Rue Léon Gambetta.",
+     "km": 0.2
+    },
+    {
+     "i": "Gardez la droite pour rester sur Rue Léon Gambetta.",
+     "km": 1.32
+    },
+    {
+     "i": "Tournez à gauche dans M 341.",
+     "km": 0.16
+    },
+    {
+     "i": "Serrez à droite dans la piste cyclable.",
+     "km": 0.39
+    },
+    {
+     "i": "Tournez à droite dans la piste cyclable.",
+     "km": 0.0
+    },
+    {
+     "i": "Tournez à gauche dans la piste cyclable.",
+     "km": 0.61
+    },
+    {
+     "i": "Tournez à gauche dans Rue Paul Lafargue/M 145D. Continuez sur M 145D.",
+     "km": 2.08
+    },
+    {
+     "i": "Tournez à gauche dans Rue Thiers.",
+     "km": 0.16
+    },
+    {
+     "i": "Tournez à droite dans Rue Kléber.",
+     "km": 0.07
+    },
+    {
+     "i": "Serrez à gauche dans Rue de l'Yser/M 2145. Continuez sur Rue de l'Yser.",
+     "km": 0.74
+    },
+    {
+     "i": "Tournez à droite dans Rue Voltaire.",
+     "km": 0.65
+    },
+    {
+     "i": "Tournez à droite dans Rue du Général de Gaulle/M 549.",
+     "km": 0.19
+    },
+    {
+     "i": "Tournez à gauche dans Rue Edouard Wattrelos.",
+     "km": 0.61
+    },
+    {
+     "i": "Tournez à droite dans Place Gustave Delecroix/M 145E. Continuez sur M 145E.",
+     "km": 0.47
+    },
+    {
+     "i": "Tournez à droite dans Rue Maria Mullier.",
+     "km": 0.55
+    },
+    {
+     "i": "Tournez à gauche dans Route de Vendeville/M 952.",
+     "km": 0.24
+    },
+    {
+     "i": "Vous êtes arrivé à votre destination.",
+     "km": 0.0
+    }
+   ],
+   "shape": [
+    [
+     50.60971,
+     2.98622
+    ],
+    [
+     50.60952,
+     2.98544
+    ],
+    [
+     50.60854,
+     2.98568
+    ],
+    [
+     50.60807,
+     2.98618
+    ],
+    [
+     50.60765,
+     2.98585
+    ],
+    [
+     50.60553,
+     2.98933
+    ],
+    [
+     50.60379,
+     2.99532
+    ],
+    [
+     50.60152,
+     2.99821
+    ],
+    [
+     50.59814,
+     2.99932
+    ],
+    [
+     50.59845,
+     3.00157
+    ],
+    [
+     50.5984,
+     3.00336
+    ],
+    [
+     50.59645,
+     3.00563
+    ],
+    [
+     50.59388,
+     3.01018
+    ],
+    [
+     50.59321,
+     3.01055
+    ],
+    [
+     50.59239,
+     3.01019
+    ],
+    [
+     50.5905,
+     3.01325
+    ],
+    [
+     50.58744,
+     3.01911
+    ],
+    [
+     50.58639,
+     3.02065
+    ],
+    [
+     50.58502,
+     3.02374
+    ],
+    [
+     50.58407,
+     3.02503
+    ],
+    [
+     50.58296,
+     3.02729
+    ],
+    [
+     50.58153,
+     3.0282
+    ],
+    [
+     50.57995,
+     3.02983
+    ],
+    [
+     50.57947,
+     3.03086
+    ],
+    [
+     50.5804,
+     3.03254
+    ],
+    [
+     50.58002,
+     3.03335
+    ],
+    [
+     50.58079,
+     3.03636
+    ],
+    [
+     50.58154,
+     3.04333
+    ],
+    [
+     50.58044,
+     3.04557
+    ],
+    [
+     50.57723,
+     3.04919
+    ],
+    [
+     50.57556,
+     3.04841
+    ],
+    [
+     50.57504,
+     3.05071
+    ],
+    [
+     50.57278,
+     3.05199
+    ],
+    [
+     50.57222,
+     3.0532
+    ],
+    [
+     50.57206,
+     3.05412
+    ],
+    [
+     50.56921,
+     3.05495
+    ],
+    [
+     50.5682,
+     3.05633
+    ],
+    [
+     50.5653,
+     3.05325
+    ],
+    [
+     50.56449,
+     3.05206
+    ],
+    [
+     50.56413,
+     3.05198
+    ],
+    [
+     50.56437,
+     3.05413
+    ],
+    [
+     50.5647,
+     3.05521
+    ]
+   ],
+   "backKm": 8.9,
+   "backMin": 35,
+   "backSteps": [
+    {
+     "i": "Pédalez vers le sud-ouest sur Route de Vendeville/M 952.",
+     "km": 0.23
+    },
+    {
+     "i": "Tournez à droite dans la piste cyclable.",
+     "km": 0.05
+    },
+    {
+     "i": "Serrez à droite dans Rue Maria Mullier.",
+     "km": 0.5
+    },
+    {
+     "i": "Tournez à gauche dans Rue Jean Jaurès/M 145E. Continuez sur M 145E.",
+     "km": 0.71
+    },
+    {
+     "i": "Tournez à gauche dans Rue Pierre Brizon.",
+     "km": 0.15
+    },
+    {
+     "i": "Tournez à droite dans Rue Edouard Watrelot.",
+     "km": 0.33
+    },
+    {
+     "i": "Tournez à droite dans Rue du Général de Gaulle/M 549.",
+     "km": 0.19
+    },
+    {
+     "i": "Tournez à gauche dans Rue Voltaire.",
+     "km": 0.64
+    },
+    {
+     "i": "Tournez à gauche dans Rue de l'Yser/M 145.",
+     "km": 0.14
+    },
+    {
+     "i": "Tournez à droite dans Rue Roger Salengro.",
+     "km": 0.6
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 3ème sortie dans Rue Roger Salengro.",
+     "km": 0.05
+    },
+    {
+     "i": "Quittez le rond-point dans Rue Roger Salengro.",
+     "km": 0.42
+    },
+    {
+     "i": "Tournez à droite dans Rue Sadi Carnot/M 145D. Continuez sur M 145D.",
+     "km": 1.7
+    },
+    {
+     "i": "Tournez à droite dans la piste cyclable.",
+     "km": 0.93
+    },
+    {
+     "i": "Tournez à gauche.",
+     "km": 0.56
+    },
+    {
+     "i": "Tournez à gauche dans la piste cyclable.",
+     "km": 0.02
+    },
+    {
+     "i": "Serrez à droite dans la piste cyclable.",
+     "km": 0.03
+    },
+    {
+     "i": "Tournez à droite dans la piste cyclable.",
+     "km": 0.02
+    },
+    {
+     "i": "Tournez à gauche dans la piste cyclable.",
+     "km": 0.23
+    },
+    {
+     "i": "Tournez à droite dans Rue des Lostes.",
+     "km": 0.01
+    },
+    {
+     "i": "Tournez à droite dans Rue du Général Dame.",
+     "km": 0.92
+    },
+    {
+     "i": "Tournez à gauche dans Rue du Maréchal Juin.",
+     "km": 0.02
+    },
+    {
+     "i": "Tournez à droite pour rester sur Rue du Maréchal Juin.",
+     "km": 0.02
+    },
+    {
+     "i": "Serrez à droite dans Rue Léon Gambetta.",
+     "km": 0.2
+    },
+    {
+     "i": "Tournez à droite dans Rue Auguste Potié.",
+     "km": 0.05
+    },
+    {
+     "i": "Tournez à gauche dans Rue Georges Charlet.",
+     "km": 0.17
+    },
+    {
+     "i": "Tournez à droite dans Rue du Maréchal Foch.",
+     "km": 0.06
+    },
+    {
+     "i": "Votre destination est sur la droite.",
+     "km": 0.0
+    }
+   ]
+  },
+  "Santes": {
+   "km": 10.6,
+   "min": 41,
+   "steps": [
+    {
+     "i": "Pédalez vers le nord sur Place Jean-Baptiste Hennion/M 63.",
+     "km": 0.04
+    },
+    {
+     "i": "Serrez à droite dans Rue Marx Dormoy/M 241.",
+     "km": 0.59
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 3ème sortie dans M 241.",
+     "km": 0.05
+    },
+    {
+     "i": "Quittez le rond-point dans M 241.",
+     "km": 0.23
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 1er sortie dans M 341.",
+     "km": 0.02
+    },
+    {
+     "i": "Quittez le rond-point dans M 341.",
+     "km": 1.21
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie vers Seclin/Emmerin/Wattignies/Loos.",
+     "km": 0.06
+    },
+    {
+     "i": "Quittez le rond-point vers Seclin/Emmerin/Wattignies/Loos.",
+     "km": 0.54
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans M 341.",
+     "km": 0.06
+    },
+    {
+     "i": "Quittez le rond-point dans M 341.",
+     "km": 0.99
+    },
+    {
+     "i": "Serrez à droite dans la piste cyclable.",
+     "km": 0.39
+    },
+    {
+     "i": "Tournez à droite dans la piste cyclable.",
+     "km": 0.0
+    },
+    {
+     "i": "Tournez à gauche dans la piste cyclable.",
+     "km": 0.61
+    },
+    {
+     "i": "Tournez à gauche dans Rue Paul Lafargue/M 145D. Continuez sur M 145D.",
+     "km": 2.08
+    },
+    {
+     "i": "Tournez à gauche dans Rue Thiers.",
+     "km": 0.16
+    },
+    {
+     "i": "Tournez à droite dans Rue Kléber.",
+     "km": 0.07
+    },
+    {
+     "i": "Serrez à gauche dans Rue de l'Yser/M 2145. Continuez sur Rue de l'Yser.",
+     "km": 0.74
+    },
+    {
+     "i": "Tournez à droite dans Rue Voltaire.",
+     "km": 0.65
+    },
+    {
+     "i": "Tournez à droite dans Rue du Général de Gaulle/M 549.",
+     "km": 0.19
+    },
+    {
+     "i": "Tournez à gauche dans Rue Edouard Wattrelos.",
+     "km": 0.61
+    },
+    {
+     "i": "Tournez à droite dans Place Gustave Delecroix/M 145E. Continuez sur M 145E.",
+     "km": 0.47
+    },
+    {
+     "i": "Tournez à droite dans Rue Maria Mullier.",
+     "km": 0.55
+    },
+    {
+     "i": "Tournez à gauche dans Route de Vendeville/M 952.",
+     "km": 0.24
+    },
+    {
+     "i": "Vous êtes arrivé à votre destination.",
+     "km": 0.0
+    }
+   ],
+   "shape": [
+    [
+     50.59768,
+     2.95541
+    ],
+    [
+     50.59802,
+     2.95558
+    ],
+    [
+     50.59934,
+     2.96122
+    ],
+    [
+     50.60019,
+     2.96326
+    ],
+    [
+     50.60033,
+     2.96331
+    ],
+    [
+     50.60059,
+     2.963
+    ],
+    [
+     50.60194,
+     2.96269
+    ],
+    [
+     50.60231,
+     2.96294
+    ],
+    [
+     50.60252,
+     2.9636
+    ],
+    [
+     50.60227,
+     2.96604
+    ],
+    [
+     50.60057,
+     2.97436
+    ],
+    [
+     50.59948,
+     2.9781
+    ],
+    [
+     50.59874,
+     2.97938
+    ],
+    [
+     50.59878,
+     2.98
+    ],
+    [
+     50.59727,
+     2.98732
+    ],
+    [
+     50.59743,
+     2.98795
+    ],
+    [
+     50.59741,
+     2.99304
+    ],
+    [
+     50.59845,
+     3.00157
+    ],
+    [
+     50.59849,
+     3.00318
+    ],
+    [
+     50.59645,
+     3.00563
+    ],
+    [
+     50.59388,
+     3.01018
+    ],
+    [
+     50.59321,
+     3.01055
+    ],
+    [
+     50.59239,
+     3.01019
+    ],
+    [
+     50.5905,
+     3.01325
+    ],
+    [
+     50.58744,
+     3.01911
+    ],
+    [
+     50.58639,
+     3.02065
+    ],
+    [
+     50.58502,
+     3.02374
+    ],
+    [
+     50.58407,
+     3.02503
+    ],
+    [
+     50.58296,
+     3.02729
+    ],
+    [
+     50.5818,
+     3.02799
+    ],
+    [
+     50.58057,
+     3.02908
+    ],
+    [
+     50.57998,
+     3.02977
+    ],
+    [
+     50.57947,
+     3.03086
+    ],
+    [
+     50.5804,
+     3.03254
+    ],
+    [
+     50.58002,
+     3.03335
+    ],
+    [
+     50.58079,
+     3.03636
+    ],
+    [
+     50.58154,
+     3.04333
+    ],
+    [
+     50.58047,
+     3.04553
+    ],
+    [
+     50.57723,
+     3.04919
+    ],
+    [
+     50.57556,
+     3.04841
+    ],
+    [
+     50.57504,
+     3.05071
+    ],
+    [
+     50.57278,
+     3.05199
+    ],
+    [
+     50.57222,
+     3.0532
+    ],
+    [
+     50.57206,
+     3.05412
+    ],
+    [
+     50.56921,
+     3.05495
+    ],
+    [
+     50.5682,
+     3.05633
+    ],
+    [
+     50.5653,
+     3.05325
+    ],
+    [
+     50.56449,
+     3.05206
+    ],
+    [
+     50.56413,
+     3.05198
+    ],
+    [
+     50.56437,
+     3.05413
+    ],
+    [
+     50.5647,
+     3.05521
+    ]
+   ],
+   "backKm": 9.9,
+   "backMin": 38,
+   "backSteps": [
+    {
+     "i": "Pédalez vers le sud-ouest sur Route de Vendeville/M 952. Continuez sur M 952.",
+     "km": 1.47
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 1er sortie dans Route de Noyelles/M 549.",
+     "km": 0.0
+    },
+    {
+     "i": "Quittez le rond-point dans Route de Noyelles/M 549. Continuez sur M 549.",
+     "km": 0.6
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans M 952.",
+     "km": 0.06
+    },
+    {
+     "i": "Quittez le rond-point dans M 952.",
+     "km": 0.48
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans Rue de Seclin/M 952.",
+     "km": 0.04
+    },
+    {
+     "i": "Quittez le rond-point dans Rue de Seclin/M 952. Continuez sur M 952.",
+     "km": 0.93
+    },
+    {
+     "i": "Entrez dans Carrefour du Tilleul et prenez la 3ème sortie dans M 1952.",
+     "km": 0.11
+    },
+    {
+     "i": "Quittez le rond-point dans M 1952.",
+     "km": 0.49
+    },
+    {
+     "i": "Entrez dans Rond-Point des Parmentiers et prenez la 2e sortie dans M 1952.",
+     "km": 0.04
+    },
+    {
+     "i": "Quittez le rond-point dans M 1952.",
+     "km": 0.85
+    },
+    {
+     "i": "Tournez à gauche.",
+     "km": 0.6
+    },
+    {
+     "i": "Tournez à droite dans Rue Jean Jaurès/M 63.",
+     "km": 0.33
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 1er sortie dans Rue du Général de Gaulle/M 63.",
+     "km": 0.01
+    },
+    {
+     "i": "Quittez le rond-point dans Rue du Général de Gaulle/M 63. Continuez sur M 63.",
+     "km": 0.96
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans M 63.",
+     "km": 0.04
+    },
+    {
+     "i": "Quittez le rond-point dans M 63.",
+     "km": 2.85
+    },
+    {
+     "i": "Votre destination est sur la droite.",
+     "km": 0.0
+    }
+   ]
+  },
+  "fjt-thumesnil": {
+   "km": 7.4,
+   "min": 29,
+   "steps": [
+    {
+     "i": "Pédalez vers le sud sur Rue de Thumesnil.",
+     "km": 0.11
+    },
+    {
+     "i": "Tournez à droite dans Boulevard d'Alsace/M 750.",
+     "km": 0.22
+    },
+    {
+     "i": "Tournez à gauche dans la piste cyclable.",
+     "km": 0.21
+    },
+    {
+     "i": "Tournez à droite dans la piste cyclable.",
+     "km": 0.03
+    },
+    {
+     "i": "Tournez à gauche dans la piste cyclable.",
+     "km": 0.21
+    },
+    {
+     "i": "Tournez à droite dans la piste cyclable.",
+     "km": 0.01
+    },
+    {
+     "i": "Tournez à gauche dans la piste cyclable.",
+     "km": 0.04
+    },
+    {
+     "i": "Tournez à droite dans Rue du Faubourg d'Arras/M 549.",
+     "km": 0.13
+    },
+    {
+     "i": "Tournez à gauche dans Rue Garibaldi.",
+     "km": 1.02
+    },
+    {
+     "i": "Tournez à droite dans Rue Sadi Carnot.",
+     "km": 2.04
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 1er sortie dans Rue Édouard Vaillant/M 145.",
+     "km": 0.02
+    },
+    {
+     "i": "Quittez le rond-point dans Rue Édouard Vaillant/M 145.",
+     "km": 0.1
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans Rue Édouard Vaillant/M 145h.",
+     "km": 0.03
+    },
+    {
+     "i": "Quittez le rond-point dans Rue Édouard Vaillant/M 145h. Continuez sur M 145h.",
+     "km": 0.84
+    },
+    {
+     "i": "Serrez à droite dans Chemin de Ferrière.",
+     "km": 0.32
+    },
+    {
+     "i": "Tournez à droite.",
+     "km": 0.67
+    },
+    {
+     "i": "Tournez à droite.",
+     "km": 0.05
+    },
+    {
+     "i": "Tournez à droite dans la piste cyclable.",
+     "km": 0.78
+    },
+    {
+     "i": "Tournez à gauche dans la piste cyclable.",
+     "km": 0.01
+    },
+    {
+     "i": "Tournez à droite dans Route de Vendeville/M 952.",
+     "km": 0.02
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 2e sortie dans M 952.",
+     "km": 0.04
+    },
+    {
+     "i": "Quittez le rond-point dans M 952.",
+     "km": 0.47
+    },
+    {
+     "i": "Vous êtes arrivé à votre destination.",
+     "km": 0.0
+    }
+   ],
+   "shape": [
+    [
+     50.61872,
+     3.06696
+    ],
+    [
+     50.61774,
+     3.06686
+    ],
+    [
+     50.6177,
+     3.0637
+    ],
+    [
+     50.61597,
+     3.06277
+    ],
+    [
+     50.61592,
+     3.06241
+    ],
+    [
+     50.61555,
+     3.06257
+    ],
+    [
+     50.61393,
+     3.06239
+    ],
+    [
+     50.61366,
+     3.06253
+    ],
+    [
+     50.6126,
+     3.06195
+    ],
+    [
+     50.61064,
+     3.06481
+    ],
+    [
+     50.60876,
+     3.0656
+    ],
+    [
+     50.60682,
+     3.06586
+    ],
+    [
+     50.60444,
+     3.06742
+    ],
+    [
+     50.60393,
+     3.06677
+    ],
+    [
+     50.60223,
+     3.06763
+    ],
+    [
+     50.60141,
+     3.06763
+    ],
+    [
+     50.60056,
+     3.0683
+    ],
+    [
+     50.59813,
+     3.06842
+    ],
+    [
+     50.59392,
+     3.06978
+    ],
+    [
+     50.59031,
+     3.07404
+    ],
+    [
+     50.5894,
+     3.07567
+    ],
+    [
+     50.58822,
+     3.07664
+    ],
+    [
+     50.58737,
+     3.07541
+    ],
+    [
+     50.58715,
+     3.07579
+    ],
+    [
+     50.58635,
+     3.07626
+    ],
+    [
+     50.5836,
+     3.07704
+    ],
+    [
+     50.58151,
+     3.07719
+    ],
+    [
+     50.57993,
+     3.07697
+    ],
+    [
+     50.57813,
+     3.07334
+    ],
+    [
+     50.57646,
+     3.07085
+    ],
+    [
+     50.57367,
+     3.06781
+    ],
+    [
+     50.57301,
+     3.06752
+    ],
+    [
+     50.57249,
+     3.06644
+    ],
+    [
+     50.56993,
+     3.06308
+    ],
+    [
+     50.56705,
+     3.06033
+    ],
+    [
+     50.5647,
+     3.05521
+    ]
+   ],
+   "backKm": 7.3,
+   "backMin": 28,
+   "backSteps": [
+    {
+     "i": "Pédalez vers le nord-est sur Route de Vendeville/M 952. Continuez sur M 952.",
+     "km": 0.47
+    },
+    {
+     "i": "Entrez dans le rond-point et prenez la 3ème sortie dans Rue d'Ennetières/M 145E.",
+     "km": 0.11
+    },
+    {
+     "i": "Quittez le rond-point dans Rue d'Ennetières/M 145E. Continuez sur M 145E.",
+     "km": 0.14
+    },
+    {
+     "i": "Tournez à droite dans Rue Pierre Curie.",
+     "km": 0.2
+    },
+    {
+     "i": "Tournez à droite dans Chemin de la Chapelle.",
+     "km": 0.4
+    },
+    {
+     "i": "Tournez à droite dans Rue du Chevalier de la Barre.",
+     "km": 0.38
+    },
+    {
+     "i": "Tournez à droite dans Chemin des Crêtes.",
+     "km": 0.01
+    },
+    {
+     "i": "Tournez à gauche.",
+     "km": 0.9
+    },
+    {
+     "i": "Serrez à droite dans Chemin du Moulin.",
+     "km": 0.03
+    },
+    {
+     "i": "Serrez à droite.",
+     "km": 0.74
+    },
+    {
+     "i": "Serrez à droite dans Chemin des Morts.",
+     "km": 0.14
+    },
+    {
+     "i": "Tournez à gauche dans Rue Pasteur/M 145F.",
+     "km": 0.65
+    },
+    {
+     "i": "Tournez à droite pour rester sur Rue Pasteur/M 145F.",
+     "km": 0.29
+    },
+    {
+     "i": "Tournez à droite dans Rue Clemenceau/M 549. Continuez sur M 549.",
+     "km": 2.46
+    },
+    {
+     "i": "Tournez à droite dans Boulevard d'Alsace/M 750.",
+     "km": 0.24
+    },
+    {
+     "i": "Tournez à gauche dans Rue de Thumesnil.",
+     "km": 0.12
+    },
+    {
+     "i": "Votre destination est sur la droite.",
+     "km": 0.0
+    }
+   ]
+  }
+ }
+}
